@@ -1,0 +1,22 @@
+{
+  "name": "dsa-tokens",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "clean:token-transformer": "npx rimraf tokens",
+    "clean:style-dictionary": "npx rimraf dist && style-dictionary clean",
+    "clean": "npm run clean:token-transformer && npm run clean:style-dictionary",
+    "generate-tokens:shared": "npx token-transformer tokens.json tokens/shared.json shared/core,shared/semantic,shared/composition/atoms,shared/composition/molecules,shared/composition/layout --expandTypography=true",
+    "generate-tokens:theme:a": "npx token-transformer tokens.json tokens/theme/a.json shared/core,shared/semantic,shared/composition/atoms,shared/composition/molecules,shared/composition/layout,theme/a/core,theme/a/semantic,theme/a/component  shared/core,shared/semantic,shared/composition/atoms,shared/composition/molecules,shared/composition/layout --expandTypography=true",
+    "generate-tokens:theme:b": "npx token-transformer tokens.json tokens/theme/b.json shared/core,shared/semantic,shared/composition/atoms,shared/composition/molecules,shared/composition/layout,theme/b/core,theme/b/semantic,theme/b/component  shared/core,shared/semantic,shared/composition/atoms,shared/composition/molecules,shared/composition/layout --expandTypography=true",
+    "generate-styles": "node build-shared.js",
+    "build": "npm run clean && npm run generate-tokens:shared && npm run generate-tokens:theme:a && npm run generate-tokens:theme:b && npm run generate-styles"
+  },
+  "dependencies": {
+    "node-fetch": "^3.2.0",
+    "token-transformer": "^0.0.29"
+  },
+  "devDependencies": {
+    "style-dictionary": "^3.7.2"
+  }
+}
