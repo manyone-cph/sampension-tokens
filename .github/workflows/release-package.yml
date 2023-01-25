@@ -3,6 +3,7 @@ name: Design Tokens Package
 on: [push]
 
 jobs:
+
   build:
     runs-on: ubuntu-latest
     steps:
@@ -11,24 +12,20 @@ jobs:
         with:
           node-version: 16
       - run: npm ci
-  
-  release_bump:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - run: npm run build
+      - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          node-version: 16
+          commit_message: Update Tokens and build npm package
       - name: "Automated Version Bump"
         uses: "phips28/gh-action-bump-version@master"
-        with:
-          tag-prefix: ''
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          skip-tag:  'true'
+          target-branch: 'main'
 
   publish-gpr:
-    needs: release_bump
+    needs: build
     runs-on: ubuntu-latest
     permissions:
       packages: write
