@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Wed, 25 Jan 2023 15:13:46 GMT
+ * Generated on Wed, 25 Jan 2023 15:57:13 GMT
  */
 
 $semantic-border-radius-desktop-sm: 4px !default;
@@ -284,6 +284,7 @@ $composition-card-approve: [object Object] !default;
 $composition-card: [object Object] !default;
 $composition-card-txt: [object Object] !default;
 $composition-molecules-dropdown-spacing: [object Object] !default;
+$composition-molecules-dropdown-spacing-2: [object Object] !default;
 $composition-btn-spacing: [object Object] !default;
 $composition-logo-size-desktop-lg: [object Object] !default;
 $composition-logo-size-desktop-md: [object Object] !default;
@@ -818,7 +819,8 @@ $tokens: (
     'card-txt': $composition-card-txt,
     'molecules': (
       'dropdown': (
-        'spacing': $composition-molecules-dropdown-spacing
+        'spacing': $composition-molecules-dropdown-spacing,
+        'spacing-2': $composition-molecules-dropdown-spacing-2
       )
     ),
     'btn': (

@@ -1403,6 +1403,12 @@
             "spacing": 20
           },
           "type": "composition"
+        },
+        "spacing-2": {
+          "value": {
+            "spacing": 20
+          },
+          "type": "composition"
         }
       }
     },
