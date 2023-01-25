@@ -29,13 +29,13 @@ StyleDictionary.registerTransform({
 // SCSS file with a _core.scss file and a JS file with a core.js file.
 
 const filePaths = {
-  shared: "tokens/shared.json",
-  themeA: "tokens/theme/a.json",
-  themeB: "tokens/theme/b.json",
+  shared: "auto-generated/tokens/shared.json",
+  themeA: "auto-generated/tokens/theme/a.json",
+  themeB: "auto-generated/tokens/theme/b.json",
 };
 
 const myStyleDictionary = StyleDictionary.extend({
-  source: ["tokens/**/*.json"],
+  source: ["auto-generated/tokens/**/*.json"],
   platforms: {
     scss: {
       transformGroup: "scss",
