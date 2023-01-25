@@ -39,7 +39,7 @@ const myStyleDictionary = StyleDictionary.extend({
   platforms: {
     scss: {
       transformGroup: "scss",
-      buildPath: "./dist/scss/",
+      buildPath: "./auto-generated/dist/scss/",
       transforms: ["name/cti/kebab", "size/toREM"],
       files: [
         {
@@ -70,7 +70,7 @@ const myStyleDictionary = StyleDictionary.extend({
     },
     js: {
       transformGroup: "js",
-      buildPath: "./dist/js/",
+      buildPath: "./auto-generated/dist/js/",
       files: [
         {
           destination: "_shared.js",

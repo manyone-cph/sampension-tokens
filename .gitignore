@@ -2,8 +2,7 @@
 node_modules
 
 # auto generated files
-tokens/**/*.json
-dist
+# nothing to ignore here
 
 # local env files
 .env.local
