@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 25 Jan 2023 16:24:35 GMT
+ * Generated on Wed, 25 Jan 2023 22:02:13 GMT
  */
 
 export const SemanticBorderRadiusDesktopSm = "4px";
@@ -284,7 +284,7 @@ export const CompositionCard = {"itemSpacing":20,"spacing":100,"fill":"#000000"}
 export const CompositionCardTxt = {"fontSizes":100};
 export const CompositionMoleculesDropdownSpacing = {"spacing":20};
 export const CompositionMoleculesDropdownSpacing2 = {"spacing":20};
-export const CompositionBtnSpacing = {"verticalPadding":"12px","horizontalPadding":"32px","borderRadius":"8px","border":"[object Object]","itemSpacing":"8px"};
+export const CompositionBtnSpacing = {"verticalPadding":"12px","horizontalPadding":"32px","borderRadius":"8px","itemSpacing":"8px"};
 export const CompositionLogoSizeDesktopLg = {"width":230,"height":23};
 export const CompositionLogoSizeDesktopMd = {"width":180,"height":18};
 export const CompositionLogoSizeDesktopSm = {"width":160,"height":16};

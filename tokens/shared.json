@@ -1418,7 +1418,6 @@
           "verticalPadding": "12px",
           "horizontalPadding": "32px",
           "borderRadius": "8px",
-          "border": "[object Object]",
           "itemSpacing": "8px"
         },
         "type": "composition"
