@@ -3,7 +3,7 @@ node_modules
 
 # auto generated files
 # nothing to ignore here
-dist
+
 # local env files
 .env.local
 .env.*.local
