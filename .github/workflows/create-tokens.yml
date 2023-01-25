@@ -11,7 +11,6 @@ jobs:
         uses: actions/setup-node@v2.4.0
       - run: npm install
       - run: npm run build
-      - run: curl -X POST -d {} https://api.netlify.com/build_hooks/63bebb395a7f0f2452c0cb27
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update Tokens

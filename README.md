@@ -1,4 +1,4 @@
-# figma-tokens-example
+# figma-tokens 
 
 This example illustrates how you can transform your tokens stored on Figma Tokens (with GitHub sync enabled) to be automatically transformed with token-transformer and Style Dictionary.
 
@@ -18,7 +18,5 @@ Here's a breakdown of the commands we have:
 * `clean:style-dictionary` - remove the `dist` directory
 * `clean` - run both `clean:token-transformer` and `clean:style-dictionary`
 * `generate-tokens:shared` - generate a json file for the *shared* tokens
-* `generate-tokens:theme:a` - generate a json file for the *theme a* tokens
-* `generate-tokens:theme:b` - generate a json file for the *theme b* tokens
 * `generate-styles` - run the `build-shared.js` script to generate the `dist` directory which contains the scss and js files that can be used in other projects
 * `build` - clean folders, then generate the tokens and styles
