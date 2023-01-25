@@ -1,0 +1,1031 @@
+
+/**
+ * Do not edit directly
+ * Generated on Wed, 25 Jan 2023 15:13:46 GMT
+ */
+
+$semantic-border-radius-desktop-sm: 4px !default;
+$semantic-border-radius-desktop-md: 8px !default;
+$semantic-border-radius-desktop-lg: 12px !default;
+$semantic-border-sm: [object Object] !default;
+$semantic-border-md: [object Object] !default;
+$semantic-border-lg: [object Object] !default;
+$semantic-dimension-xs: 4px !default;
+$semantic-dimension-sm: 8px !default;
+$semantic-dimension-md: 16px !default;
+$semantic-dimension-lg: 32px !default;
+$semantic-dimension-xl: 40px !default;
+$semantic-color-action-primary-bg-default: #000000 !default;
+$semantic-color-action-primary-bg-hover: transparent !default;
+$semantic-color-action-primary-bg-active: #EBEBEB !default;
+$semantic-color-action-primary-bg-disabled: #EBEBEB !default;
+$semantic-color-action-secondary-bg-default: transparent !default;
+$semantic-color-action-secondary-bg-hover: #EBEBEB !default;
+$semantic-color-action-secondary-bg-active: #cacaca !default;
+$semantic-color-action-secondary-bg-disabled: #EBEBEB !default;
+$semantic-color-txt-primary: #000000 !default;
+$semantic-color-txt-secondary: #A7A7A7 !default;
+$semantic-color-txt-subtle: #EBEBEB !default;
+$semantic-color-txt-inverted: #ffffff !default;
+$semantic-color-txt-success: #28B932 !default;
+$semantic-color-txt-error: #FF6827 !default;
+$semantic-color-txt-neutral: #77C0E4 !default;
+$semantic-color-txt-light-blue: #e4f2fa !default;
+$semantic-color-bg-primary: #000000 !default;
+$semantic-color-bg-secondary: #A7A7A7 !default;
+$semantic-color-bg-subtle: #EBEBEB !default;
+$semantic-color-bg-inverted: #ffffff !default;
+$semantic-color-bg-success: #28B932 !default;
+$semantic-color-bg-error: #FF6827 !default;
+$semantic-color-bg-neutral: #77C0E4 !default;
+$semantic-color-bg-light-blue: #e4f2fa !default;
+$semantic-color-bg-neutral-copy: transparent !default;
+$semantic-color-border-primary: #000000 !default;
+$semantic-color-border-secondary: #A7A7A7 !default;
+$semantic-color-border-subtle: #EBEBEB !default;
+$semantic-color-border-inverted: #ffffff !default;
+$semantic-color-border-success: #28B932 !default;
+$semantic-color-border-error: #FF6827 !default;
+$semantic-color-border-neutral: #77C0E4 !default;
+$semantic-color-border-light-blue: #e4f2fa !default;
+$semantic-font-families-primary: Switzer !default;
+$semantic-font-families-secondary: Suranna !default;
+$semantic-typography-desktop-body-body-xxs-font-family: Switzer !default;
+$semantic-typography-desktop-body-body-xxs-font-size: 0.625rem !default;
+$semantic-typography-desktop-body-body-xxs-font-weight: Regular !default;
+$semantic-typography-desktop-body-body-xxs-line-height: 18 !default;
+$semantic-typography-desktop-body-body-xxs-letter-spacing: 0 !default;
+$semantic-typography-desktop-body-body-xxs-text-case: none !default;
+$semantic-typography-desktop-body-body-xs-font-family: Switzer !default;
+$semantic-typography-desktop-body-body-xs-font-size: 0.75rem !default;
+$semantic-typography-desktop-body-body-xs-font-weight: Regular !default;
+$semantic-typography-desktop-body-body-xs-line-height: 20 !default;
+$semantic-typography-desktop-body-body-xs-letter-spacing: 0 !default;
+$semantic-typography-desktop-body-body-xs-text-case: none !default;
+$semantic-typography-desktop-body-body-sm-font-family: Switzer !default;
+$semantic-typography-desktop-body-body-sm-font-size: 0.875rem !default;
+$semantic-typography-desktop-body-body-sm-font-weight: Regular !default;
+$semantic-typography-desktop-body-body-sm-line-height: 22 !default;
+$semantic-typography-desktop-body-body-sm-letter-spacing: 0 !default;
+$semantic-typography-desktop-body-body-sm-text-case: none !default;
+$semantic-typography-desktop-body-body-md-font-family: Switzer !default;
+$semantic-typography-desktop-body-body-md-font-size: 1rem !default;
+$semantic-typography-desktop-body-body-md-font-weight: Regular !default;
+$semantic-typography-desktop-body-body-md-line-height: 24 !default;
+$semantic-typography-desktop-body-body-md-letter-spacing: 0 !default;
+$semantic-typography-desktop-body-body-md-text-case: none !default;
+$semantic-typography-desktop-body-body-lg-font-family: Switzer !default;
+$semantic-typography-desktop-body-body-lg-font-size: 1.125rem !default;
+$semantic-typography-desktop-body-body-lg-font-weight: Regular !default;
+$semantic-typography-desktop-body-body-lg-line-height: 26 !default;
+$semantic-typography-desktop-body-body-lg-letter-spacing: 0 !default;
+$semantic-typography-desktop-body-body-lg-text-case: none !default;
+$semantic-typography-desktop-headline-headline-xxs-font-family: Switzer !default;
+$semantic-typography-desktop-headline-headline-xxs-font-size: 1.25rem !default;
+$semantic-typography-desktop-headline-headline-xxs-font-weight: Regular !default;
+$semantic-typography-desktop-headline-headline-xxs-line-height: 32 !default;
+$semantic-typography-desktop-headline-headline-xxs-letter-spacing: 0 !default;
+$semantic-typography-desktop-headline-headline-xxs-text-case: none !default;
+$semantic-typography-desktop-headline-headline-xs-font-family: Switzer !default;
+$semantic-typography-desktop-headline-headline-xs-font-size: 1.5625rem !default;
+$semantic-typography-desktop-headline-headline-xs-font-weight: Regular !default;
+$semantic-typography-desktop-headline-headline-xs-line-height: 37 !default;
+$semantic-typography-desktop-headline-headline-xs-letter-spacing: 0 !default;
+$semantic-typography-desktop-headline-headline-xs-text-case: none !default;
+$semantic-typography-desktop-headline-headline-sm-font-family: Switzer !default;
+$semantic-typography-desktop-headline-headline-sm-font-size: 1.953125rem !default;
+$semantic-typography-desktop-headline-headline-sm-font-weight: Regular !default;
+$semantic-typography-desktop-headline-headline-sm-line-height: 43.25 !default;
+$semantic-typography-desktop-headline-headline-sm-letter-spacing: 0 !default;
+$semantic-typography-desktop-headline-headline-sm-text-case: none !default;
+$semantic-typography-desktop-headline-headline-md-font-family: Switzer !default;
+$semantic-typography-desktop-headline-headline-md-font-size: 2.4414375rem !default;
+$semantic-typography-desktop-headline-headline-md-font-weight: Regular !default;
+$semantic-typography-desktop-headline-headline-md-line-height: 51.063 !default;
+$semantic-typography-desktop-headline-headline-md-letter-spacing: 0 !default;
+$semantic-typography-desktop-headline-headline-md-text-case: none !default;
+$semantic-typography-desktop-headline-headline-lg-font-family: Switzer !default;
+$semantic-typography-desktop-headline-headline-lg-font-size: 3.0518125rem !default;
+$semantic-typography-desktop-headline-headline-lg-font-weight: Regular !default;
+$semantic-typography-desktop-headline-headline-lg-line-height: 60.829 !default;
+$semantic-typography-desktop-headline-headline-lg-letter-spacing: 0 !default;
+$semantic-typography-desktop-headline-headline-lg-text-case: none !default;
+$semantic-typography-desktop-headline-headline-xl-font-family: Switzer !default;
+$semantic-typography-desktop-headline-headline-xl-font-size: 3.81475rem !default;
+$semantic-typography-desktop-headline-headline-xl-font-weight: Regular !default;
+$semantic-typography-desktop-headline-headline-xl-line-height: 73.036 !default;
+$semantic-typography-desktop-headline-headline-xl-letter-spacing: 0 !default;
+$semantic-typography-desktop-headline-headline-xl-text-case: none !default;
+$semantic-typography-desktop-display-display-sm-font-family: Switzer !default;
+$semantic-typography-desktop-display-display-sm-font-size: 3.125rem !default;
+$semantic-typography-desktop-display-display-sm-font-weight: Regular !default;
+$semantic-typography-desktop-display-display-sm-line-height: 70 !default;
+$semantic-typography-desktop-display-display-sm-letter-spacing: 0 !default;
+$semantic-typography-desktop-display-display-sm-text-case: none !default;
+$semantic-typography-desktop-display-display-md-font-family: Switzer !default;
+$semantic-typography-desktop-display-display-md-font-size: 3.90625rem !default;
+$semantic-typography-desktop-display-display-md-font-weight: Regular !default;
+$semantic-typography-desktop-display-display-md-line-height: 82.5 !default;
+$semantic-typography-desktop-display-display-md-letter-spacing: 0 !default;
+$semantic-typography-desktop-display-display-md-text-case: none !default;
+$semantic-typography-desktop-display-display-lg-font-family: Switzer !default;
+$semantic-typography-desktop-display-display-lg-font-size: 4.8828125rem !default;
+$semantic-typography-desktop-display-display-lg-font-weight: Regular !default;
+$semantic-typography-desktop-display-display-lg-line-height: 98.125 !default;
+$semantic-typography-desktop-display-display-lg-letter-spacing: 0 !default;
+$semantic-typography-desktop-display-display-lg-text-case: none !default;
+$semantic-typography-desktop-display-display-xl-font-family: Switzer !default;
+$semantic-typography-desktop-display-display-xl-font-size: 6.1035rem !default;
+$semantic-typography-desktop-display-display-xl-font-weight: Regular !default;
+$semantic-typography-desktop-display-display-xl-line-height: 117.656 !default;
+$semantic-typography-desktop-display-display-xl-letter-spacing: 0 !default;
+$semantic-typography-desktop-display-display-xl-text-case: none !default;
+$semantic-typography-mobile-body-body-xxs-font-family: Switzer !default;
+$semantic-typography-mobile-body-body-xxs-font-size: 0.625rem !default;
+$semantic-typography-mobile-body-body-xxs-font-weight: Regular !default;
+$semantic-typography-mobile-body-body-xxs-line-height: 18 !default;
+$semantic-typography-mobile-body-body-xxs-letter-spacing: 0 !default;
+$semantic-typography-mobile-body-body-xxs-text-case: none !default;
+$semantic-typography-mobile-body-body-xs-font-family: Switzer !default;
+$semantic-typography-mobile-body-body-xs-font-size: 0.75rem !default;
+$semantic-typography-mobile-body-body-xs-font-weight: Regular !default;
+$semantic-typography-mobile-body-body-xs-line-height: 20 !default;
+$semantic-typography-mobile-body-body-xs-letter-spacing: 0 !default;
+$semantic-typography-mobile-body-body-xs-text-case: none !default;
+$semantic-typography-mobile-body-body-sm-font-family: Switzer !default;
+$semantic-typography-mobile-body-body-sm-font-size: 0.875rem !default;
+$semantic-typography-mobile-body-body-sm-font-weight: Regular !default;
+$semantic-typography-mobile-body-body-sm-line-height: 22 !default;
+$semantic-typography-mobile-body-body-sm-letter-spacing: 0 !default;
+$semantic-typography-mobile-body-body-sm-text-case: none !default;
+$semantic-typography-mobile-body-body-md-font-family: Switzer !default;
+$semantic-typography-mobile-body-body-md-font-size: 1rem !default;
+$semantic-typography-mobile-body-body-md-font-weight: Regular !default;
+$semantic-typography-mobile-body-body-md-line-height: 24 !default;
+$semantic-typography-mobile-body-body-md-letter-spacing: 0 !default;
+$semantic-typography-mobile-body-body-md-text-case: none !default;
+$semantic-typography-mobile-body-body-lg-font-family: Switzer !default;
+$semantic-typography-mobile-body-body-lg-font-size: 1.125rem !default;
+$semantic-typography-mobile-body-body-lg-font-weight: Regular !default;
+$semantic-typography-mobile-body-body-lg-line-height: 26 !default;
+$semantic-typography-mobile-body-body-lg-letter-spacing: 0 !default;
+$semantic-typography-mobile-body-body-lg-text-case: none !default;
+$semantic-typography-mobile-headline-headline-xxs-font-family: Switzer !default;
+$semantic-typography-mobile-headline-headline-xxs-font-size: 1rem !default;
+$semantic-typography-mobile-headline-headline-xxs-font-weight: Regular !default;
+$semantic-typography-mobile-headline-headline-xxs-line-height: 24 !default;
+$semantic-typography-mobile-headline-headline-xxs-letter-spacing: 0 !default;
+$semantic-typography-mobile-headline-headline-xxs-text-case: none !default;
+$semantic-typography-mobile-headline-headline-xs-font-family: Switzer !default;
+$semantic-typography-mobile-headline-headline-xs-font-size: 1.25rem !default;
+$semantic-typography-mobile-headline-headline-xs-font-weight: Regular !default;
+$semantic-typography-mobile-headline-headline-xs-line-height: 28 !default;
+$semantic-typography-mobile-headline-headline-xs-letter-spacing: 0 !default;
+$semantic-typography-mobile-headline-headline-xs-text-case: none !default;
+$semantic-typography-mobile-headline-headline-sm-font-family: Switzer !default;
+$semantic-typography-mobile-headline-headline-sm-font-size: 1.5625rem !default;
+$semantic-typography-mobile-headline-headline-sm-font-weight: Regular !default;
+$semantic-typography-mobile-headline-headline-sm-line-height: 33 !default;
+$semantic-typography-mobile-headline-headline-sm-letter-spacing: 0 !default;
+$semantic-typography-mobile-headline-headline-sm-text-case: none !default;
+$semantic-typography-mobile-headline-headline-md-font-family: Switzer !default;
+$semantic-typography-mobile-headline-headline-md-font-size: 1.953125rem !default;
+$semantic-typography-mobile-headline-headline-md-font-weight: Regular !default;
+$semantic-typography-mobile-headline-headline-md-line-height: 39.25 !default;
+$semantic-typography-mobile-headline-headline-md-letter-spacing: 0 !default;
+$semantic-typography-mobile-headline-headline-md-text-case: none !default;
+$semantic-typography-mobile-headline-headline-lg-font-family: Switzer !default;
+$semantic-typography-mobile-headline-headline-lg-font-size: 2.4414375rem !default;
+$semantic-typography-mobile-headline-headline-lg-font-weight: Regular !default;
+$semantic-typography-mobile-headline-headline-lg-line-height: 47.063 !default;
+$semantic-typography-mobile-headline-headline-lg-letter-spacing: 0 !default;
+$semantic-typography-mobile-headline-headline-lg-text-case: none !default;
+$semantic-typography-mobile-headline-headline-xl-font-family: Switzer !default;
+$semantic-typography-mobile-headline-headline-xl-font-size: 3.0518125rem !default;
+$semantic-typography-mobile-headline-headline-xl-font-weight: Regular !default;
+$semantic-typography-mobile-headline-headline-xl-line-height: 56.829 !default;
+$semantic-typography-mobile-headline-headline-xl-letter-spacing: 0 !default;
+$semantic-typography-mobile-headline-headline-xl-text-case: none !default;
+$semantic-typography-mobile-display-display-sm-font-family: Switzer !default;
+$semantic-typography-mobile-display-display-sm-font-size: 1.75rem !default;
+$semantic-typography-mobile-display-display-sm-font-weight: Regular !default;
+$semantic-typography-mobile-display-display-sm-line-height: 40 !default;
+$semantic-typography-mobile-display-display-sm-letter-spacing: 0 !default;
+$semantic-typography-mobile-display-display-sm-text-case: none !default;
+$semantic-typography-mobile-display-display-md-font-family: Switzer !default;
+$semantic-typography-mobile-display-display-md-font-size: 2.1875rem !default;
+$semantic-typography-mobile-display-display-md-font-weight: Regular !default;
+$semantic-typography-mobile-display-display-md-line-height: 47 !default;
+$semantic-typography-mobile-display-display-md-letter-spacing: 0 !default;
+$semantic-typography-mobile-display-display-md-text-case: none !default;
+$semantic-typography-mobile-display-display-lg-font-family: Switzer !default;
+$semantic-typography-mobile-display-display-lg-font-size: 2.734375rem !default;
+$semantic-typography-mobile-display-display-lg-font-weight: Regular !default;
+$semantic-typography-mobile-display-display-lg-line-height: 55.75 !default;
+$semantic-typography-mobile-display-display-lg-letter-spacing: 0 !default;
+$semantic-typography-mobile-display-display-lg-text-case: none !default;
+$semantic-typography-mobile-display-display-xl-font-family: Switzer !default;
+$semantic-typography-mobile-display-display-xl-font-size: 3.418rem !default;
+$semantic-typography-mobile-display-display-xl-font-weight: Regular !default;
+$semantic-typography-mobile-display-display-xl-line-height: 66.688 !default;
+$semantic-typography-mobile-display-display-xl-letter-spacing: 0 !default;
+$semantic-typography-mobile-display-display-xl-text-case: none !default;
+$semantic-line-height-desktop-body: 8 !default;
+$semantic-line-height-desktop-headline: 12 !default;
+$semantic-line-height-desktop-display: 20 !default;
+$semantic-line-height-mobile-body: 8 !default;
+$semantic-line-height-mobile-headline: 8 !default;
+$semantic-line-height-mobile-display: 12 !default;
+$composition-layout-desktop-options-page-width: [object Object] !default;
+$composition-layout-desktop-options-content-max-width: [object Object] !default;
+$composition-layout-desktop-options-columns: [object Object] !default;
+$composition-layout-desktop-options-column-width: [object Object] !default;
+$composition-layout-desktop-options-gap-x: [object Object] !default;
+$composition-layout-desktop-options-gap-y: [object Object] !default;
+$composition-layout-desktop-components-page: [object Object] !default;
+$composition-layout-desktop-components-section: [object Object] !default;
+$composition-layout-desktop-components-container: [object Object] !default;
+$composition-layout-desktop-components-row: [object Object] !default;
+$composition-layout-desktop-item-width-1-12: [object Object] !default;
+$composition-layout-desktop-item-width-2-12: [object Object] !default;
+$composition-layout-desktop-item-width-3-12: [object Object] !default;
+$composition-layout-desktop-item-width-4-12: [object Object] !default;
+$composition-layout-desktop-item-width-5-12: [object Object] !default;
+$composition-layout-desktop-item-width-6-12: [object Object] !default;
+$composition-layout-desktop-item-width-7-12: [object Object] !default;
+$composition-layout-desktop-item-width-8-12: [object Object] !default;
+$composition-layout-desktop-item-width-9-12: [object Object] !default;
+$composition-layout-desktop-item-width-10-12: [object Object] !default;
+$composition-layout-desktop-item-width-11-12: [object Object] !default;
+$composition-layout-desktop-item-width-12-12: [object Object] !default;
+$composition-layout-mobile-options-page-width: [object Object] !default;
+$composition-layout-mobile-options-content-max-width: [object Object] !default;
+$composition-layout-mobile-options-columns: [object Object] !default;
+$composition-layout-mobile-options-gap-x: [object Object] !default;
+$composition-layout-mobile-options-gap-y: [object Object] !default;
+$composition-layout-mobile-options-column-width: [object Object] !default;
+$composition-layout-mobile-components-page: [object Object] !default;
+$composition-layout-mobile-components-section: [object Object] !default;
+$composition-layout-mobile-components-container: [object Object] !default;
+$composition-layout-mobile-components-row: [object Object] !default;
+$composition-layout-mobile-item-width-1-12: [object Object] !default;
+$composition-layout-mobile-item-width-2-12: [object Object] !default;
+$composition-layout-mobile-item-width-3-12: [object Object] !default;
+$composition-layout-mobile-item-width-4-12: [object Object] !default;
+$composition-layout-mobile-item-width-5-12: [object Object] !default;
+$composition-layout-mobile-item-width-6-12: [object Object] !default;
+$composition-layout-mobile-item-width-7-12: [object Object] !default;
+$composition-layout-mobile-item-width-8-12: [object Object] !default;
+$composition-layout-mobile-item-width-9-12: [object Object] !default;
+$composition-layout-mobile-item-width-10-12: [object Object] !default;
+$composition-layout-mobile-item-width-11-12: [object Object] !default;
+$composition-layout-mobile-item-width-12-12: [object Object] !default;
+$composition-card-approve: [object Object] !default;
+$composition-card: [object Object] !default;
+$composition-card-txt: [object Object] !default;
+$composition-molecules-dropdown-spacing: [object Object] !default;
+$composition-btn-spacing: [object Object] !default;
+$composition-logo-size-desktop-lg: [object Object] !default;
+$composition-logo-size-desktop-md: [object Object] !default;
+$composition-logo-size-desktop-sm: [object Object] !default;
+$composition-logo-size-mobile-lg: [object Object] !default;
+$composition-logo-size-mobile-md: [object Object] !default;
+$composition-logo-size-mobile-sm: [object Object] !default;
+$composition-logo-color-primary: [object Object] !default;
+$composition-logo-color-secondary: [object Object] !default;
+$composition-logo-color-inverted: [object Object] !default;
+$composition-icon-size-xxl: [object Object] !default;
+$composition-icon-size-xl: [object Object] !default;
+$composition-icon-size-lg: [object Object] !default;
+$composition-icon-size-md: [object Object] !default;
+$composition-icon-size-sm: [object Object] !default;
+$composition-toggle-box-width: [object Object] !default;
+$composition-toggle-dot-width: [object Object] !default;
+$composition-switch-desktop-spacing: [object Object] !default;
+$composition-switch-mobile-spacing: [object Object] !default;
+$composition-input-spacing: [object Object] !default;
+$composition-tag-spacing: [object Object] !default;
+$composition-dropdown-item-spacing-default: [object Object] !default;
+$composition-dropdown-item-spacing-hover: [object Object] !default;
+$composition-typography-desktop-label: [object Object] !default;
+$core-dimension-0: 0 !default;
+$core-dimension-1: 4px !default;
+$core-dimension-2: 8px !default;
+$core-dimension-3: 12px !default;
+$core-dimension-4: 16px !default;
+$core-dimension-5: 20px !default;
+$core-dimension-6: 24px !default;
+$core-dimension-8: 32px !default;
+$core-dimension-10: 40px !default;
+$core-dimension-12: 48px !default;
+$core-dimension-16: 64px !default;
+$core-dimension-20: 80px !default;
+$core-dimension-24: 96px !default;
+$core-dimension-32: 128px !default;
+$core-dimension-core-unit: 4px !default;
+$core-color-black-100: #000000 !default;
+$core-color-white-100: #ffffff !default;
+$core-color-blue-100: #e4f2fa !default;
+$core-color-blue-200: #c9e6f4 !default;
+$core-color-blue-300: #add9ef !default;
+$core-color-blue-400: #92cde9 !default;
+$core-color-blue-500: #77C0E4 !default;
+$core-color-orange-100: #ffe1d4 !default;
+$core-color-orange-200: #ffc3a9 !default;
+$core-color-orange-300: #ffa47d !default;
+$core-color-orange-400: #ff8652 !default;
+$core-color-orange-500: #FF6827 !default;
+$core-color-green-100: #d4f1d6 !default;
+$core-color-green-200: #a9e3ad !default;
+$core-color-green-300: #7ed584 !default;
+$core-color-green-400: #53c75b !default;
+$core-color-green-500: #28B932 !default;
+$core-color-cobber-100: #f1efeb !default;
+$core-color-cobber-200: #e4dfd7 !default;
+$core-color-cobber-300: #d6cec3 !default;
+$core-color-cobber-400: #c9beb0 !default;
+$core-color-cobber-500: #bbae9b !default;
+$core-color-grey-100: #f8f8f8 !default;
+$core-color-grey-200: #EBEBEB !default;
+$core-color-grey-300: #cacaca !default;
+$core-color-grey-400: #b9b9b9 !default;
+$core-color-grey-500: #A7A7A7 !default;
+$core-color-transparent-100: transparent !default;
+$core-font-families-sans-serif-1: Switzer !default;
+$core-font-families-sans-serif-2: Suranna !default;
+$core-font-families-sans-serif-3: Roboto !default;
+$core-font-sizes-desktop-headline-1: 1.25rem !default;
+$core-font-sizes-desktop-headline-2: 1.5625rem !default;
+$core-font-sizes-desktop-headline-3: 1.953125rem !default;
+$core-font-sizes-desktop-headline-4: 2.4414375rem !default;
+$core-font-sizes-desktop-headline-5: 3.0518125rem !default;
+$core-font-sizes-desktop-headline-6: 3.81475rem !default;
+$core-font-sizes-desktop-headline-ratio: 0.078125rem !default;
+$core-font-sizes-desktop-body-1: 0.625rem !default;
+$core-font-sizes-desktop-body-2: 0.75rem !default;
+$core-font-sizes-desktop-body-3: 0.875rem !default;
+$core-font-sizes-desktop-body-4: 1rem !default;
+$core-font-sizes-desktop-body-5: 1.125rem !default;
+$core-font-sizes-desktop-body-step: 0.125rem !default;
+$core-font-sizes-desktop-display-1: 3.125rem !default;
+$core-font-sizes-desktop-display-2: 3.90625rem !default;
+$core-font-sizes-desktop-display-3: 4.8828125rem !default;
+$core-font-sizes-desktop-display-4: 6.1035rem !default;
+$core-font-sizes-desktop-display-ratio: 0.078125rem !default;
+$core-font-sizes-mobile-headline-1: 1rem !default;
+$core-font-sizes-mobile-headline-2: 1.25rem !default;
+$core-font-sizes-mobile-headline-3: 1.5625rem !default;
+$core-font-sizes-mobile-headline-4: 1.953125rem !default;
+$core-font-sizes-mobile-headline-5: 2.4414375rem !default;
+$core-font-sizes-mobile-headline-6: 3.0518125rem !default;
+$core-font-sizes-mobile-headline-ratio: 0.078125rem !default;
+$core-font-sizes-mobile-body-1: 0.625rem !default;
+$core-font-sizes-mobile-body-2: 0.75rem !default;
+$core-font-sizes-mobile-body-3: 0.875rem !default;
+$core-font-sizes-mobile-body-4: 1rem !default;
+$core-font-sizes-mobile-body-5: 1.125rem !default;
+$core-font-sizes-mobile-body-step: 0.125rem !default;
+$core-font-sizes-mobile-display-1: 1.75rem !default;
+$core-font-sizes-mobile-display-2: 2.1875rem !default;
+$core-font-sizes-mobile-display-3: 2.734375rem !default;
+$core-font-sizes-mobile-display-4: 3.418rem !default;
+$core-font-sizes-mobile-display-ratio: 0.078125rem !default;
+$core-font-weight-400: Regular !default;
+$core-font-weight-500: Medium !default;
+$core-font-weight-700: Bold !default;
+$core-line-height-1: 8 !default;
+$core-line-height-2: 8 !default;
+$core-line-height-3: 12 !default;
+$core-line-height-4: 16 !default;
+$core-line-height-5: 20 !default;
+$core-text-case-none: none !default;
+$core-text-case-uppercase: uppercase !default;
+$core-text-case-lowercase: lowercase !default;
+$core-text-case-capitalize: capitalize !default;
+
+$tokens: (
+  'semantic': (
+    'borderRadius': (
+      'desktop': (
+        'sm': $semantic-border-radius-desktop-sm,
+        'md': $semantic-border-radius-desktop-md,
+        'lg': $semantic-border-radius-desktop-lg
+      )
+    ),
+    'border': (
+      'sm': $semantic-border-sm,
+      'md': $semantic-border-md,
+      'lg': $semantic-border-lg
+    ),
+    'dimension': (
+      'xs': $semantic-dimension-xs,
+      'sm': $semantic-dimension-sm,
+      'md': $semantic-dimension-md,
+      'lg': $semantic-dimension-lg,
+      'xl': $semantic-dimension-xl
+    ),
+    'color': (
+      'action': (
+        'primary': (
+          'bg': (
+            'default': $semantic-color-action-primary-bg-default,
+            'hover': $semantic-color-action-primary-bg-hover,
+            'active': $semantic-color-action-primary-bg-active,
+            'disabled': $semantic-color-action-primary-bg-disabled
+          )
+        ),
+        'secondary': (
+          'bg': (
+            'default': $semantic-color-action-secondary-bg-default,
+            'hover': $semantic-color-action-secondary-bg-hover,
+            'active': $semantic-color-action-secondary-bg-active,
+            'disabled': $semantic-color-action-secondary-bg-disabled
+          )
+        )
+      ),
+      'txt': (
+        'primary': $semantic-color-txt-primary,
+        'secondary': $semantic-color-txt-secondary,
+        'subtle': $semantic-color-txt-subtle,
+        'inverted': $semantic-color-txt-inverted,
+        'success': $semantic-color-txt-success,
+        'error': $semantic-color-txt-error,
+        'neutral': $semantic-color-txt-neutral,
+        'light-blue': $semantic-color-txt-light-blue
+      ),
+      'bg': (
+        'primary': $semantic-color-bg-primary,
+        'secondary': $semantic-color-bg-secondary,
+        'subtle': $semantic-color-bg-subtle,
+        'inverted': $semantic-color-bg-inverted,
+        'success': $semantic-color-bg-success,
+        'error': $semantic-color-bg-error,
+        'neutral': $semantic-color-bg-neutral,
+        'light-blue': $semantic-color-bg-light-blue,
+        'neutral-copy': $semantic-color-bg-neutral-copy
+      ),
+      'border': (
+        'primary': $semantic-color-border-primary,
+        'secondary': $semantic-color-border-secondary,
+        'subtle': $semantic-color-border-subtle,
+        'inverted': $semantic-color-border-inverted,
+        'success': $semantic-color-border-success,
+        'error': $semantic-color-border-error,
+        'neutral': $semantic-color-border-neutral,
+        'light-blue': $semantic-color-border-light-blue
+      )
+    ),
+    'fontFamilies': (
+      'primary': $semantic-font-families-primary,
+      'secondary': $semantic-font-families-secondary
+    ),
+    'typography': (
+      'desktop': (
+        'body': (
+          'body-xxs': (
+            'fontFamily': $semantic-typography-desktop-body-body-xxs-font-family,
+            'fontSize': $semantic-typography-desktop-body-body-xxs-font-size,
+            'fontWeight': $semantic-typography-desktop-body-body-xxs-font-weight,
+            'lineHeight': $semantic-typography-desktop-body-body-xxs-line-height,
+            'letterSpacing': $semantic-typography-desktop-body-body-xxs-letter-spacing,
+            'textCase': $semantic-typography-desktop-body-body-xxs-text-case
+          ),
+          'body-xs': (
+            'fontFamily': $semantic-typography-desktop-body-body-xs-font-family,
+            'fontSize': $semantic-typography-desktop-body-body-xs-font-size,
+            'fontWeight': $semantic-typography-desktop-body-body-xs-font-weight,
+            'lineHeight': $semantic-typography-desktop-body-body-xs-line-height,
+            'letterSpacing': $semantic-typography-desktop-body-body-xs-letter-spacing,
+            'textCase': $semantic-typography-desktop-body-body-xs-text-case
+          ),
+          'body-sm': (
+            'fontFamily': $semantic-typography-desktop-body-body-sm-font-family,
+            'fontSize': $semantic-typography-desktop-body-body-sm-font-size,
+            'fontWeight': $semantic-typography-desktop-body-body-sm-font-weight,
+            'lineHeight': $semantic-typography-desktop-body-body-sm-line-height,
+            'letterSpacing': $semantic-typography-desktop-body-body-sm-letter-spacing,
+            'textCase': $semantic-typography-desktop-body-body-sm-text-case
+          ),
+          'body-md': (
+            'fontFamily': $semantic-typography-desktop-body-body-md-font-family,
+            'fontSize': $semantic-typography-desktop-body-body-md-font-size,
+            'fontWeight': $semantic-typography-desktop-body-body-md-font-weight,
+            'lineHeight': $semantic-typography-desktop-body-body-md-line-height,
+            'letterSpacing': $semantic-typography-desktop-body-body-md-letter-spacing,
+            'textCase': $semantic-typography-desktop-body-body-md-text-case
+          ),
+          'body-lg': (
+            'fontFamily': $semantic-typography-desktop-body-body-lg-font-family,
+            'fontSize': $semantic-typography-desktop-body-body-lg-font-size,
+            'fontWeight': $semantic-typography-desktop-body-body-lg-font-weight,
+            'lineHeight': $semantic-typography-desktop-body-body-lg-line-height,
+            'letterSpacing': $semantic-typography-desktop-body-body-lg-letter-spacing,
+            'textCase': $semantic-typography-desktop-body-body-lg-text-case
+          )
+        ),
+        'headline': (
+          'headline-xxs': (
+            'fontFamily': $semantic-typography-desktop-headline-headline-xxs-font-family,
+            'fontSize': $semantic-typography-desktop-headline-headline-xxs-font-size,
+            'fontWeight': $semantic-typography-desktop-headline-headline-xxs-font-weight,
+            'lineHeight': $semantic-typography-desktop-headline-headline-xxs-line-height,
+            'letterSpacing': $semantic-typography-desktop-headline-headline-xxs-letter-spacing,
+            'textCase': $semantic-typography-desktop-headline-headline-xxs-text-case
+          ),
+          'headline-xs': (
+            'fontFamily': $semantic-typography-desktop-headline-headline-xs-font-family,
+            'fontSize': $semantic-typography-desktop-headline-headline-xs-font-size,
+            'fontWeight': $semantic-typography-desktop-headline-headline-xs-font-weight,
+            'lineHeight': $semantic-typography-desktop-headline-headline-xs-line-height,
+            'letterSpacing': $semantic-typography-desktop-headline-headline-xs-letter-spacing,
+            'textCase': $semantic-typography-desktop-headline-headline-xs-text-case
+          ),
+          'headline-sm': (
+            'fontFamily': $semantic-typography-desktop-headline-headline-sm-font-family,
+            'fontSize': $semantic-typography-desktop-headline-headline-sm-font-size,
+            'fontWeight': $semantic-typography-desktop-headline-headline-sm-font-weight,
+            'lineHeight': $semantic-typography-desktop-headline-headline-sm-line-height,
+            'letterSpacing': $semantic-typography-desktop-headline-headline-sm-letter-spacing,
+            'textCase': $semantic-typography-desktop-headline-headline-sm-text-case
+          ),
+          'headline-md': (
+            'fontFamily': $semantic-typography-desktop-headline-headline-md-font-family,
+            'fontSize': $semantic-typography-desktop-headline-headline-md-font-size,
+            'fontWeight': $semantic-typography-desktop-headline-headline-md-font-weight,
+            'lineHeight': $semantic-typography-desktop-headline-headline-md-line-height,
+            'letterSpacing': $semantic-typography-desktop-headline-headline-md-letter-spacing,
+            'textCase': $semantic-typography-desktop-headline-headline-md-text-case
+          ),
+          'headline-lg': (
+            'fontFamily': $semantic-typography-desktop-headline-headline-lg-font-family,
+            'fontSize': $semantic-typography-desktop-headline-headline-lg-font-size,
+            'fontWeight': $semantic-typography-desktop-headline-headline-lg-font-weight,
+            'lineHeight': $semantic-typography-desktop-headline-headline-lg-line-height,
+            'letterSpacing': $semantic-typography-desktop-headline-headline-lg-letter-spacing,
+            'textCase': $semantic-typography-desktop-headline-headline-lg-text-case
+          ),
+          'headline-xl': (
+            'fontFamily': $semantic-typography-desktop-headline-headline-xl-font-family,
+            'fontSize': $semantic-typography-desktop-headline-headline-xl-font-size,
+            'fontWeight': $semantic-typography-desktop-headline-headline-xl-font-weight,
+            'lineHeight': $semantic-typography-desktop-headline-headline-xl-line-height,
+            'letterSpacing': $semantic-typography-desktop-headline-headline-xl-letter-spacing,
+            'textCase': $semantic-typography-desktop-headline-headline-xl-text-case
+          )
+        ),
+        'display': (
+          'display-sm': (
+            'fontFamily': $semantic-typography-desktop-display-display-sm-font-family,
+            'fontSize': $semantic-typography-desktop-display-display-sm-font-size,
+            'fontWeight': $semantic-typography-desktop-display-display-sm-font-weight,
+            'lineHeight': $semantic-typography-desktop-display-display-sm-line-height,
+            'letterSpacing': $semantic-typography-desktop-display-display-sm-letter-spacing,
+            'textCase': $semantic-typography-desktop-display-display-sm-text-case
+          ),
+          'display-md': (
+            'fontFamily': $semantic-typography-desktop-display-display-md-font-family,
+            'fontSize': $semantic-typography-desktop-display-display-md-font-size,
+            'fontWeight': $semantic-typography-desktop-display-display-md-font-weight,
+            'lineHeight': $semantic-typography-desktop-display-display-md-line-height,
+            'letterSpacing': $semantic-typography-desktop-display-display-md-letter-spacing,
+            'textCase': $semantic-typography-desktop-display-display-md-text-case
+          ),
+          'display-lg': (
+            'fontFamily': $semantic-typography-desktop-display-display-lg-font-family,
+            'fontSize': $semantic-typography-desktop-display-display-lg-font-size,
+            'fontWeight': $semantic-typography-desktop-display-display-lg-font-weight,
+            'lineHeight': $semantic-typography-desktop-display-display-lg-line-height,
+            'letterSpacing': $semantic-typography-desktop-display-display-lg-letter-spacing,
+            'textCase': $semantic-typography-desktop-display-display-lg-text-case
+          ),
+          'display-xl': (
+            'fontFamily': $semantic-typography-desktop-display-display-xl-font-family,
+            'fontSize': $semantic-typography-desktop-display-display-xl-font-size,
+            'fontWeight': $semantic-typography-desktop-display-display-xl-font-weight,
+            'lineHeight': $semantic-typography-desktop-display-display-xl-line-height,
+            'letterSpacing': $semantic-typography-desktop-display-display-xl-letter-spacing,
+            'textCase': $semantic-typography-desktop-display-display-xl-text-case
+          )
+        )
+      ),
+      'mobile': (
+        'body': (
+          'body-xxs': (
+            'fontFamily': $semantic-typography-mobile-body-body-xxs-font-family,
+            'fontSize': $semantic-typography-mobile-body-body-xxs-font-size,
+            'fontWeight': $semantic-typography-mobile-body-body-xxs-font-weight,
+            'lineHeight': $semantic-typography-mobile-body-body-xxs-line-height,
+            'letterSpacing': $semantic-typography-mobile-body-body-xxs-letter-spacing,
+            'textCase': $semantic-typography-mobile-body-body-xxs-text-case
+          ),
+          'body-xs': (
+            'fontFamily': $semantic-typography-mobile-body-body-xs-font-family,
+            'fontSize': $semantic-typography-mobile-body-body-xs-font-size,
+            'fontWeight': $semantic-typography-mobile-body-body-xs-font-weight,
+            'lineHeight': $semantic-typography-mobile-body-body-xs-line-height,
+            'letterSpacing': $semantic-typography-mobile-body-body-xs-letter-spacing,
+            'textCase': $semantic-typography-mobile-body-body-xs-text-case
+          ),
+          'body-sm': (
+            'fontFamily': $semantic-typography-mobile-body-body-sm-font-family,
+            'fontSize': $semantic-typography-mobile-body-body-sm-font-size,
+            'fontWeight': $semantic-typography-mobile-body-body-sm-font-weight,
+            'lineHeight': $semantic-typography-mobile-body-body-sm-line-height,
+            'letterSpacing': $semantic-typography-mobile-body-body-sm-letter-spacing,
+            'textCase': $semantic-typography-mobile-body-body-sm-text-case
+          ),
+          'body-md': (
+            'fontFamily': $semantic-typography-mobile-body-body-md-font-family,
+            'fontSize': $semantic-typography-mobile-body-body-md-font-size,
+            'fontWeight': $semantic-typography-mobile-body-body-md-font-weight,
+            'lineHeight': $semantic-typography-mobile-body-body-md-line-height,
+            'letterSpacing': $semantic-typography-mobile-body-body-md-letter-spacing,
+            'textCase': $semantic-typography-mobile-body-body-md-text-case
+          ),
+          'body-lg': (
+            'fontFamily': $semantic-typography-mobile-body-body-lg-font-family,
+            'fontSize': $semantic-typography-mobile-body-body-lg-font-size,
+            'fontWeight': $semantic-typography-mobile-body-body-lg-font-weight,
+            'lineHeight': $semantic-typography-mobile-body-body-lg-line-height,
+            'letterSpacing': $semantic-typography-mobile-body-body-lg-letter-spacing,
+            'textCase': $semantic-typography-mobile-body-body-lg-text-case
+          )
+        ),
+        'headline': (
+          'headline-xxs': (
+            'fontFamily': $semantic-typography-mobile-headline-headline-xxs-font-family,
+            'fontSize': $semantic-typography-mobile-headline-headline-xxs-font-size,
+            'fontWeight': $semantic-typography-mobile-headline-headline-xxs-font-weight,
+            'lineHeight': $semantic-typography-mobile-headline-headline-xxs-line-height,
+            'letterSpacing': $semantic-typography-mobile-headline-headline-xxs-letter-spacing,
+            'textCase': $semantic-typography-mobile-headline-headline-xxs-text-case
+          ),
+          'headline-xs': (
+            'fontFamily': $semantic-typography-mobile-headline-headline-xs-font-family,
+            'fontSize': $semantic-typography-mobile-headline-headline-xs-font-size,
+            'fontWeight': $semantic-typography-mobile-headline-headline-xs-font-weight,
+            'lineHeight': $semantic-typography-mobile-headline-headline-xs-line-height,
+            'letterSpacing': $semantic-typography-mobile-headline-headline-xs-letter-spacing,
+            'textCase': $semantic-typography-mobile-headline-headline-xs-text-case
+          ),
+          'headline-sm': (
+            'fontFamily': $semantic-typography-mobile-headline-headline-sm-font-family,
+            'fontSize': $semantic-typography-mobile-headline-headline-sm-font-size,
+            'fontWeight': $semantic-typography-mobile-headline-headline-sm-font-weight,
+            'lineHeight': $semantic-typography-mobile-headline-headline-sm-line-height,
+            'letterSpacing': $semantic-typography-mobile-headline-headline-sm-letter-spacing,
+            'textCase': $semantic-typography-mobile-headline-headline-sm-text-case
+          ),
+          'headline-md': (
+            'fontFamily': $semantic-typography-mobile-headline-headline-md-font-family,
+            'fontSize': $semantic-typography-mobile-headline-headline-md-font-size,
+            'fontWeight': $semantic-typography-mobile-headline-headline-md-font-weight,
+            'lineHeight': $semantic-typography-mobile-headline-headline-md-line-height,
+            'letterSpacing': $semantic-typography-mobile-headline-headline-md-letter-spacing,
+            'textCase': $semantic-typography-mobile-headline-headline-md-text-case
+          ),
+          'headline-lg': (
+            'fontFamily': $semantic-typography-mobile-headline-headline-lg-font-family,
+            'fontSize': $semantic-typography-mobile-headline-headline-lg-font-size,
+            'fontWeight': $semantic-typography-mobile-headline-headline-lg-font-weight,
+            'lineHeight': $semantic-typography-mobile-headline-headline-lg-line-height,
+            'letterSpacing': $semantic-typography-mobile-headline-headline-lg-letter-spacing,
+            'textCase': $semantic-typography-mobile-headline-headline-lg-text-case
+          ),
+          'headline-xl': (
+            'fontFamily': $semantic-typography-mobile-headline-headline-xl-font-family,
+            'fontSize': $semantic-typography-mobile-headline-headline-xl-font-size,
+            'fontWeight': $semantic-typography-mobile-headline-headline-xl-font-weight,
+            'lineHeight': $semantic-typography-mobile-headline-headline-xl-line-height,
+            'letterSpacing': $semantic-typography-mobile-headline-headline-xl-letter-spacing,
+            'textCase': $semantic-typography-mobile-headline-headline-xl-text-case
+          )
+        ),
+        'display': (
+          'display-sm': (
+            'fontFamily': $semantic-typography-mobile-display-display-sm-font-family,
+            'fontSize': $semantic-typography-mobile-display-display-sm-font-size,
+            'fontWeight': $semantic-typography-mobile-display-display-sm-font-weight,
+            'lineHeight': $semantic-typography-mobile-display-display-sm-line-height,
+            'letterSpacing': $semantic-typography-mobile-display-display-sm-letter-spacing,
+            'textCase': $semantic-typography-mobile-display-display-sm-text-case
+          ),
+          'display-md': (
+            'fontFamily': $semantic-typography-mobile-display-display-md-font-family,
+            'fontSize': $semantic-typography-mobile-display-display-md-font-size,
+            'fontWeight': $semantic-typography-mobile-display-display-md-font-weight,
+            'lineHeight': $semantic-typography-mobile-display-display-md-line-height,
+            'letterSpacing': $semantic-typography-mobile-display-display-md-letter-spacing,
+            'textCase': $semantic-typography-mobile-display-display-md-text-case
+          ),
+          'display-lg': (
+            'fontFamily': $semantic-typography-mobile-display-display-lg-font-family,
+            'fontSize': $semantic-typography-mobile-display-display-lg-font-size,
+            'fontWeight': $semantic-typography-mobile-display-display-lg-font-weight,
+            'lineHeight': $semantic-typography-mobile-display-display-lg-line-height,
+            'letterSpacing': $semantic-typography-mobile-display-display-lg-letter-spacing,
+            'textCase': $semantic-typography-mobile-display-display-lg-text-case
+          ),
+          'display-xl': (
+            'fontFamily': $semantic-typography-mobile-display-display-xl-font-family,
+            'fontSize': $semantic-typography-mobile-display-display-xl-font-size,
+            'fontWeight': $semantic-typography-mobile-display-display-xl-font-weight,
+            'lineHeight': $semantic-typography-mobile-display-display-xl-line-height,
+            'letterSpacing': $semantic-typography-mobile-display-display-xl-letter-spacing,
+            'textCase': $semantic-typography-mobile-display-display-xl-text-case
+          )
+        )
+      )
+    ),
+    'lineHeight': (
+      'desktop': (
+        'body': $semantic-line-height-desktop-body,
+        'headline': $semantic-line-height-desktop-headline,
+        'display': $semantic-line-height-desktop-display
+      ),
+      'mobile': (
+        'body': $semantic-line-height-mobile-body,
+        'headline': $semantic-line-height-mobile-headline,
+        'display': $semantic-line-height-mobile-display
+      )
+    )
+  ),
+  'composition': (
+    'layout': (
+      'desktop': (
+        'options': (
+          'page-width': $composition-layout-desktop-options-page-width,
+          'content-max-width': $composition-layout-desktop-options-content-max-width,
+          'columns': $composition-layout-desktop-options-columns,
+          'column-width': $composition-layout-desktop-options-column-width,
+          'gap-x': $composition-layout-desktop-options-gap-x,
+          'gap-y': $composition-layout-desktop-options-gap-y
+        ),
+        'components': (
+          'page': $composition-layout-desktop-components-page,
+          'section': $composition-layout-desktop-components-section,
+          'container': $composition-layout-desktop-components-container,
+          'row': $composition-layout-desktop-components-row
+        ),
+        'item-width': (
+          '1/12': $composition-layout-desktop-item-width-1-12,
+          '2/12': $composition-layout-desktop-item-width-2-12,
+          '3/12': $composition-layout-desktop-item-width-3-12,
+          '4/12': $composition-layout-desktop-item-width-4-12,
+          '5/12': $composition-layout-desktop-item-width-5-12,
+          '6/12': $composition-layout-desktop-item-width-6-12,
+          '7/12': $composition-layout-desktop-item-width-7-12,
+          '8/12': $composition-layout-desktop-item-width-8-12,
+          '9/12': $composition-layout-desktop-item-width-9-12,
+          '10/12': $composition-layout-desktop-item-width-10-12,
+          '11/12': $composition-layout-desktop-item-width-11-12,
+          '12/12': $composition-layout-desktop-item-width-12-12
+        )
+      ),
+      'mobile': (
+        'options': (
+          'page-width': $composition-layout-mobile-options-page-width,
+          'content-max-width': $composition-layout-mobile-options-content-max-width,
+          'columns': $composition-layout-mobile-options-columns,
+          'gap-x': $composition-layout-mobile-options-gap-x,
+          'gap-y': $composition-layout-mobile-options-gap-y,
+          'column-width': $composition-layout-mobile-options-column-width
+        ),
+        'components': (
+          'page': $composition-layout-mobile-components-page,
+          'section': $composition-layout-mobile-components-section,
+          'container': $composition-layout-mobile-components-container,
+          'row': $composition-layout-mobile-components-row
+        ),
+        'item-width': (
+          '1/12': $composition-layout-mobile-item-width-1-12,
+          '2/12': $composition-layout-mobile-item-width-2-12,
+          '3/12': $composition-layout-mobile-item-width-3-12,
+          '4/12': $composition-layout-mobile-item-width-4-12,
+          '5/12': $composition-layout-mobile-item-width-5-12,
+          '6/12': $composition-layout-mobile-item-width-6-12,
+          '7/12': $composition-layout-mobile-item-width-7-12,
+          '8/12': $composition-layout-mobile-item-width-8-12,
+          '9/12': $composition-layout-mobile-item-width-9-12,
+          '10/12': $composition-layout-mobile-item-width-10-12,
+          '11/12': $composition-layout-mobile-item-width-11-12,
+          '12/12': $composition-layout-mobile-item-width-12-12
+        )
+      )
+    ),
+    'card-approve': $composition-card-approve,
+    'card': $composition-card,
+    'card-txt': $composition-card-txt,
+    'molecules': (
+      'dropdown': (
+        'spacing': $composition-molecules-dropdown-spacing
+      )
+    ),
+    'btn': (
+      'spacing': $composition-btn-spacing
+    ),
+    'logo': (
+      'size': (
+        'desktop': (
+          'lg': $composition-logo-size-desktop-lg,
+          'md': $composition-logo-size-desktop-md,
+          'sm': $composition-logo-size-desktop-sm
+        ),
+        'mobile': (
+          'lg': $composition-logo-size-mobile-lg,
+          'md': $composition-logo-size-mobile-md,
+          'sm': $composition-logo-size-mobile-sm
+        )
+      ),
+      'color': (
+        'primary': $composition-logo-color-primary,
+        'secondary': $composition-logo-color-secondary,
+        'inverted': $composition-logo-color-inverted
+      )
+    ),
+    'icon': (
+      'size': (
+        'xxl': $composition-icon-size-xxl,
+        'xl': $composition-icon-size-xl,
+        'lg': $composition-icon-size-lg,
+        'md': $composition-icon-size-md,
+        'sm': $composition-icon-size-sm
+      )
+    ),
+    'toggle': (
+      'box': (
+        'width': $composition-toggle-box-width
+      ),
+      'dot': (
+        'width': $composition-toggle-dot-width
+      )
+    ),
+    'switch': (
+      'desktop': (
+        'spacing': $composition-switch-desktop-spacing
+      ),
+      'mobile': (
+        'spacing': $composition-switch-mobile-spacing
+      )
+    ),
+    'input': (
+      'spacing': $composition-input-spacing
+    ),
+    'tag': (
+      'spacing': $composition-tag-spacing
+    ),
+    'dropdown-item': (
+      'spacing': (
+        'default': $composition-dropdown-item-spacing-default,
+        'hover': $composition-dropdown-item-spacing-hover
+      )
+    ),
+    'typography': (
+      'desktop': (
+        'label': $composition-typography-desktop-label
+      )
+    )
+  ),
+  'core': (
+    'dimension': (
+      '0': $core-dimension-0,
+      '1': $core-dimension-1,
+      '2': $core-dimension-2,
+      '3': $core-dimension-3,
+      '4': $core-dimension-4,
+      '5': $core-dimension-5,
+      '6': $core-dimension-6,
+      '8': $core-dimension-8,
+      '10': $core-dimension-10,
+      '12': $core-dimension-12,
+      '16': $core-dimension-16,
+      '20': $core-dimension-20,
+      '24': $core-dimension-24,
+      '32': $core-dimension-32,
+      'core-unit': $core-dimension-core-unit
+    ),
+    'color': (
+      'black': (
+        '100': $core-color-black-100
+      ),
+      'white': (
+        '100': $core-color-white-100
+      ),
+      'blue': (
+        '100': $core-color-blue-100,
+        '200': $core-color-blue-200,
+        '300': $core-color-blue-300,
+        '400': $core-color-blue-400,
+        '500': $core-color-blue-500
+      ),
+      'orange': (
+        '100': $core-color-orange-100,
+        '200': $core-color-orange-200,
+        '300': $core-color-orange-300,
+        '400': $core-color-orange-400,
+        '500': $core-color-orange-500
+      ),
+      'green': (
+        '100': $core-color-green-100,
+        '200': $core-color-green-200,
+        '300': $core-color-green-300,
+        '400': $core-color-green-400,
+        '500': $core-color-green-500
+      ),
+      'cobber': (
+        '100': $core-color-cobber-100,
+        '200': $core-color-cobber-200,
+        '300': $core-color-cobber-300,
+        '400': $core-color-cobber-400,
+        '500': $core-color-cobber-500
+      ),
+      'grey': (
+        '100': $core-color-grey-100,
+        '200': $core-color-grey-200,
+        '300': $core-color-grey-300,
+        '400': $core-color-grey-400,
+        '500': $core-color-grey-500
+      ),
+      'transparent': (
+        '100': $core-color-transparent-100
+      )
+    ),
+    'fontFamilies': (
+      'sans-serif-1': $core-font-families-sans-serif-1,
+      'sans-serif-2': $core-font-families-sans-serif-2,
+      'sans-serif-3': $core-font-families-sans-serif-3
+    ),
+    'fontSizes': (
+      'desktop': (
+        'headline': (
+          '1': $core-font-sizes-desktop-headline-1,
+          '2': $core-font-sizes-desktop-headline-2,
+          '3': $core-font-sizes-desktop-headline-3,
+          '4': $core-font-sizes-desktop-headline-4,
+          '5': $core-font-sizes-desktop-headline-5,
+          '6': $core-font-sizes-desktop-headline-6,
+          'ratio': $core-font-sizes-desktop-headline-ratio
+        ),
+        'body': (
+          '1': $core-font-sizes-desktop-body-1,
+          '2': $core-font-sizes-desktop-body-2,
+          '3': $core-font-sizes-desktop-body-3,
+          '4': $core-font-sizes-desktop-body-4,
+          '5': $core-font-sizes-desktop-body-5,
+          'step': $core-font-sizes-desktop-body-step
+        ),
+        'display': (
+          '1': $core-font-sizes-desktop-display-1,
+          '2': $core-font-sizes-desktop-display-2,
+          '3': $core-font-sizes-desktop-display-3,
+          '4': $core-font-sizes-desktop-display-4,
+          'ratio': $core-font-sizes-desktop-display-ratio
+        )
+      ),
+      'mobile': (
+        'headline': (
+          '1': $core-font-sizes-mobile-headline-1,
+          '2': $core-font-sizes-mobile-headline-2,
+          '3': $core-font-sizes-mobile-headline-3,
+          '4': $core-font-sizes-mobile-headline-4,
+          '5': $core-font-sizes-mobile-headline-5,
+          '6': $core-font-sizes-mobile-headline-6,
+          'ratio': $core-font-sizes-mobile-headline-ratio
+        ),
+        'body': (
+          '1': $core-font-sizes-mobile-body-1,
+          '2': $core-font-sizes-mobile-body-2,
+          '3': $core-font-sizes-mobile-body-3,
+          '4': $core-font-sizes-mobile-body-4,
+          '5': $core-font-sizes-mobile-body-5,
+          'step': $core-font-sizes-mobile-body-step
+        ),
+        'display': (
+          '1': $core-font-sizes-mobile-display-1,
+          '2': $core-font-sizes-mobile-display-2,
+          '3': $core-font-sizes-mobile-display-3,
+          '4': $core-font-sizes-mobile-display-4,
+          'ratio': $core-font-sizes-mobile-display-ratio
+        )
+      )
+    ),
+    'fontWeight': (
+      '400': $core-font-weight-400,
+      '500': $core-font-weight-500,
+      '700': $core-font-weight-700
+    ),
+    'lineHeight': (
+      '1': $core-line-height-1,
+      '2': $core-line-height-2,
+      '3': $core-line-height-3,
+      '4': $core-line-height-4,
+      '5': $core-line-height-5
+    ),
+    'textCase': (
+      'none': $core-text-case-none,
+      'uppercase': $core-text-case-uppercase,
+      ' lowercase': $core-text-case-lowercase,
+      ' capitalize': $core-text-case-capitalize
+    )
+  )
+);

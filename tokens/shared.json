@@ -1396,6 +1396,16 @@
       },
       "type": "composition"
     },
+    "molecules": {
+      "dropdown": {
+        "spacing": {
+          "value": {
+            "spacing": 20
+          },
+          "type": "composition"
+        }
+      }
+    },
     "btn": {
       "spacing": {
         "value": {

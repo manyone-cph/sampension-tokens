@@ -25,21 +25,19 @@ StyleDictionary.registerTransform({
     return cleanRemSize(prop.value);
   },
 });
-// This code takes the tokens from the core/ folder in the tokens/ folder and creates a
+// This code takes the tokens from the tokens/shared.json folder
 // SCSS file with a _core.scss file and a JS file with a core.js file.
 
 const filePaths = {
-  shared: "auto-generated/tokens/shared.json",
-  themeA: "auto-generated/tokens/theme/a.json",
-  themeB: "auto-generated/tokens/theme/b.json",
+  shared: "tokens/shared.json"
 };
 
 const myStyleDictionary = StyleDictionary.extend({
-  source: ["auto-generated/tokens/**/*.json"],
+  source: ["tokens/**/*.json"],
   platforms: {
     scss: {
       transformGroup: "scss",
-      buildPath: "./auto-generated/dist/scss/",
+      buildPath: "./dist/scss/",
       transforms: ["name/cti/kebab", "size/toREM"],
       files: [
         {
@@ -51,26 +49,18 @@ const myStyleDictionary = StyleDictionary.extend({
           },
         },
         {
-          destination: "_theme-a.scss",
-          format: "scss/variables",
+          destination: "_shared_map.scss",
+          format: "scss/map-deep",
           filter: (token) => {
-            // only include: theme a
-            return token.filePath === filePaths.themeA;
-          },
-        },
-        {
-          destination: "_theme-b.scss",
-          format: "scss/variables",
-          filter: (token) => {
-            // only include: theme b
-            return token.filePath === filePaths.themeB;
+            // only include: shared
+            return token.filePath === filePaths.shared;
           },
         },
       ],
     },
     js: {
       transformGroup: "js",
-      buildPath: "./auto-generated/dist/js/",
+      buildPath: "./dist/js/",
       files: [
         {
           destination: "_shared.js",
@@ -78,22 +68,6 @@ const myStyleDictionary = StyleDictionary.extend({
           filter: (token) => {
             // only include: shared
             return token.filePath === filePaths.shared;
-          },
-        },
-        {
-          destination: "_theme-a.js",
-          format: "javascript/es6",
-          filter: (token) => {
-            // only include: theme a
-            return token.filePath === filePaths.themeA;
-          },
-        },
-        {
-          destination: "_theme-b.js",
-          format: "javascript/es6",
-          filter: (token) => {
-            // only include: theme b
-            return token.filePath === filePaths.themeB;
           },
         },
       ],
