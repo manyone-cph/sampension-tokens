@@ -1,10 +1,6 @@
 /**
  * Do not edit directly
-<<<<<<< HEAD
- * Generated on Wed, 25 Jan 2023 22:07:22 GMT
-=======
- * Generated on Wed, 25 Jan 2023 22:02:13 GMT
->>>>>>> 01700a0cb25c042623ec64aa4be544fc89560fa6
+ * Generated on Wed, 25 Jan 2023 22:10:57 GMT
  */
 
 export const SemanticBorderRadiusDesktopSm = "4px";
@@ -239,7 +235,6 @@ export const SemanticLineHeightDesktopDisplay = 20;
 export const SemanticLineHeightMobileBody = 8;
 export const SemanticLineHeightMobileHeadline = 8;
 export const SemanticLineHeightMobileDisplay = 12;
-<<<<<<< HEAD
 export const CompositionLayoutDesktopOptionsPageWidthSizing = 1680;
 export const CompositionLayoutDesktopOptionsContentMaxWidthSizing = 1440;
 export const CompositionLayoutDesktopOptionsColumnsSizing = 12;
@@ -311,7 +306,6 @@ export const CompositionMoleculesDropdownSpacing2Spacing = 20;
 export const CompositionBtnSpacingVerticalPadding = "12px";
 export const CompositionBtnSpacingHorizontalPadding = "32px";
 export const CompositionBtnSpacingBorderRadius = "8px";
-export const CompositionBtnSpacingBorder = "[object Object]";
 export const CompositionBtnSpacingItemSpacing = "8px";
 export const CompositionLogoSizeDesktopLgWidth = 230;
 export const CompositionLogoSizeDesktopLgHeight = 23;
@@ -364,81 +358,6 @@ export const CompositionDropdownItemSpacingHoverItemSpacing = "8px";
 export const CompositionDropdownItemSpacingHoverPaddingLeft = "24px";
 export const CompositionTypographyDesktopLabelLetterSpacing = "30%";
 export const CompositionTypographyDesktopLabelTextCase = "uppercase";
-=======
-export const CompositionLayoutDesktopOptionsPageWidth = {"sizing":1680};
-export const CompositionLayoutDesktopOptionsContentMaxWidth = {"sizing":1440};
-export const CompositionLayoutDesktopOptionsColumns = {"sizing":12};
-export const CompositionLayoutDesktopOptionsColumnWidth = {"sizing":83.333};
-export const CompositionLayoutDesktopOptionsGapX = {"sizing":40};
-export const CompositionLayoutDesktopOptionsGapY = {"sizing":40};
-export const CompositionLayoutDesktopComponentsPage = {"width":1680,"spacing":0,"itemSpacing":0};
-export const CompositionLayoutDesktopComponentsSection = {"width":1680,"verticalPadding":60};
-export const CompositionLayoutDesktopComponentsContainer = {"width":1440,"spacing":0,"itemSpacing":40};
-export const CompositionLayoutDesktopComponentsRow = {"itemSpacing":40,"width":1440,"spacing":0};
-export const CompositionLayoutDesktopItemWidth112 = {"width":83.333};
-export const CompositionLayoutDesktopItemWidth212 = {"width":206.666};
-export const CompositionLayoutDesktopItemWidth312 = {"width":329.999};
-export const CompositionLayoutDesktopItemWidth412 = {"width":453.332};
-export const CompositionLayoutDesktopItemWidth512 = {"width":576.665};
-export const CompositionLayoutDesktopItemWidth612 = {"width":699.998};
-export const CompositionLayoutDesktopItemWidth712 = {"width":823.331};
-export const CompositionLayoutDesktopItemWidth812 = {"width":946.664};
-export const CompositionLayoutDesktopItemWidth912 = {"width":1069.997};
-export const CompositionLayoutDesktopItemWidth1012 = {"width":1193.33};
-export const CompositionLayoutDesktopItemWidth1112 = {"width":1316.663};
-export const CompositionLayoutDesktopItemWidth1212 = {"width":1439.996};
-export const CompositionLayoutMobileOptionsPageWidth = {"sizing":375};
-export const CompositionLayoutMobileOptionsContentMaxWidth = {"sizing":335};
-export const CompositionLayoutMobileOptionsColumns = {"sizing":12};
-export const CompositionLayoutMobileOptionsGapX = {"sizing":16};
-export const CompositionLayoutMobileOptionsGapY = {"sizing":16};
-export const CompositionLayoutMobileOptionsColumnWidth = {"sizing":13.25};
-export const CompositionLayoutMobileComponentsPage = {"width":375,"spacing":0,"itemSpacing":0};
-export const CompositionLayoutMobileComponentsSection = {"width":375,"verticalPadding":30};
-export const CompositionLayoutMobileComponentsContainer = {"width":335,"spacing":0,"itemSpacing":16};
-export const CompositionLayoutMobileComponentsRow = {"itemSpacing":16,"width":335,"spacing":0};
-export const CompositionLayoutMobileItemWidth112 = {"width":13.25};
-export const CompositionLayoutMobileItemWidth212 = {"width":42.5};
-export const CompositionLayoutMobileItemWidth312 = {"width":71.75};
-export const CompositionLayoutMobileItemWidth412 = {"width":101};
-export const CompositionLayoutMobileItemWidth512 = {"width":130.25};
-export const CompositionLayoutMobileItemWidth612 = {"width":159.5};
-export const CompositionLayoutMobileItemWidth712 = {"width":188.75};
-export const CompositionLayoutMobileItemWidth812 = {"width":218};
-export const CompositionLayoutMobileItemWidth912 = {"width":247.25};
-export const CompositionLayoutMobileItemWidth1012 = {"width":276.5};
-export const CompositionLayoutMobileItemWidth1112 = {"width":305.75};
-export const CompositionLayoutMobileItemWidth1212 = {"width":335};
-export const CompositionCardApprove = {"spacing":50,"borderColor":"#000000","borderRadius":5,"fill":"#0000ff"};
-export const CompositionCard = {"itemSpacing":20,"spacing":100,"fill":"#000000"};
-export const CompositionCardTxt = {"fontSizes":100};
-export const CompositionMoleculesDropdownSpacing = {"spacing":20};
-export const CompositionMoleculesDropdownSpacing2 = {"spacing":20};
-export const CompositionBtnSpacing = {"verticalPadding":"12px","horizontalPadding":"32px","borderRadius":"8px","itemSpacing":"8px"};
-export const CompositionLogoSizeDesktopLg = {"width":230,"height":23};
-export const CompositionLogoSizeDesktopMd = {"width":180,"height":18};
-export const CompositionLogoSizeDesktopSm = {"width":160,"height":16};
-export const CompositionLogoSizeMobileLg = {"width":120,"height":12};
-export const CompositionLogoSizeMobileMd = {"width":110,"height":11};
-export const CompositionLogoSizeMobileSm = {"width":100,"height":10};
-export const CompositionLogoColorPrimary = {"fill":"#000000"};
-export const CompositionLogoColorSecondary = {"fill":"#A7A7A7"};
-export const CompositionLogoColorInverted = {"fill":"#ffffff"};
-export const CompositionIconSizeXxl = {"height":96,"width":96};
-export const CompositionIconSizeXl = {"height":64,"width":64};
-export const CompositionIconSizeLg = {"height":48,"width":48};
-export const CompositionIconSizeMd = {"height":24,"width":24};
-export const CompositionIconSizeSm = {"height":16,"width":16};
-export const CompositionToggleBoxWidth = {"width":48,"height":28};
-export const CompositionToggleDotWidth = {"width":22,"height":22};
-export const CompositionSwitchDesktopSpacing = {"horizontalPadding":32,"itemSpacing":8,"verticalPadding":16};
-export const CompositionSwitchMobileSpacing = {"horizontalPadding":24,"itemSpacing":8,"verticalPadding":8};
-export const CompositionInputSpacing = {"verticalPadding":"12px","borderRadius":"8px","itemSpacing":"8px","horizontalPadding":"16px"};
-export const CompositionTagSpacing = {"verticalPadding":2,"horizontalPadding":"12px","itemSpacing":"8px"};
-export const CompositionDropdownItemSpacingDefault = {"verticalPadding":"12px","horizontalPadding":"16px","itemSpacing":"8px"};
-export const CompositionDropdownItemSpacingHover = {"verticalPadding":"12px","horizontalPadding":"16px","itemSpacing":"8px","paddingLeft":"24px"};
-export const CompositionTypographyDesktopLabel = {"letterSpacing":"30%","textCase":"uppercase"};
->>>>>>> 01700a0cb25c042623ec64aa4be544fc89560fa6
 export const CoreDimension0 = 0;
 export const CoreDimension1 = "4px";
 export const CoreDimension2 = "8px";

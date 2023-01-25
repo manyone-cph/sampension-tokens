@@ -1,11 +1,7 @@
 
 /**
  * Do not edit directly
-<<<<<<< HEAD
- * Generated on Wed, 25 Jan 2023 22:07:22 GMT
-=======
- * Generated on Wed, 25 Jan 2023 22:02:13 GMT
->>>>>>> 01700a0cb25c042623ec64aa4be544fc89560fa6
+ * Generated on Wed, 25 Jan 2023 22:10:57 GMT
  */
 
 $semantic-border-radius-desktop-sm: 0.25rem !default;
@@ -311,7 +307,6 @@ $composition-molecules-dropdown-spacing-2-spacing: 1.25rem !default;
 $composition-btn-spacing-vertical-padding: 0.75rem !default;
 $composition-btn-spacing-horizontal-padding: 2rem !default;
 $composition-btn-spacing-border-radius: 0.5rem !default;
-$composition-btn-spacing-border: undefined undefined undefined !default;
 $composition-btn-spacing-item-spacing: 0.5rem !default;
 $composition-logo-size-desktop-lg-width: 14.375rem !default;
 $composition-logo-size-desktop-lg-height: 1.4375rem !default;
@@ -1000,7 +995,6 @@ $tokens: (
         'verticalPadding': $composition-btn-spacing-vertical-padding,
         'horizontalPadding': $composition-btn-spacing-horizontal-padding,
         'borderRadius': $composition-btn-spacing-border-radius,
-        'border': $composition-btn-spacing-border,
         'itemSpacing': $composition-btn-spacing-item-spacing
       )
     ),

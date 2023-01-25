@@ -1467,11 +1467,17 @@
     },
     "btn": {
       "spacing": {
-        "value": {
-          "verticalPadding": "12px",
-          "horizontalPadding": "32px",
-          "borderRadius": "8px",
-          "itemSpacing": "8px"
+        "verticalPadding": {
+          "value": "12px",
+          "type": "spacing"
+        },
+        "horizontalPadding": {
+          "value": "32px",
+          "type": "spacing"
+        },
+        "borderRadius": {
+          "value": "8px",
+          "type": "borderRadius"
         },
         "itemSpacing": {
           "value": "8px",
