@@ -1077,554 +1077,703 @@
       "desktop": {
         "options": {
           "page-width": {
-            "value": {
-              "sizing": 1680
-            },
-            "type": "composition"
+            "sizing": {
+              "value": 1680,
+              "type": "sizing"
+            }
           },
           "content-max-width": {
-            "value": {
-              "sizing": 1440
-            },
-            "type": "composition"
+            "sizing": {
+              "value": 1440,
+              "type": "sizing"
+            }
           },
           "columns": {
-            "value": {
-              "sizing": 12
-            },
-            "type": "composition"
+            "sizing": {
+              "value": 12,
+              "type": "sizing"
+            }
           },
           "column-width": {
-            "value": {
-              "sizing": 83.333
-            },
-            "type": "composition"
+            "sizing": {
+              "value": 83.333,
+              "type": "sizing"
+            }
           },
           "gap-x": {
-            "value": {
-              "sizing": 40
-            },
-            "type": "composition"
+            "sizing": {
+              "value": 40,
+              "type": "sizing"
+            }
           },
           "gap-y": {
-            "value": {
-              "sizing": 40
-            },
-            "type": "composition"
+            "sizing": {
+              "value": 40,
+              "type": "sizing"
+            }
           }
         },
         "components": {
           "page": {
-            "value": {
-              "width": 1680,
-              "spacing": 0,
-              "itemSpacing": 0
+            "width": {
+              "value": 1680,
+              "type": "sizing"
             },
-            "type": "composition"
+            "spacing": {
+              "value": 0,
+              "type": "spacing"
+            },
+            "itemSpacing": {
+              "value": 0,
+              "type": "spacing"
+            }
           },
           "section": {
-            "value": {
-              "width": 1680,
-              "verticalPadding": 60
+            "width": {
+              "value": 1680,
+              "type": "sizing"
             },
-            "type": "composition",
-            "description": "går til kant - har nok varianter med/uden luft samt en bg/theme farve"
+            "verticalPadding": {
+              "value": 60,
+              "type": "spacing"
+            }
           },
           "container": {
-            "value": {
-              "width": 1440,
-              "spacing": 0,
-              "itemSpacing": 40
+            "width": {
+              "value": 1440,
+              "type": "sizing"
             },
-            "type": "composition",
-            "description": "max content width"
+            "spacing": {
+              "value": 0,
+              "type": "spacing"
+            },
+            "itemSpacing": {
+              "value": 40,
+              "type": "spacing"
+            }
           },
           "row": {
-            "value": {
-              "itemSpacing": 40,
-              "width": 1440,
-              "spacing": 0
+            "itemSpacing": {
+              "value": 40,
+              "type": "spacing"
             },
-            "type": "composition"
+            "width": {
+              "value": 1440,
+              "type": "sizing"
+            },
+            "spacing": {
+              "value": 0,
+              "type": "spacing"
+            }
           }
         },
         "item-width": {
           "1/12": {
-            "value": {
-              "width": 83.333
-            },
-            "type": "composition"
+            "width": {
+              "value": 83.333,
+              "type": "sizing"
+            }
           },
           "2/12": {
-            "value": {
-              "width": 206.666
-            },
-            "type": "composition"
+            "width": {
+              "value": 206.666,
+              "type": "sizing"
+            }
           },
           "3/12": {
-            "value": {
-              "width": 329.999
-            },
-            "type": "composition"
+            "width": {
+              "value": 329.999,
+              "type": "sizing"
+            }
           },
           "4/12": {
-            "value": {
-              "width": 453.332
-            },
-            "type": "composition"
+            "width": {
+              "value": 453.332,
+              "type": "sizing"
+            }
           },
           "5/12": {
-            "value": {
-              "width": 576.665
-            },
-            "type": "composition"
+            "width": {
+              "value": 576.665,
+              "type": "sizing"
+            }
           },
           "6/12": {
-            "value": {
-              "width": 699.998
-            },
-            "type": "composition"
+            "width": {
+              "value": 699.998,
+              "type": "sizing"
+            }
           },
           "7/12": {
-            "value": {
-              "width": 823.331
-            },
-            "type": "composition"
+            "width": {
+              "value": 823.331,
+              "type": "sizing"
+            }
           },
           "8/12": {
-            "value": {
-              "width": 946.664
-            },
-            "type": "composition"
+            "width": {
+              "value": 946.664,
+              "type": "sizing"
+            }
           },
           "9/12": {
-            "value": {
-              "width": 1069.997
-            },
-            "type": "composition"
+            "width": {
+              "value": 1069.997,
+              "type": "sizing"
+            }
           },
           "10/12": {
-            "value": {
-              "width": 1193.33
-            },
-            "type": "composition"
+            "width": {
+              "value": 1193.33,
+              "type": "sizing"
+            }
           },
           "11/12": {
-            "value": {
-              "width": 1316.663
-            },
-            "type": "composition"
+            "width": {
+              "value": 1316.663,
+              "type": "sizing"
+            }
           },
           "12/12": {
-            "value": {
-              "width": 1439.996
-            },
-            "type": "composition"
+            "width": {
+              "value": 1439.996,
+              "type": "sizing"
+            }
           }
         }
       },
       "mobile": {
         "options": {
           "page-width": {
-            "value": {
-              "sizing": 375
-            },
-            "type": "composition"
+            "sizing": {
+              "value": 375,
+              "type": "sizing"
+            }
           },
           "content-max-width": {
-            "value": {
-              "sizing": 335
-            },
-            "type": "composition"
+            "sizing": {
+              "value": 335,
+              "type": "sizing"
+            }
           },
           "columns": {
-            "value": {
-              "sizing": 12
-            },
-            "type": "composition"
+            "sizing": {
+              "value": 12,
+              "type": "sizing"
+            }
           },
           "gap-x": {
-            "value": {
-              "sizing": 16
-            },
-            "type": "composition"
+            "sizing": {
+              "value": 16,
+              "type": "sizing"
+            }
           },
           "gap-y": {
-            "value": {
-              "sizing": 16
-            },
-            "type": "composition"
+            "sizing": {
+              "value": 16,
+              "type": "sizing"
+            }
           },
           "column-width": {
-            "value": {
-              "sizing": 13.25
-            },
-            "type": "composition"
+            "sizing": {
+              "value": 13.25,
+              "type": "sizing"
+            }
           }
         },
         "components": {
           "page": {
-            "value": {
-              "width": 375,
-              "spacing": 0,
-              "itemSpacing": 0
+            "width": {
+              "value": 375,
+              "type": "sizing"
             },
-            "type": "composition"
+            "spacing": {
+              "value": 0,
+              "type": "spacing"
+            },
+            "itemSpacing": {
+              "value": 0,
+              "type": "spacing"
+            }
           },
           "section": {
-            "value": {
-              "width": 375,
-              "verticalPadding": 30
+            "width": {
+              "value": 375,
+              "type": "sizing"
             },
-            "type": "composition",
-            "description": "går til kant - har nok varianter med/uden luft samt en bg/theme farve"
+            "verticalPadding": {
+              "value": 30,
+              "type": "spacing"
+            }
           },
           "container": {
-            "value": {
-              "width": 335,
-              "spacing": 0,
-              "itemSpacing": 16
+            "width": {
+              "value": 335,
+              "type": "sizing"
             },
-            "type": "composition",
-            "description": "max content width"
+            "spacing": {
+              "value": 0,
+              "type": "spacing"
+            },
+            "itemSpacing": {
+              "value": 16,
+              "type": "spacing"
+            }
           },
           "row": {
-            "value": {
-              "itemSpacing": 16,
-              "width": 335,
-              "spacing": 0
+            "itemSpacing": {
+              "value": 16,
+              "type": "spacing"
             },
-            "type": "composition"
+            "width": {
+              "value": 335,
+              "type": "sizing"
+            },
+            "spacing": {
+              "value": 0,
+              "type": "spacing"
+            }
           }
         },
         "item-width": {
           "1/12": {
-            "value": {
-              "width": 13.25
-            },
-            "type": "composition"
+            "width": {
+              "value": 13.25,
+              "type": "sizing"
+            }
           },
           "2/12": {
-            "value": {
-              "width": 42.5
-            },
-            "type": "composition"
+            "width": {
+              "value": 42.5,
+              "type": "sizing"
+            }
           },
           "3/12": {
-            "value": {
-              "width": 71.75
-            },
-            "type": "composition"
+            "width": {
+              "value": 71.75,
+              "type": "sizing"
+            }
           },
           "4/12": {
-            "value": {
-              "width": 101
-            },
-            "type": "composition"
+            "width": {
+              "value": 101,
+              "type": "sizing"
+            }
           },
           "5/12": {
-            "value": {
-              "width": 130.25
-            },
-            "type": "composition"
+            "width": {
+              "value": 130.25,
+              "type": "sizing"
+            }
           },
           "6/12": {
-            "value": {
-              "width": 159.5
-            },
-            "type": "composition"
+            "width": {
+              "value": 159.5,
+              "type": "sizing"
+            }
           },
           "7/12": {
-            "value": {
-              "width": 188.75
-            },
-            "type": "composition"
+            "width": {
+              "value": 188.75,
+              "type": "sizing"
+            }
           },
           "8/12": {
-            "value": {
-              "width": 218
-            },
-            "type": "composition"
+            "width": {
+              "value": 218,
+              "type": "sizing"
+            }
           },
           "9/12": {
-            "value": {
-              "width": 247.25
-            },
-            "type": "composition"
+            "width": {
+              "value": 247.25,
+              "type": "sizing"
+            }
           },
           "10/12": {
-            "value": {
-              "width": 276.5
-            },
-            "type": "composition"
+            "width": {
+              "value": 276.5,
+              "type": "sizing"
+            }
           },
           "11/12": {
-            "value": {
-              "width": 305.75
-            },
-            "type": "composition"
+            "width": {
+              "value": 305.75,
+              "type": "sizing"
+            }
           },
           "12/12": {
-            "value": {
-              "width": 335
-            },
-            "type": "composition"
+            "width": {
+              "value": 335,
+              "type": "sizing"
+            }
           }
         }
       }
     },
     "card-approve": {
-      "value": {
-        "spacing": 50,
-        "borderColor": "#000000",
-        "borderRadius": 5,
-        "fill": "#0000ff"
+      "spacing": {
+        "value": 50,
+        "type": "spacing"
       },
-      "type": "composition"
+      "borderColor": {
+        "value": "#000000",
+        "type": "fill"
+      },
+      "borderRadius": {
+        "value": 5,
+        "type": "borderRadius"
+      },
+      "fill": {
+        "value": "#0000ff",
+        "type": "fill"
+      }
     },
     "card": {
-      "value": {
-        "itemSpacing": 20,
-        "spacing": 100,
-        "fill": "#000000"
+      "itemSpacing": {
+        "value": 20,
+        "type": "spacing"
       },
-      "type": "composition"
+      "spacing": {
+        "value": 100,
+        "type": "spacing"
+      },
+      "fill": {
+        "value": "#000000",
+        "type": "fill"
+      }
     },
     "card-txt": {
-      "value": {
-        "fontSizes": 100
-      },
-      "type": "composition"
+      "fontSizes": {
+        "value": 100,
+        "type": "fontSizes"
+      }
     },
     "molecules": {
       "dropdown": {
         "spacing": {
-          "value": {
-            "spacing": 20
-          },
-          "type": "composition"
+          "spacing": {
+            "value": 20,
+            "type": "spacing"
+          }
         },
         "spacing-2": {
-          "value": {
-            "spacing": 20
-          },
-          "type": "composition"
+          "spacing": {
+            "value": 20,
+            "type": "spacing"
+          }
         }
       }
     },
     "btn": {
       "spacing": {
-        "value": {
-          "verticalPadding": "12px",
-          "horizontalPadding": "32px",
-          "borderRadius": "8px",
-          "border": "[object Object]",
-          "itemSpacing": "8px"
+        "verticalPadding": {
+          "value": "12px",
+          "type": "spacing"
         },
-        "type": "composition"
+        "horizontalPadding": {
+          "value": "32px",
+          "type": "spacing"
+        },
+        "borderRadius": {
+          "value": "8px",
+          "type": "borderRadius"
+        },
+        "border": {
+          "value": "[object Object]",
+          "type": "border"
+        },
+        "itemSpacing": {
+          "value": "8px",
+          "type": "spacing"
+        }
       }
     },
     "logo": {
       "size": {
         "desktop": {
           "lg": {
-            "value": {
-              "width": 230,
-              "height": 23
+            "width": {
+              "value": 230,
+              "type": "sizing"
             },
-            "type": "composition"
+            "height": {
+              "value": 23,
+              "type": "sizing"
+            }
           },
           "md": {
-            "value": {
-              "width": 180,
-              "height": 18
+            "width": {
+              "value": 180,
+              "type": "sizing"
             },
-            "type": "composition"
+            "height": {
+              "value": 18,
+              "type": "sizing"
+            }
           },
           "sm": {
-            "value": {
-              "width": 160,
-              "height": 16
+            "width": {
+              "value": 160,
+              "type": "sizing"
             },
-            "type": "composition"
+            "height": {
+              "value": 16,
+              "type": "sizing"
+            }
           }
         },
         "mobile": {
           "lg": {
-            "value": {
-              "width": 120,
-              "height": 12
+            "width": {
+              "value": 120,
+              "type": "sizing"
             },
-            "type": "composition"
+            "height": {
+              "value": 12,
+              "type": "sizing"
+            }
           },
           "md": {
-            "value": {
-              "width": 110,
-              "height": 11
+            "width": {
+              "value": 110,
+              "type": "sizing"
             },
-            "type": "composition"
+            "height": {
+              "value": 11,
+              "type": "sizing"
+            }
           },
           "sm": {
-            "value": {
-              "width": 100,
-              "height": 10
+            "width": {
+              "value": 100,
+              "type": "sizing"
             },
-            "type": "composition"
+            "height": {
+              "value": 10,
+              "type": "sizing"
+            }
           }
         }
       },
       "color": {
         "primary": {
-          "value": {
-            "fill": "#000000"
-          },
-          "type": "composition"
+          "fill": {
+            "value": "#000000",
+            "type": "fill"
+          }
         },
         "secondary": {
-          "value": {
-            "fill": "#A7A7A7"
-          },
-          "type": "composition"
+          "fill": {
+            "value": "#A7A7A7",
+            "type": "fill"
+          }
         },
         "inverted": {
-          "value": {
-            "fill": "#ffffff"
-          },
-          "type": "composition"
+          "fill": {
+            "value": "#ffffff",
+            "type": "fill"
+          }
         }
       }
     },
     "icon": {
       "size": {
         "xxl": {
-          "value": {
-            "height": 96,
-            "width": 96
+          "height": {
+            "value": 96,
+            "type": "sizing"
           },
-          "type": "composition"
+          "width": {
+            "value": 96,
+            "type": "sizing"
+          }
         },
         "xl": {
-          "value": {
-            "height": 64,
-            "width": 64
+          "height": {
+            "value": 64,
+            "type": "sizing"
           },
-          "type": "composition"
+          "width": {
+            "value": 64,
+            "type": "sizing"
+          }
         },
         "lg": {
-          "value": {
-            "height": 48,
-            "width": 48
+          "height": {
+            "value": 48,
+            "type": "sizing"
           },
-          "type": "composition"
+          "width": {
+            "value": 48,
+            "type": "sizing"
+          }
         },
         "md": {
-          "value": {
-            "height": 24,
-            "width": 24
+          "height": {
+            "value": 24,
+            "type": "sizing"
           },
-          "type": "composition"
+          "width": {
+            "value": 24,
+            "type": "sizing"
+          }
         },
         "sm": {
-          "value": {
-            "height": 16,
-            "width": 16
+          "height": {
+            "value": 16,
+            "type": "sizing"
           },
-          "type": "composition"
+          "width": {
+            "value": 16,
+            "type": "sizing"
+          }
         }
       }
     },
     "toggle": {
       "box": {
         "width": {
-          "value": {
-            "width": 48,
-            "height": 28
+          "width": {
+            "value": 48,
+            "type": "sizing"
           },
-          "type": "composition"
+          "height": {
+            "value": 28,
+            "type": "sizing"
+          }
         }
       },
       "dot": {
         "width": {
-          "value": {
-            "width": 22,
-            "height": 22
+          "width": {
+            "value": 22,
+            "type": "sizing"
           },
-          "type": "composition"
+          "height": {
+            "value": 22,
+            "type": "sizing"
+          }
         }
       }
     },
     "switch": {
       "desktop": {
         "spacing": {
-          "value": {
-            "horizontalPadding": 32,
-            "itemSpacing": 8,
-            "verticalPadding": 16
+          "horizontalPadding": {
+            "value": 32,
+            "type": "spacing"
           },
-          "type": "composition"
+          "itemSpacing": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "verticalPadding": {
+            "value": 16,
+            "type": "spacing"
+          }
         }
       },
       "mobile": {
         "spacing": {
-          "value": {
-            "horizontalPadding": 24,
-            "itemSpacing": 8,
-            "verticalPadding": 8
+          "horizontalPadding": {
+            "value": 24,
+            "type": "spacing"
           },
-          "type": "composition"
+          "itemSpacing": {
+            "value": 8,
+            "type": "spacing"
+          },
+          "verticalPadding": {
+            "value": 8,
+            "type": "spacing"
+          }
         }
       }
     },
     "input": {
       "spacing": {
-        "value": {
-          "verticalPadding": "12px",
-          "borderRadius": "8px",
-          "itemSpacing": "8px",
-          "horizontalPadding": "16px"
+        "verticalPadding": {
+          "value": "12px",
+          "type": "spacing"
         },
-        "type": "composition"
+        "borderRadius": {
+          "value": "8px",
+          "type": "borderRadius"
+        },
+        "itemSpacing": {
+          "value": "8px",
+          "type": "spacing"
+        },
+        "horizontalPadding": {
+          "value": "16px",
+          "type": "spacing"
+        }
       }
     },
     "tag": {
       "spacing": {
-        "value": {
-          "verticalPadding": 2,
-          "horizontalPadding": "12px",
-          "itemSpacing": "8px"
+        "verticalPadding": {
+          "value": 2,
+          "type": "spacing"
         },
-        "type": "composition"
+        "horizontalPadding": {
+          "value": "12px",
+          "type": "spacing"
+        },
+        "itemSpacing": {
+          "value": "8px",
+          "type": "spacing"
+        }
       }
     },
     "dropdown-item": {
       "spacing": {
         "default": {
-          "value": {
-            "verticalPadding": "12px",
-            "horizontalPadding": "16px",
-            "itemSpacing": "8px"
+          "verticalPadding": {
+            "value": "12px",
+            "type": "spacing"
           },
-          "type": "composition"
+          "horizontalPadding": {
+            "value": "16px",
+            "type": "spacing"
+          },
+          "itemSpacing": {
+            "value": "8px",
+            "type": "spacing"
+          }
         },
         "hover": {
-          "value": {
-            "verticalPadding": "12px",
-            "horizontalPadding": "16px",
-            "itemSpacing": "8px",
-            "paddingLeft": "24px"
+          "verticalPadding": {
+            "value": "12px",
+            "type": "spacing"
           },
-          "type": "composition"
+          "horizontalPadding": {
+            "value": "16px",
+            "type": "spacing"
+          },
+          "itemSpacing": {
+            "value": "8px",
+            "type": "spacing"
+          },
+          "paddingLeft": {
+            "value": "24px",
+            "type": "spacing"
+          }
         }
       }
     },
     "typography": {
       "desktop": {
         "label": {
-          "value": {
-            "letterSpacing": "30%",
-            "textCase": "uppercase"
+          "letterSpacing": {
+            "value": "30%",
+            "type": "letterSpacing"
           },
-          "type": "composition"
+          "textCase": {
+            "value": "uppercase",
+            "type": "textCase"
+          }
         }
       }
     }

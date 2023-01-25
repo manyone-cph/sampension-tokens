@@ -1,24 +1,20 @@
 
 /**
  * Do not edit directly
-<<<<<<< HEAD
- * Generated on Wed, 25 Jan 2023 16:22:37 GMT
-=======
- * Generated on Wed, 25 Jan 2023 16:22:36 GMT
->>>>>>> f3b5e503ae994acdf99ff449c811fe4a0284a7b8
+ * Generated on Wed, 25 Jan 2023 22:07:22 GMT
  */
 
-$semantic-border-radius-desktop-sm: 4px !default;
-$semantic-border-radius-desktop-md: 8px !default;
-$semantic-border-radius-desktop-lg: 12px !default;
-$semantic-border-sm: [object Object] !default;
-$semantic-border-md: [object Object] !default;
-$semantic-border-lg: [object Object] !default;
-$semantic-dimension-xs: 4px !default;
-$semantic-dimension-sm: 8px !default;
-$semantic-dimension-md: 16px !default;
-$semantic-dimension-lg: 32px !default;
-$semantic-dimension-xl: 40px !default;
+$semantic-border-radius-desktop-sm: 0.25rem !default;
+$semantic-border-radius-desktop-md: 0.5rem !default;
+$semantic-border-radius-desktop-lg: 0.75rem !default;
+$semantic-border-sm: 0.0625rem solid #f8f8f8 !default;
+$semantic-border-md: 0.125rem solid #f8f8f8 !default;
+$semantic-border-lg: 0.25rem solid #f8f8f8 !default;
+$semantic-dimension-xs: 0.25rem !default;
+$semantic-dimension-sm: 0.5rem !default;
+$semantic-dimension-md: 1rem !default;
+$semantic-dimension-lg: 2rem !default;
+$semantic-dimension-xl: 2.5rem !default;
 $semantic-color-action-primary-bg-default: #000000 !default;
 $semantic-color-action-primary-bg-hover: transparent !default;
 $semantic-color-action-primary-bg-active: #EBEBEB !default;
@@ -52,282 +48,333 @@ $semantic-color-border-success: #28B932 !default;
 $semantic-color-border-error: #FF6827 !default;
 $semantic-color-border-neutral: #77C0E4 !default;
 $semantic-color-border-light-blue: #e4f2fa !default;
-$semantic-font-families-primary: Switzer !default;
-$semantic-font-families-secondary: Suranna !default;
-$semantic-typography-desktop-body-body-xxs-font-family: Switzer !default;
+$semantic-font-families-primary: var(--ff-switzer) !default;
+$semantic-font-families-secondary: var(--ff-suranna) !default;
+$semantic-typography-desktop-body-body-xxs-font-family: var(--ff-switzer) !default;
 $semantic-typography-desktop-body-body-xxs-font-size: 0.625rem !default;
-$semantic-typography-desktop-body-body-xxs-font-weight: Regular !default;
-$semantic-typography-desktop-body-body-xxs-line-height: 18 !default;
+$semantic-typography-desktop-body-body-xxs-font-weight: 400 !default;
+$semantic-typography-desktop-body-body-xxs-line-height: 1.125rem !default;
 $semantic-typography-desktop-body-body-xxs-letter-spacing: 0 !default;
 $semantic-typography-desktop-body-body-xxs-text-case: none !default;
-$semantic-typography-desktop-body-body-xs-font-family: Switzer !default;
+$semantic-typography-desktop-body-body-xs-font-family: var(--ff-switzer) !default;
 $semantic-typography-desktop-body-body-xs-font-size: 0.75rem !default;
-$semantic-typography-desktop-body-body-xs-font-weight: Regular !default;
-$semantic-typography-desktop-body-body-xs-line-height: 20 !default;
+$semantic-typography-desktop-body-body-xs-font-weight: 400 !default;
+$semantic-typography-desktop-body-body-xs-line-height: 1.25rem !default;
 $semantic-typography-desktop-body-body-xs-letter-spacing: 0 !default;
 $semantic-typography-desktop-body-body-xs-text-case: none !default;
-$semantic-typography-desktop-body-body-sm-font-family: Switzer !default;
+$semantic-typography-desktop-body-body-sm-font-family: var(--ff-switzer) !default;
 $semantic-typography-desktop-body-body-sm-font-size: 0.875rem !default;
-$semantic-typography-desktop-body-body-sm-font-weight: Regular !default;
-$semantic-typography-desktop-body-body-sm-line-height: 22 !default;
+$semantic-typography-desktop-body-body-sm-font-weight: 400 !default;
+$semantic-typography-desktop-body-body-sm-line-height: 1.375rem !default;
 $semantic-typography-desktop-body-body-sm-letter-spacing: 0 !default;
 $semantic-typography-desktop-body-body-sm-text-case: none !default;
-$semantic-typography-desktop-body-body-md-font-family: Switzer !default;
+$semantic-typography-desktop-body-body-md-font-family: var(--ff-switzer) !default;
 $semantic-typography-desktop-body-body-md-font-size: 1rem !default;
-$semantic-typography-desktop-body-body-md-font-weight: Regular !default;
-$semantic-typography-desktop-body-body-md-line-height: 24 !default;
+$semantic-typography-desktop-body-body-md-font-weight: 400 !default;
+$semantic-typography-desktop-body-body-md-line-height: 1.5rem !default;
 $semantic-typography-desktop-body-body-md-letter-spacing: 0 !default;
 $semantic-typography-desktop-body-body-md-text-case: none !default;
-$semantic-typography-desktop-body-body-lg-font-family: Switzer !default;
+$semantic-typography-desktop-body-body-lg-font-family: var(--ff-switzer) !default;
 $semantic-typography-desktop-body-body-lg-font-size: 1.125rem !default;
-$semantic-typography-desktop-body-body-lg-font-weight: Regular !default;
-$semantic-typography-desktop-body-body-lg-line-height: 26 !default;
+$semantic-typography-desktop-body-body-lg-font-weight: 400 !default;
+$semantic-typography-desktop-body-body-lg-line-height: 1.625rem !default;
 $semantic-typography-desktop-body-body-lg-letter-spacing: 0 !default;
 $semantic-typography-desktop-body-body-lg-text-case: none !default;
-$semantic-typography-desktop-headline-headline-xxs-font-family: Switzer !default;
+$semantic-typography-desktop-headline-headline-xxs-font-family: var(--ff-switzer) !default;
 $semantic-typography-desktop-headline-headline-xxs-font-size: 1.25rem !default;
-$semantic-typography-desktop-headline-headline-xxs-font-weight: Regular !default;
-$semantic-typography-desktop-headline-headline-xxs-line-height: 32 !default;
+$semantic-typography-desktop-headline-headline-xxs-font-weight: 400 !default;
+$semantic-typography-desktop-headline-headline-xxs-line-height: 2rem !default;
 $semantic-typography-desktop-headline-headline-xxs-letter-spacing: 0 !default;
 $semantic-typography-desktop-headline-headline-xxs-text-case: none !default;
-$semantic-typography-desktop-headline-headline-xs-font-family: Switzer !default;
+$semantic-typography-desktop-headline-headline-xs-font-family: var(--ff-switzer) !default;
 $semantic-typography-desktop-headline-headline-xs-font-size: 1.5625rem !default;
-$semantic-typography-desktop-headline-headline-xs-font-weight: Regular !default;
-$semantic-typography-desktop-headline-headline-xs-line-height: 37 !default;
+$semantic-typography-desktop-headline-headline-xs-font-weight: 400 !default;
+$semantic-typography-desktop-headline-headline-xs-line-height: 2.3125rem !default;
 $semantic-typography-desktop-headline-headline-xs-letter-spacing: 0 !default;
 $semantic-typography-desktop-headline-headline-xs-text-case: none !default;
-$semantic-typography-desktop-headline-headline-sm-font-family: Switzer !default;
+$semantic-typography-desktop-headline-headline-sm-font-family: var(--ff-switzer) !default;
 $semantic-typography-desktop-headline-headline-sm-font-size: 1.953125rem !default;
-$semantic-typography-desktop-headline-headline-sm-font-weight: Regular !default;
-$semantic-typography-desktop-headline-headline-sm-line-height: 43.25 !default;
+$semantic-typography-desktop-headline-headline-sm-font-weight: 400 !default;
+$semantic-typography-desktop-headline-headline-sm-line-height: 2.703125rem !default;
 $semantic-typography-desktop-headline-headline-sm-letter-spacing: 0 !default;
 $semantic-typography-desktop-headline-headline-sm-text-case: none !default;
-$semantic-typography-desktop-headline-headline-md-font-family: Switzer !default;
+$semantic-typography-desktop-headline-headline-md-font-family: var(--ff-switzer) !default;
 $semantic-typography-desktop-headline-headline-md-font-size: 2.4414375rem !default;
-$semantic-typography-desktop-headline-headline-md-font-weight: Regular !default;
-$semantic-typography-desktop-headline-headline-md-line-height: 51.063 !default;
+$semantic-typography-desktop-headline-headline-md-font-weight: 400 !default;
+$semantic-typography-desktop-headline-headline-md-line-height: 3.1914375rem !default;
 $semantic-typography-desktop-headline-headline-md-letter-spacing: 0 !default;
 $semantic-typography-desktop-headline-headline-md-text-case: none !default;
-$semantic-typography-desktop-headline-headline-lg-font-family: Switzer !default;
+$semantic-typography-desktop-headline-headline-lg-font-family: var(--ff-switzer) !default;
 $semantic-typography-desktop-headline-headline-lg-font-size: 3.0518125rem !default;
-$semantic-typography-desktop-headline-headline-lg-font-weight: Regular !default;
-$semantic-typography-desktop-headline-headline-lg-line-height: 60.829 !default;
+$semantic-typography-desktop-headline-headline-lg-font-weight: 400 !default;
+$semantic-typography-desktop-headline-headline-lg-line-height: 3.8018125rem !default;
 $semantic-typography-desktop-headline-headline-lg-letter-spacing: 0 !default;
 $semantic-typography-desktop-headline-headline-lg-text-case: none !default;
-$semantic-typography-desktop-headline-headline-xl-font-family: Switzer !default;
+$semantic-typography-desktop-headline-headline-xl-font-family: var(--ff-switzer) !default;
 $semantic-typography-desktop-headline-headline-xl-font-size: 3.81475rem !default;
-$semantic-typography-desktop-headline-headline-xl-font-weight: Regular !default;
-$semantic-typography-desktop-headline-headline-xl-line-height: 73.036 !default;
+$semantic-typography-desktop-headline-headline-xl-font-weight: 400 !default;
+$semantic-typography-desktop-headline-headline-xl-line-height: 4.56475rem !default;
 $semantic-typography-desktop-headline-headline-xl-letter-spacing: 0 !default;
 $semantic-typography-desktop-headline-headline-xl-text-case: none !default;
-$semantic-typography-desktop-display-display-sm-font-family: Switzer !default;
+$semantic-typography-desktop-display-display-sm-font-family: var(--ff-switzer) !default;
 $semantic-typography-desktop-display-display-sm-font-size: 3.125rem !default;
-$semantic-typography-desktop-display-display-sm-font-weight: Regular !default;
-$semantic-typography-desktop-display-display-sm-line-height: 70 !default;
+$semantic-typography-desktop-display-display-sm-font-weight: 400 !default;
+$semantic-typography-desktop-display-display-sm-line-height: 4.375rem !default;
 $semantic-typography-desktop-display-display-sm-letter-spacing: 0 !default;
 $semantic-typography-desktop-display-display-sm-text-case: none !default;
-$semantic-typography-desktop-display-display-md-font-family: Switzer !default;
+$semantic-typography-desktop-display-display-md-font-family: var(--ff-switzer) !default;
 $semantic-typography-desktop-display-display-md-font-size: 3.90625rem !default;
-$semantic-typography-desktop-display-display-md-font-weight: Regular !default;
-$semantic-typography-desktop-display-display-md-line-height: 82.5 !default;
+$semantic-typography-desktop-display-display-md-font-weight: 400 !default;
+$semantic-typography-desktop-display-display-md-line-height: 5.15625rem !default;
 $semantic-typography-desktop-display-display-md-letter-spacing: 0 !default;
 $semantic-typography-desktop-display-display-md-text-case: none !default;
-$semantic-typography-desktop-display-display-lg-font-family: Switzer !default;
+$semantic-typography-desktop-display-display-lg-font-family: var(--ff-switzer) !default;
 $semantic-typography-desktop-display-display-lg-font-size: 4.8828125rem !default;
-$semantic-typography-desktop-display-display-lg-font-weight: Regular !default;
-$semantic-typography-desktop-display-display-lg-line-height: 98.125 !default;
+$semantic-typography-desktop-display-display-lg-font-weight: 400 !default;
+$semantic-typography-desktop-display-display-lg-line-height: 6.1328125rem !default;
 $semantic-typography-desktop-display-display-lg-letter-spacing: 0 !default;
 $semantic-typography-desktop-display-display-lg-text-case: none !default;
-$semantic-typography-desktop-display-display-xl-font-family: Switzer !default;
+$semantic-typography-desktop-display-display-xl-font-family: var(--ff-switzer) !default;
 $semantic-typography-desktop-display-display-xl-font-size: 6.1035rem !default;
-$semantic-typography-desktop-display-display-xl-font-weight: Regular !default;
-$semantic-typography-desktop-display-display-xl-line-height: 117.656 !default;
+$semantic-typography-desktop-display-display-xl-font-weight: 400 !default;
+$semantic-typography-desktop-display-display-xl-line-height: 7.3535rem !default;
 $semantic-typography-desktop-display-display-xl-letter-spacing: 0 !default;
 $semantic-typography-desktop-display-display-xl-text-case: none !default;
-$semantic-typography-mobile-body-body-xxs-font-family: Switzer !default;
+$semantic-typography-mobile-body-body-xxs-font-family: var(--ff-switzer) !default;
 $semantic-typography-mobile-body-body-xxs-font-size: 0.625rem !default;
-$semantic-typography-mobile-body-body-xxs-font-weight: Regular !default;
-$semantic-typography-mobile-body-body-xxs-line-height: 18 !default;
+$semantic-typography-mobile-body-body-xxs-font-weight: 400 !default;
+$semantic-typography-mobile-body-body-xxs-line-height: 1.125rem !default;
 $semantic-typography-mobile-body-body-xxs-letter-spacing: 0 !default;
 $semantic-typography-mobile-body-body-xxs-text-case: none !default;
-$semantic-typography-mobile-body-body-xs-font-family: Switzer !default;
+$semantic-typography-mobile-body-body-xs-font-family: var(--ff-switzer) !default;
 $semantic-typography-mobile-body-body-xs-font-size: 0.75rem !default;
-$semantic-typography-mobile-body-body-xs-font-weight: Regular !default;
-$semantic-typography-mobile-body-body-xs-line-height: 20 !default;
+$semantic-typography-mobile-body-body-xs-font-weight: 400 !default;
+$semantic-typography-mobile-body-body-xs-line-height: 1.25rem !default;
 $semantic-typography-mobile-body-body-xs-letter-spacing: 0 !default;
 $semantic-typography-mobile-body-body-xs-text-case: none !default;
-$semantic-typography-mobile-body-body-sm-font-family: Switzer !default;
+$semantic-typography-mobile-body-body-sm-font-family: var(--ff-switzer) !default;
 $semantic-typography-mobile-body-body-sm-font-size: 0.875rem !default;
-$semantic-typography-mobile-body-body-sm-font-weight: Regular !default;
-$semantic-typography-mobile-body-body-sm-line-height: 22 !default;
+$semantic-typography-mobile-body-body-sm-font-weight: 400 !default;
+$semantic-typography-mobile-body-body-sm-line-height: 1.375rem !default;
 $semantic-typography-mobile-body-body-sm-letter-spacing: 0 !default;
 $semantic-typography-mobile-body-body-sm-text-case: none !default;
-$semantic-typography-mobile-body-body-md-font-family: Switzer !default;
+$semantic-typography-mobile-body-body-md-font-family: var(--ff-switzer) !default;
 $semantic-typography-mobile-body-body-md-font-size: 1rem !default;
-$semantic-typography-mobile-body-body-md-font-weight: Regular !default;
-$semantic-typography-mobile-body-body-md-line-height: 24 !default;
+$semantic-typography-mobile-body-body-md-font-weight: 400 !default;
+$semantic-typography-mobile-body-body-md-line-height: 1.5rem !default;
 $semantic-typography-mobile-body-body-md-letter-spacing: 0 !default;
 $semantic-typography-mobile-body-body-md-text-case: none !default;
-$semantic-typography-mobile-body-body-lg-font-family: Switzer !default;
+$semantic-typography-mobile-body-body-lg-font-family: var(--ff-switzer) !default;
 $semantic-typography-mobile-body-body-lg-font-size: 1.125rem !default;
-$semantic-typography-mobile-body-body-lg-font-weight: Regular !default;
-$semantic-typography-mobile-body-body-lg-line-height: 26 !default;
+$semantic-typography-mobile-body-body-lg-font-weight: 400 !default;
+$semantic-typography-mobile-body-body-lg-line-height: 1.625rem !default;
 $semantic-typography-mobile-body-body-lg-letter-spacing: 0 !default;
 $semantic-typography-mobile-body-body-lg-text-case: none !default;
-$semantic-typography-mobile-headline-headline-xxs-font-family: Switzer !default;
+$semantic-typography-mobile-headline-headline-xxs-font-family: var(--ff-switzer) !default;
 $semantic-typography-mobile-headline-headline-xxs-font-size: 1rem !default;
-$semantic-typography-mobile-headline-headline-xxs-font-weight: Regular !default;
-$semantic-typography-mobile-headline-headline-xxs-line-height: 24 !default;
+$semantic-typography-mobile-headline-headline-xxs-font-weight: 400 !default;
+$semantic-typography-mobile-headline-headline-xxs-line-height: 1.5rem !default;
 $semantic-typography-mobile-headline-headline-xxs-letter-spacing: 0 !default;
 $semantic-typography-mobile-headline-headline-xxs-text-case: none !default;
-$semantic-typography-mobile-headline-headline-xs-font-family: Switzer !default;
+$semantic-typography-mobile-headline-headline-xs-font-family: var(--ff-switzer) !default;
 $semantic-typography-mobile-headline-headline-xs-font-size: 1.25rem !default;
-$semantic-typography-mobile-headline-headline-xs-font-weight: Regular !default;
-$semantic-typography-mobile-headline-headline-xs-line-height: 28 !default;
+$semantic-typography-mobile-headline-headline-xs-font-weight: 400 !default;
+$semantic-typography-mobile-headline-headline-xs-line-height: 1.75rem !default;
 $semantic-typography-mobile-headline-headline-xs-letter-spacing: 0 !default;
 $semantic-typography-mobile-headline-headline-xs-text-case: none !default;
-$semantic-typography-mobile-headline-headline-sm-font-family: Switzer !default;
+$semantic-typography-mobile-headline-headline-sm-font-family: var(--ff-switzer) !default;
 $semantic-typography-mobile-headline-headline-sm-font-size: 1.5625rem !default;
-$semantic-typography-mobile-headline-headline-sm-font-weight: Regular !default;
-$semantic-typography-mobile-headline-headline-sm-line-height: 33 !default;
+$semantic-typography-mobile-headline-headline-sm-font-weight: 400 !default;
+$semantic-typography-mobile-headline-headline-sm-line-height: 2.0625rem !default;
 $semantic-typography-mobile-headline-headline-sm-letter-spacing: 0 !default;
 $semantic-typography-mobile-headline-headline-sm-text-case: none !default;
-$semantic-typography-mobile-headline-headline-md-font-family: Switzer !default;
+$semantic-typography-mobile-headline-headline-md-font-family: var(--ff-switzer) !default;
 $semantic-typography-mobile-headline-headline-md-font-size: 1.953125rem !default;
-$semantic-typography-mobile-headline-headline-md-font-weight: Regular !default;
-$semantic-typography-mobile-headline-headline-md-line-height: 39.25 !default;
+$semantic-typography-mobile-headline-headline-md-font-weight: 400 !default;
+$semantic-typography-mobile-headline-headline-md-line-height: 2.453125rem !default;
 $semantic-typography-mobile-headline-headline-md-letter-spacing: 0 !default;
 $semantic-typography-mobile-headline-headline-md-text-case: none !default;
-$semantic-typography-mobile-headline-headline-lg-font-family: Switzer !default;
+$semantic-typography-mobile-headline-headline-lg-font-family: var(--ff-switzer) !default;
 $semantic-typography-mobile-headline-headline-lg-font-size: 2.4414375rem !default;
-$semantic-typography-mobile-headline-headline-lg-font-weight: Regular !default;
-$semantic-typography-mobile-headline-headline-lg-line-height: 47.063 !default;
+$semantic-typography-mobile-headline-headline-lg-font-weight: 400 !default;
+$semantic-typography-mobile-headline-headline-lg-line-height: 2.9414375rem !default;
 $semantic-typography-mobile-headline-headline-lg-letter-spacing: 0 !default;
 $semantic-typography-mobile-headline-headline-lg-text-case: none !default;
-$semantic-typography-mobile-headline-headline-xl-font-family: Switzer !default;
+$semantic-typography-mobile-headline-headline-xl-font-family: var(--ff-switzer) !default;
 $semantic-typography-mobile-headline-headline-xl-font-size: 3.0518125rem !default;
-$semantic-typography-mobile-headline-headline-xl-font-weight: Regular !default;
-$semantic-typography-mobile-headline-headline-xl-line-height: 56.829 !default;
+$semantic-typography-mobile-headline-headline-xl-font-weight: 400 !default;
+$semantic-typography-mobile-headline-headline-xl-line-height: 3.5518125rem !default;
 $semantic-typography-mobile-headline-headline-xl-letter-spacing: 0 !default;
 $semantic-typography-mobile-headline-headline-xl-text-case: none !default;
-$semantic-typography-mobile-display-display-sm-font-family: Switzer !default;
+$semantic-typography-mobile-display-display-sm-font-family: var(--ff-switzer) !default;
 $semantic-typography-mobile-display-display-sm-font-size: 1.75rem !default;
-$semantic-typography-mobile-display-display-sm-font-weight: Regular !default;
-$semantic-typography-mobile-display-display-sm-line-height: 40 !default;
+$semantic-typography-mobile-display-display-sm-font-weight: 400 !default;
+$semantic-typography-mobile-display-display-sm-line-height: 2.5rem !default;
 $semantic-typography-mobile-display-display-sm-letter-spacing: 0 !default;
 $semantic-typography-mobile-display-display-sm-text-case: none !default;
-$semantic-typography-mobile-display-display-md-font-family: Switzer !default;
+$semantic-typography-mobile-display-display-md-font-family: var(--ff-switzer) !default;
 $semantic-typography-mobile-display-display-md-font-size: 2.1875rem !default;
-$semantic-typography-mobile-display-display-md-font-weight: Regular !default;
-$semantic-typography-mobile-display-display-md-line-height: 47 !default;
+$semantic-typography-mobile-display-display-md-font-weight: 400 !default;
+$semantic-typography-mobile-display-display-md-line-height: 2.9375rem !default;
 $semantic-typography-mobile-display-display-md-letter-spacing: 0 !default;
 $semantic-typography-mobile-display-display-md-text-case: none !default;
-$semantic-typography-mobile-display-display-lg-font-family: Switzer !default;
+$semantic-typography-mobile-display-display-lg-font-family: var(--ff-switzer) !default;
 $semantic-typography-mobile-display-display-lg-font-size: 2.734375rem !default;
-$semantic-typography-mobile-display-display-lg-font-weight: Regular !default;
-$semantic-typography-mobile-display-display-lg-line-height: 55.75 !default;
+$semantic-typography-mobile-display-display-lg-font-weight: 400 !default;
+$semantic-typography-mobile-display-display-lg-line-height: 3.484375rem !default;
 $semantic-typography-mobile-display-display-lg-letter-spacing: 0 !default;
 $semantic-typography-mobile-display-display-lg-text-case: none !default;
-$semantic-typography-mobile-display-display-xl-font-family: Switzer !default;
+$semantic-typography-mobile-display-display-xl-font-family: var(--ff-switzer) !default;
 $semantic-typography-mobile-display-display-xl-font-size: 3.418rem !default;
-$semantic-typography-mobile-display-display-xl-font-weight: Regular !default;
-$semantic-typography-mobile-display-display-xl-line-height: 66.688 !default;
+$semantic-typography-mobile-display-display-xl-font-weight: 400 !default;
+$semantic-typography-mobile-display-display-xl-line-height: 4.168rem !default;
 $semantic-typography-mobile-display-display-xl-letter-spacing: 0 !default;
 $semantic-typography-mobile-display-display-xl-text-case: none !default;
-$semantic-line-height-desktop-body: 8 !default;
-$semantic-line-height-desktop-headline: 12 !default;
-$semantic-line-height-desktop-display: 20 !default;
-$semantic-line-height-mobile-body: 8 !default;
-$semantic-line-height-mobile-headline: 8 !default;
-$semantic-line-height-mobile-display: 12 !default;
-$composition-layout-desktop-options-page-width: [object Object] !default;
-$composition-layout-desktop-options-content-max-width: [object Object] !default;
-$composition-layout-desktop-options-columns: [object Object] !default;
-$composition-layout-desktop-options-column-width: [object Object] !default;
-$composition-layout-desktop-options-gap-x: [object Object] !default;
-$composition-layout-desktop-options-gap-y: [object Object] !default;
-$composition-layout-desktop-components-page: [object Object] !default;
-$composition-layout-desktop-components-section: [object Object] !default;
-$composition-layout-desktop-components-container: [object Object] !default;
-$composition-layout-desktop-components-row: [object Object] !default;
-$composition-layout-desktop-item-width-1-12: [object Object] !default;
-$composition-layout-desktop-item-width-2-12: [object Object] !default;
-$composition-layout-desktop-item-width-3-12: [object Object] !default;
-$composition-layout-desktop-item-width-4-12: [object Object] !default;
-$composition-layout-desktop-item-width-5-12: [object Object] !default;
-$composition-layout-desktop-item-width-6-12: [object Object] !default;
-$composition-layout-desktop-item-width-7-12: [object Object] !default;
-$composition-layout-desktop-item-width-8-12: [object Object] !default;
-$composition-layout-desktop-item-width-9-12: [object Object] !default;
-$composition-layout-desktop-item-width-10-12: [object Object] !default;
-$composition-layout-desktop-item-width-11-12: [object Object] !default;
-$composition-layout-desktop-item-width-12-12: [object Object] !default;
-$composition-layout-mobile-options-page-width: [object Object] !default;
-$composition-layout-mobile-options-content-max-width: [object Object] !default;
-$composition-layout-mobile-options-columns: [object Object] !default;
-$composition-layout-mobile-options-gap-x: [object Object] !default;
-$composition-layout-mobile-options-gap-y: [object Object] !default;
-$composition-layout-mobile-options-column-width: [object Object] !default;
-$composition-layout-mobile-components-page: [object Object] !default;
-$composition-layout-mobile-components-section: [object Object] !default;
-$composition-layout-mobile-components-container: [object Object] !default;
-$composition-layout-mobile-components-row: [object Object] !default;
-$composition-layout-mobile-item-width-1-12: [object Object] !default;
-$composition-layout-mobile-item-width-2-12: [object Object] !default;
-$composition-layout-mobile-item-width-3-12: [object Object] !default;
-$composition-layout-mobile-item-width-4-12: [object Object] !default;
-$composition-layout-mobile-item-width-5-12: [object Object] !default;
-$composition-layout-mobile-item-width-6-12: [object Object] !default;
-$composition-layout-mobile-item-width-7-12: [object Object] !default;
-$composition-layout-mobile-item-width-8-12: [object Object] !default;
-$composition-layout-mobile-item-width-9-12: [object Object] !default;
-$composition-layout-mobile-item-width-10-12: [object Object] !default;
-$composition-layout-mobile-item-width-11-12: [object Object] !default;
-$composition-layout-mobile-item-width-12-12: [object Object] !default;
-$composition-card-approve: [object Object] !default;
-$composition-card: [object Object] !default;
-$composition-card-txt: [object Object] !default;
-$composition-molecules-dropdown-spacing: [object Object] !default;
-$composition-molecules-dropdown-spacing-2: [object Object] !default;
-$composition-btn-spacing: [object Object] !default;
-$composition-logo-size-desktop-lg: [object Object] !default;
-$composition-logo-size-desktop-md: [object Object] !default;
-$composition-logo-size-desktop-sm: [object Object] !default;
-$composition-logo-size-mobile-lg: [object Object] !default;
-$composition-logo-size-mobile-md: [object Object] !default;
-$composition-logo-size-mobile-sm: [object Object] !default;
-$composition-logo-color-primary: [object Object] !default;
-$composition-logo-color-secondary: [object Object] !default;
-$composition-logo-color-inverted: [object Object] !default;
-$composition-icon-size-xxl: [object Object] !default;
-$composition-icon-size-xl: [object Object] !default;
-$composition-icon-size-lg: [object Object] !default;
-$composition-icon-size-md: [object Object] !default;
-$composition-icon-size-sm: [object Object] !default;
-$composition-toggle-box-width: [object Object] !default;
-$composition-toggle-dot-width: [object Object] !default;
-$composition-switch-desktop-spacing: [object Object] !default;
-$composition-switch-mobile-spacing: [object Object] !default;
-$composition-input-spacing: [object Object] !default;
-$composition-tag-spacing: [object Object] !default;
-$composition-dropdown-item-spacing-default: [object Object] !default;
-$composition-dropdown-item-spacing-hover: [object Object] !default;
-$composition-typography-desktop-label: [object Object] !default;
-$core-dimension-0: 0 !default;
-$core-dimension-1: 4px !default;
-$core-dimension-2: 8px !default;
-$core-dimension-3: 12px !default;
-$core-dimension-4: 16px !default;
-$core-dimension-5: 20px !default;
-$core-dimension-6: 24px !default;
-$core-dimension-8: 32px !default;
-$core-dimension-10: 40px !default;
-$core-dimension-12: 48px !default;
-$core-dimension-16: 64px !default;
-$core-dimension-20: 80px !default;
-$core-dimension-24: 96px !default;
-$core-dimension-32: 128px !default;
-$core-dimension-core-unit: 4px !default;
+$semantic-line-height-desktop-body: 0.5rem !default;
+$semantic-line-height-desktop-headline: 0.75rem !default;
+$semantic-line-height-desktop-display: 1.25rem !default;
+$semantic-line-height-mobile-body: 0.5rem !default;
+$semantic-line-height-mobile-headline: 0.5rem !default;
+$semantic-line-height-mobile-display: 0.75rem !default;
+$composition-layout-desktop-options-page-width-sizing: 105rem !default;
+$composition-layout-desktop-options-content-max-width-sizing: 90rem !default;
+$composition-layout-desktop-options-columns-sizing: 0.75rem !default;
+$composition-layout-desktop-options-column-width-sizing: 5.2083125rem !default;
+$composition-layout-desktop-options-gap-x-sizing: 2.5rem !default;
+$composition-layout-desktop-options-gap-y-sizing: 2.5rem !default;
+$composition-layout-desktop-components-page-width: 105rem !default;
+$composition-layout-desktop-components-page-spacing: 0rem !default;
+$composition-layout-desktop-components-page-item-spacing: 0rem !default;
+$composition-layout-desktop-components-section-width: 105rem !default;
+$composition-layout-desktop-components-section-vertical-padding: 3.75rem !default;
+$composition-layout-desktop-components-container-width: 90rem !default;
+$composition-layout-desktop-components-container-spacing: 0rem !default;
+$composition-layout-desktop-components-container-item-spacing: 2.5rem !default;
+$composition-layout-desktop-components-row-item-spacing: 2.5rem !default;
+$composition-layout-desktop-components-row-width: 90rem !default;
+$composition-layout-desktop-components-row-spacing: 0rem !default;
+$composition-layout-desktop-item-width-1-12-width: 5.2083125rem !default;
+$composition-layout-desktop-item-width-2-12-width: 12.916625rem !default;
+$composition-layout-desktop-item-width-3-12-width: 20.6249375rem !default;
+$composition-layout-desktop-item-width-4-12-width: 28.33325rem !default;
+$composition-layout-desktop-item-width-5-12-width: 36.0415625rem !default;
+$composition-layout-desktop-item-width-6-12-width: 43.749875rem !default;
+$composition-layout-desktop-item-width-7-12-width: 51.4581875rem !default;
+$composition-layout-desktop-item-width-8-12-width: 59.1665rem !default;
+$composition-layout-desktop-item-width-9-12-width: 66.8748125rem !default;
+$composition-layout-desktop-item-width-10-12-width: 74.583125rem !default;
+$composition-layout-desktop-item-width-11-12-width: 82.2914375rem !default;
+$composition-layout-desktop-item-width-12-12-width: 89.99975rem !default;
+$composition-layout-mobile-options-page-width-sizing: 23.4375rem !default;
+$composition-layout-mobile-options-content-max-width-sizing: 20.9375rem !default;
+$composition-layout-mobile-options-columns-sizing: 0.75rem !default;
+$composition-layout-mobile-options-gap-x-sizing: 1rem !default;
+$composition-layout-mobile-options-gap-y-sizing: 1rem !default;
+$composition-layout-mobile-options-column-width-sizing: 0.828125rem !default;
+$composition-layout-mobile-components-page-width: 23.4375rem !default;
+$composition-layout-mobile-components-page-spacing: 0rem !default;
+$composition-layout-mobile-components-page-item-spacing: 0rem !default;
+$composition-layout-mobile-components-section-width: 23.4375rem !default;
+$composition-layout-mobile-components-section-vertical-padding: 1.875rem !default;
+$composition-layout-mobile-components-container-width: 20.9375rem !default;
+$composition-layout-mobile-components-container-spacing: 0rem !default;
+$composition-layout-mobile-components-container-item-spacing: 1rem !default;
+$composition-layout-mobile-components-row-item-spacing: 1rem !default;
+$composition-layout-mobile-components-row-width: 20.9375rem !default;
+$composition-layout-mobile-components-row-spacing: 0rem !default;
+$composition-layout-mobile-item-width-1-12-width: 0.828125rem !default;
+$composition-layout-mobile-item-width-2-12-width: 2.65625rem !default;
+$composition-layout-mobile-item-width-3-12-width: 4.484375rem !default;
+$composition-layout-mobile-item-width-4-12-width: 6.3125rem !default;
+$composition-layout-mobile-item-width-5-12-width: 8.140625rem !default;
+$composition-layout-mobile-item-width-6-12-width: 9.96875rem !default;
+$composition-layout-mobile-item-width-7-12-width: 11.796875rem !default;
+$composition-layout-mobile-item-width-8-12-width: 13.625rem !default;
+$composition-layout-mobile-item-width-9-12-width: 15.453125rem !default;
+$composition-layout-mobile-item-width-10-12-width: 17.28125rem !default;
+$composition-layout-mobile-item-width-11-12-width: 19.109375rem !default;
+$composition-layout-mobile-item-width-12-12-width: 20.9375rem !default;
+$composition-card-approve-spacing: 3.125rem !default;
+$composition-card-approve-border-color: #000000 !default;
+$composition-card-approve-border-radius: 0.3125rem !default;
+$composition-card-approve-fill: #0000ff !default;
+$composition-card-item-spacing: 1.25rem !default;
+$composition-card-spacing: 6.25rem !default;
+$composition-card-fill: #000000 !default;
+$composition-card-txt-font-sizes: 6.25rem !default;
+$composition-molecules-dropdown-spacing-spacing: 1.25rem !default;
+$composition-molecules-dropdown-spacing-2-spacing: 1.25rem !default;
+$composition-btn-spacing-vertical-padding: 0.75rem !default;
+$composition-btn-spacing-horizontal-padding: 2rem !default;
+$composition-btn-spacing-border-radius: 0.5rem !default;
+$composition-btn-spacing-border: undefined undefined undefined !default;
+$composition-btn-spacing-item-spacing: 0.5rem !default;
+$composition-logo-size-desktop-lg-width: 14.375rem !default;
+$composition-logo-size-desktop-lg-height: 1.4375rem !default;
+$composition-logo-size-desktop-md-width: 11.25rem !default;
+$composition-logo-size-desktop-md-height: 1.125rem !default;
+$composition-logo-size-desktop-sm-width: 10rem !default;
+$composition-logo-size-desktop-sm-height: 1rem !default;
+$composition-logo-size-mobile-lg-width: 7.5rem !default;
+$composition-logo-size-mobile-lg-height: 0.75rem !default;
+$composition-logo-size-mobile-md-width: 6.875rem !default;
+$composition-logo-size-mobile-md-height: 0.6875rem !default;
+$composition-logo-size-mobile-sm-width: 6.25rem !default;
+$composition-logo-size-mobile-sm-height: 0.625rem !default;
+$composition-logo-color-primary-fill: #000000 !default;
+$composition-logo-color-secondary-fill: #A7A7A7 !default;
+$composition-logo-color-inverted-fill: #ffffff !default;
+$composition-icon-size-xxl-height: 6rem !default;
+$composition-icon-size-xxl-width: 6rem !default;
+$composition-icon-size-xl-height: 4rem !default;
+$composition-icon-size-xl-width: 4rem !default;
+$composition-icon-size-lg-height: 3rem !default;
+$composition-icon-size-lg-width: 3rem !default;
+$composition-icon-size-md-height: 1.5rem !default;
+$composition-icon-size-md-width: 1.5rem !default;
+$composition-icon-size-sm-height: 1rem !default;
+$composition-icon-size-sm-width: 1rem !default;
+$composition-toggle-box-width-width: 3rem !default;
+$composition-toggle-box-width-height: 1.75rem !default;
+$composition-toggle-dot-width-width: 1.375rem !default;
+$composition-toggle-dot-width-height: 1.375rem !default;
+$composition-switch-desktop-spacing-horizontal-padding: 2rem !default;
+$composition-switch-desktop-spacing-item-spacing: 0.5rem !default;
+$composition-switch-desktop-spacing-vertical-padding: 1rem !default;
+$composition-switch-mobile-spacing-horizontal-padding: 1.5rem !default;
+$composition-switch-mobile-spacing-item-spacing: 0.5rem !default;
+$composition-switch-mobile-spacing-vertical-padding: 0.5rem !default;
+$composition-input-spacing-vertical-padding: 0.75rem !default;
+$composition-input-spacing-border-radius: 0.5rem !default;
+$composition-input-spacing-item-spacing: 0.5rem !default;
+$composition-input-spacing-horizontal-padding: 1rem !default;
+$composition-tag-spacing-vertical-padding: 0.125rem !default;
+$composition-tag-spacing-horizontal-padding: 0.75rem !default;
+$composition-tag-spacing-item-spacing: 0.5rem !default;
+$composition-dropdown-item-spacing-default-vertical-padding: 0.75rem !default;
+$composition-dropdown-item-spacing-default-horizontal-padding: 1rem !default;
+$composition-dropdown-item-spacing-default-item-spacing: 0.5rem !default;
+$composition-dropdown-item-spacing-hover-vertical-padding: 0.75rem !default;
+$composition-dropdown-item-spacing-hover-horizontal-padding: 1rem !default;
+$composition-dropdown-item-spacing-hover-item-spacing: 0.5rem !default;
+$composition-dropdown-item-spacing-hover-padding-left: 1.5rem !default;
+$composition-typography-desktop-label-letter-spacing: 30% !default;
+$composition-typography-desktop-label-text-case: uppercase !default;
+$core-dimension-0: 0rem !default;
+$core-dimension-1: 0.25rem !default;
+$core-dimension-2: 0.5rem !default;
+$core-dimension-3: 0.75rem !default;
+$core-dimension-4: 1rem !default;
+$core-dimension-5: 1.25rem !default;
+$core-dimension-6: 1.5rem !default;
+$core-dimension-8: 2rem !default;
+$core-dimension-10: 2.5rem !default;
+$core-dimension-12: 3rem !default;
+$core-dimension-16: 4rem !default;
+$core-dimension-20: 5rem !default;
+$core-dimension-24: 6rem !default;
+$core-dimension-32: 8rem !default;
+$core-dimension-core-unit: 0.25rem !default;
 $core-color-black-100: #000000 !default;
 $core-color-white-100: #ffffff !default;
 $core-color-blue-100: #e4f2fa !default;
@@ -356,9 +403,9 @@ $core-color-grey-300: #cacaca !default;
 $core-color-grey-400: #b9b9b9 !default;
 $core-color-grey-500: #A7A7A7 !default;
 $core-color-transparent-100: transparent !default;
-$core-font-families-sans-serif-1: Switzer !default;
-$core-font-families-sans-serif-2: Suranna !default;
-$core-font-families-sans-serif-3: Roboto !default;
+$core-font-families-sans-serif-1: var(--ff-switzer) !default;
+$core-font-families-sans-serif-2: var(--ff-suranna) !default;
+$core-font-families-sans-serif-3: var(--ff-roboto) !default;
 $core-font-sizes-desktop-headline-1: 1.25rem !default;
 $core-font-sizes-desktop-headline-2: 1.5625rem !default;
 $core-font-sizes-desktop-headline-3: 1.953125rem !default;
@@ -395,14 +442,14 @@ $core-font-sizes-mobile-display-2: 2.1875rem !default;
 $core-font-sizes-mobile-display-3: 2.734375rem !default;
 $core-font-sizes-mobile-display-4: 3.418rem !default;
 $core-font-sizes-mobile-display-ratio: 0.078125rem !default;
-$core-font-weight-400: Regular !default;
-$core-font-weight-500: Medium !default;
-$core-font-weight-700: Bold !default;
-$core-line-height-1: 8 !default;
-$core-line-height-2: 8 !default;
-$core-line-height-3: 12 !default;
-$core-line-height-4: 16 !default;
-$core-line-height-5: 20 !default;
+$core-font-weight-400: 400 !default;
+$core-font-weight-500: 500 !default;
+$core-font-weight-700: 700 !default;
+$core-line-height-1: 0.5rem !default;
+$core-line-height-2: 0.5rem !default;
+$core-line-height-3: 0.75rem !default;
+$core-line-height-4: 1rem !default;
+$core-line-height-5: 1.25rem !default;
 $core-text-case-none: none !default;
 $core-text-case-uppercase: uppercase !default;
 $core-text-case-lowercase: lowercase !default;
@@ -759,136 +806,333 @@ $tokens: (
     'layout': (
       'desktop': (
         'options': (
-          'page-width': $composition-layout-desktop-options-page-width,
-          'content-max-width': $composition-layout-desktop-options-content-max-width,
-          'columns': $composition-layout-desktop-options-columns,
-          'column-width': $composition-layout-desktop-options-column-width,
-          'gap-x': $composition-layout-desktop-options-gap-x,
-          'gap-y': $composition-layout-desktop-options-gap-y
+          'page-width': (
+            'sizing': $composition-layout-desktop-options-page-width-sizing
+          ),
+          'content-max-width': (
+            'sizing': $composition-layout-desktop-options-content-max-width-sizing
+          ),
+          'columns': (
+            'sizing': $composition-layout-desktop-options-columns-sizing
+          ),
+          'column-width': (
+            'sizing': $composition-layout-desktop-options-column-width-sizing
+          ),
+          'gap-x': (
+            'sizing': $composition-layout-desktop-options-gap-x-sizing
+          ),
+          'gap-y': (
+            'sizing': $composition-layout-desktop-options-gap-y-sizing
+          )
         ),
         'components': (
-          'page': $composition-layout-desktop-components-page,
-          'section': $composition-layout-desktop-components-section,
-          'container': $composition-layout-desktop-components-container,
-          'row': $composition-layout-desktop-components-row
+          'page': (
+            'width': $composition-layout-desktop-components-page-width,
+            'spacing': $composition-layout-desktop-components-page-spacing,
+            'itemSpacing': $composition-layout-desktop-components-page-item-spacing
+          ),
+          'section': (
+            'width': $composition-layout-desktop-components-section-width,
+            'verticalPadding': $composition-layout-desktop-components-section-vertical-padding
+          ),
+          'container': (
+            'width': $composition-layout-desktop-components-container-width,
+            'spacing': $composition-layout-desktop-components-container-spacing,
+            'itemSpacing': $composition-layout-desktop-components-container-item-spacing
+          ),
+          'row': (
+            'itemSpacing': $composition-layout-desktop-components-row-item-spacing,
+            'width': $composition-layout-desktop-components-row-width,
+            'spacing': $composition-layout-desktop-components-row-spacing
+          )
         ),
         'item-width': (
-          '1/12': $composition-layout-desktop-item-width-1-12,
-          '2/12': $composition-layout-desktop-item-width-2-12,
-          '3/12': $composition-layout-desktop-item-width-3-12,
-          '4/12': $composition-layout-desktop-item-width-4-12,
-          '5/12': $composition-layout-desktop-item-width-5-12,
-          '6/12': $composition-layout-desktop-item-width-6-12,
-          '7/12': $composition-layout-desktop-item-width-7-12,
-          '8/12': $composition-layout-desktop-item-width-8-12,
-          '9/12': $composition-layout-desktop-item-width-9-12,
-          '10/12': $composition-layout-desktop-item-width-10-12,
-          '11/12': $composition-layout-desktop-item-width-11-12,
-          '12/12': $composition-layout-desktop-item-width-12-12
+          '1/12': (
+            'width': $composition-layout-desktop-item-width-1-12-width
+          ),
+          '2/12': (
+            'width': $composition-layout-desktop-item-width-2-12-width
+          ),
+          '3/12': (
+            'width': $composition-layout-desktop-item-width-3-12-width
+          ),
+          '4/12': (
+            'width': $composition-layout-desktop-item-width-4-12-width
+          ),
+          '5/12': (
+            'width': $composition-layout-desktop-item-width-5-12-width
+          ),
+          '6/12': (
+            'width': $composition-layout-desktop-item-width-6-12-width
+          ),
+          '7/12': (
+            'width': $composition-layout-desktop-item-width-7-12-width
+          ),
+          '8/12': (
+            'width': $composition-layout-desktop-item-width-8-12-width
+          ),
+          '9/12': (
+            'width': $composition-layout-desktop-item-width-9-12-width
+          ),
+          '10/12': (
+            'width': $composition-layout-desktop-item-width-10-12-width
+          ),
+          '11/12': (
+            'width': $composition-layout-desktop-item-width-11-12-width
+          ),
+          '12/12': (
+            'width': $composition-layout-desktop-item-width-12-12-width
+          )
         )
       ),
       'mobile': (
         'options': (
-          'page-width': $composition-layout-mobile-options-page-width,
-          'content-max-width': $composition-layout-mobile-options-content-max-width,
-          'columns': $composition-layout-mobile-options-columns,
-          'gap-x': $composition-layout-mobile-options-gap-x,
-          'gap-y': $composition-layout-mobile-options-gap-y,
-          'column-width': $composition-layout-mobile-options-column-width
+          'page-width': (
+            'sizing': $composition-layout-mobile-options-page-width-sizing
+          ),
+          'content-max-width': (
+            'sizing': $composition-layout-mobile-options-content-max-width-sizing
+          ),
+          'columns': (
+            'sizing': $composition-layout-mobile-options-columns-sizing
+          ),
+          'gap-x': (
+            'sizing': $composition-layout-mobile-options-gap-x-sizing
+          ),
+          'gap-y': (
+            'sizing': $composition-layout-mobile-options-gap-y-sizing
+          ),
+          'column-width': (
+            'sizing': $composition-layout-mobile-options-column-width-sizing
+          )
         ),
         'components': (
-          'page': $composition-layout-mobile-components-page,
-          'section': $composition-layout-mobile-components-section,
-          'container': $composition-layout-mobile-components-container,
-          'row': $composition-layout-mobile-components-row
+          'page': (
+            'width': $composition-layout-mobile-components-page-width,
+            'spacing': $composition-layout-mobile-components-page-spacing,
+            'itemSpacing': $composition-layout-mobile-components-page-item-spacing
+          ),
+          'section': (
+            'width': $composition-layout-mobile-components-section-width,
+            'verticalPadding': $composition-layout-mobile-components-section-vertical-padding
+          ),
+          'container': (
+            'width': $composition-layout-mobile-components-container-width,
+            'spacing': $composition-layout-mobile-components-container-spacing,
+            'itemSpacing': $composition-layout-mobile-components-container-item-spacing
+          ),
+          'row': (
+            'itemSpacing': $composition-layout-mobile-components-row-item-spacing,
+            'width': $composition-layout-mobile-components-row-width,
+            'spacing': $composition-layout-mobile-components-row-spacing
+          )
         ),
         'item-width': (
-          '1/12': $composition-layout-mobile-item-width-1-12,
-          '2/12': $composition-layout-mobile-item-width-2-12,
-          '3/12': $composition-layout-mobile-item-width-3-12,
-          '4/12': $composition-layout-mobile-item-width-4-12,
-          '5/12': $composition-layout-mobile-item-width-5-12,
-          '6/12': $composition-layout-mobile-item-width-6-12,
-          '7/12': $composition-layout-mobile-item-width-7-12,
-          '8/12': $composition-layout-mobile-item-width-8-12,
-          '9/12': $composition-layout-mobile-item-width-9-12,
-          '10/12': $composition-layout-mobile-item-width-10-12,
-          '11/12': $composition-layout-mobile-item-width-11-12,
-          '12/12': $composition-layout-mobile-item-width-12-12
+          '1/12': (
+            'width': $composition-layout-mobile-item-width-1-12-width
+          ),
+          '2/12': (
+            'width': $composition-layout-mobile-item-width-2-12-width
+          ),
+          '3/12': (
+            'width': $composition-layout-mobile-item-width-3-12-width
+          ),
+          '4/12': (
+            'width': $composition-layout-mobile-item-width-4-12-width
+          ),
+          '5/12': (
+            'width': $composition-layout-mobile-item-width-5-12-width
+          ),
+          '6/12': (
+            'width': $composition-layout-mobile-item-width-6-12-width
+          ),
+          '7/12': (
+            'width': $composition-layout-mobile-item-width-7-12-width
+          ),
+          '8/12': (
+            'width': $composition-layout-mobile-item-width-8-12-width
+          ),
+          '9/12': (
+            'width': $composition-layout-mobile-item-width-9-12-width
+          ),
+          '10/12': (
+            'width': $composition-layout-mobile-item-width-10-12-width
+          ),
+          '11/12': (
+            'width': $composition-layout-mobile-item-width-11-12-width
+          ),
+          '12/12': (
+            'width': $composition-layout-mobile-item-width-12-12-width
+          )
         )
       )
     ),
-    'card-approve': $composition-card-approve,
-    'card': $composition-card,
-    'card-txt': $composition-card-txt,
+    'card-approve': (
+      'spacing': $composition-card-approve-spacing,
+      'borderColor': $composition-card-approve-border-color,
+      'borderRadius': $composition-card-approve-border-radius,
+      'fill': $composition-card-approve-fill
+    ),
+    'card': (
+      'itemSpacing': $composition-card-item-spacing,
+      'spacing': $composition-card-spacing,
+      'fill': $composition-card-fill
+    ),
+    'card-txt': (
+      'fontSizes': $composition-card-txt-font-sizes
+    ),
     'molecules': (
       'dropdown': (
-        'spacing': $composition-molecules-dropdown-spacing,
-        'spacing-2': $composition-molecules-dropdown-spacing-2
+        'spacing': (
+          'spacing': $composition-molecules-dropdown-spacing-spacing
+        ),
+        'spacing-2': (
+          'spacing': $composition-molecules-dropdown-spacing-2-spacing
+        )
       )
     ),
     'btn': (
-      'spacing': $composition-btn-spacing
+      'spacing': (
+        'verticalPadding': $composition-btn-spacing-vertical-padding,
+        'horizontalPadding': $composition-btn-spacing-horizontal-padding,
+        'borderRadius': $composition-btn-spacing-border-radius,
+        'border': $composition-btn-spacing-border,
+        'itemSpacing': $composition-btn-spacing-item-spacing
+      )
     ),
     'logo': (
       'size': (
         'desktop': (
-          'lg': $composition-logo-size-desktop-lg,
-          'md': $composition-logo-size-desktop-md,
-          'sm': $composition-logo-size-desktop-sm
+          'lg': (
+            'width': $composition-logo-size-desktop-lg-width,
+            'height': $composition-logo-size-desktop-lg-height
+          ),
+          'md': (
+            'width': $composition-logo-size-desktop-md-width,
+            'height': $composition-logo-size-desktop-md-height
+          ),
+          'sm': (
+            'width': $composition-logo-size-desktop-sm-width,
+            'height': $composition-logo-size-desktop-sm-height
+          )
         ),
         'mobile': (
-          'lg': $composition-logo-size-mobile-lg,
-          'md': $composition-logo-size-mobile-md,
-          'sm': $composition-logo-size-mobile-sm
+          'lg': (
+            'width': $composition-logo-size-mobile-lg-width,
+            'height': $composition-logo-size-mobile-lg-height
+          ),
+          'md': (
+            'width': $composition-logo-size-mobile-md-width,
+            'height': $composition-logo-size-mobile-md-height
+          ),
+          'sm': (
+            'width': $composition-logo-size-mobile-sm-width,
+            'height': $composition-logo-size-mobile-sm-height
+          )
         )
       ),
       'color': (
-        'primary': $composition-logo-color-primary,
-        'secondary': $composition-logo-color-secondary,
-        'inverted': $composition-logo-color-inverted
+        'primary': (
+          'fill': $composition-logo-color-primary-fill
+        ),
+        'secondary': (
+          'fill': $composition-logo-color-secondary-fill
+        ),
+        'inverted': (
+          'fill': $composition-logo-color-inverted-fill
+        )
       )
     ),
     'icon': (
       'size': (
-        'xxl': $composition-icon-size-xxl,
-        'xl': $composition-icon-size-xl,
-        'lg': $composition-icon-size-lg,
-        'md': $composition-icon-size-md,
-        'sm': $composition-icon-size-sm
+        'xxl': (
+          'height': $composition-icon-size-xxl-height,
+          'width': $composition-icon-size-xxl-width
+        ),
+        'xl': (
+          'height': $composition-icon-size-xl-height,
+          'width': $composition-icon-size-xl-width
+        ),
+        'lg': (
+          'height': $composition-icon-size-lg-height,
+          'width': $composition-icon-size-lg-width
+        ),
+        'md': (
+          'height': $composition-icon-size-md-height,
+          'width': $composition-icon-size-md-width
+        ),
+        'sm': (
+          'height': $composition-icon-size-sm-height,
+          'width': $composition-icon-size-sm-width
+        )
       )
     ),
     'toggle': (
       'box': (
-        'width': $composition-toggle-box-width
+        'width': (
+          'width': $composition-toggle-box-width-width,
+          'height': $composition-toggle-box-width-height
+        )
       ),
       'dot': (
-        'width': $composition-toggle-dot-width
+        'width': (
+          'width': $composition-toggle-dot-width-width,
+          'height': $composition-toggle-dot-width-height
+        )
       )
     ),
     'switch': (
       'desktop': (
-        'spacing': $composition-switch-desktop-spacing
+        'spacing': (
+          'horizontalPadding': $composition-switch-desktop-spacing-horizontal-padding,
+          'itemSpacing': $composition-switch-desktop-spacing-item-spacing,
+          'verticalPadding': $composition-switch-desktop-spacing-vertical-padding
+        )
       ),
       'mobile': (
-        'spacing': $composition-switch-mobile-spacing
+        'spacing': (
+          'horizontalPadding': $composition-switch-mobile-spacing-horizontal-padding,
+          'itemSpacing': $composition-switch-mobile-spacing-item-spacing,
+          'verticalPadding': $composition-switch-mobile-spacing-vertical-padding
+        )
       )
     ),
     'input': (
-      'spacing': $composition-input-spacing
+      'spacing': (
+        'verticalPadding': $composition-input-spacing-vertical-padding,
+        'borderRadius': $composition-input-spacing-border-radius,
+        'itemSpacing': $composition-input-spacing-item-spacing,
+        'horizontalPadding': $composition-input-spacing-horizontal-padding
+      )
     ),
     'tag': (
-      'spacing': $composition-tag-spacing
+      'spacing': (
+        'verticalPadding': $composition-tag-spacing-vertical-padding,
+        'horizontalPadding': $composition-tag-spacing-horizontal-padding,
+        'itemSpacing': $composition-tag-spacing-item-spacing
+      )
     ),
     'dropdown-item': (
       'spacing': (
-        'default': $composition-dropdown-item-spacing-default,
-        'hover': $composition-dropdown-item-spacing-hover
+        'default': (
+          'verticalPadding': $composition-dropdown-item-spacing-default-vertical-padding,
+          'horizontalPadding': $composition-dropdown-item-spacing-default-horizontal-padding,
+          'itemSpacing': $composition-dropdown-item-spacing-default-item-spacing
+        ),
+        'hover': (
+          'verticalPadding': $composition-dropdown-item-spacing-hover-vertical-padding,
+          'horizontalPadding': $composition-dropdown-item-spacing-hover-horizontal-padding,
+          'itemSpacing': $composition-dropdown-item-spacing-hover-item-spacing,
+          'paddingLeft': $composition-dropdown-item-spacing-hover-padding-left
+        )
       )
     ),
     'typography': (
       'desktop': (
-        'label': $composition-typography-desktop-label
+        'label': (
+          'letterSpacing': $composition-typography-desktop-label-letter-spacing,
+          'textCase': $composition-typography-desktop-label-text-case
+        )
       )
     )
   ),
