@@ -1,6 +1,10 @@
 /**
  * Do not edit directly
+<<<<<<< HEAD
  * Generated on Wed, 25 Jan 2023 16:22:37 GMT
+=======
+ * Generated on Wed, 25 Jan 2023 16:22:36 GMT
+>>>>>>> f3b5e503ae994acdf99ff449c811fe4a0284a7b8
  */
 
 export const SemanticBorderRadiusDesktopSm = "4px";
