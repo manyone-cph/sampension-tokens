@@ -1,6 +1,6 @@
 {
   "name": "@manyone-cph/sampension-tokens",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "A package to serve tokens from a design system",
   "private": true,
   "main": "index.js",
