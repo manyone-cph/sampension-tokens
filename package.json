@@ -21,7 +21,7 @@
     "build": "npm run clean && npm run generate-tokens:shared && npm run generate-styles"
   },
   "publishConfig": {
-    "@manyone-cph:registry": "https://npm.pkg.github.com"
+    "@manyone-cph:registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
     "node-fetch": "^3.2.0",
