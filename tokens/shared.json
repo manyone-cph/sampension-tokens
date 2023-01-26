@@ -210,7 +210,7 @@
     "typography": {
       "desktop": {
         "body": {
-          "body-xxs": {
+          "xxs": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
@@ -236,7 +236,7 @@
               "type": "textCase"
             }
           },
-          "body-xs": {
+          "xs": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
@@ -262,7 +262,7 @@
               "type": "textCase"
             }
           },
-          "body-sm": {
+          "sm": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
@@ -288,7 +288,7 @@
               "type": "textCase"
             }
           },
-          "body-md": {
+          "md": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
@@ -314,7 +314,7 @@
               "type": "textCase"
             }
           },
-          "body-lg": {
+          "lg": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
@@ -342,7 +342,7 @@
           }
         },
         "headline": {
-          "headline-xxs": {
+          "xxs": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
@@ -368,7 +368,7 @@
               "type": "textCase"
             }
           },
-          "headline-xs": {
+          "xs": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
@@ -394,7 +394,7 @@
               "type": "textCase"
             }
           },
-          "headline-sm": {
+          "sm": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
@@ -420,7 +420,7 @@
               "type": "textCase"
             }
           },
-          "headline-md": {
+          "md": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
@@ -446,7 +446,7 @@
               "type": "textCase"
             }
           },
-          "headline-lg": {
+          "lg": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
@@ -472,7 +472,7 @@
               "type": "textCase"
             }
           },
-          "headline-xl": {
+          "xl": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
@@ -500,7 +500,7 @@
           }
         },
         "display": {
-          "display-sm": {
+          "sm": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
@@ -526,7 +526,7 @@
               "type": "textCase"
             }
           },
-          "display-md": {
+          "md": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
@@ -552,7 +552,7 @@
               "type": "textCase"
             }
           },
-          "display-lg": {
+          "lg": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
@@ -578,7 +578,7 @@
               "type": "textCase"
             }
           },
-          "display-xl": {
+          "xl": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
@@ -608,7 +608,7 @@
       },
       "mobile": {
         "body": {
-          "body-xxs": {
+          "xxs": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
@@ -634,7 +634,7 @@
               "type": "textCase"
             }
           },
-          "body-xs": {
+          "xs": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
@@ -660,7 +660,7 @@
               "type": "textCase"
             }
           },
-          "body-sm": {
+          "sm": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
@@ -686,7 +686,7 @@
               "type": "textCase"
             }
           },
-          "body-md": {
+          "md": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
@@ -712,7 +712,7 @@
               "type": "textCase"
             }
           },
-          "body-lg": {
+          "lg": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
@@ -740,7 +740,7 @@
           }
         },
         "headline": {
-          "headline-xxs": {
+          "xxs": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
@@ -766,7 +766,7 @@
               "type": "textCase"
             }
           },
-          "headline-xs": {
+          "xs": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
@@ -792,7 +792,7 @@
               "type": "textCase"
             }
           },
-          "headline-sm": {
+          "sm": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
@@ -818,7 +818,7 @@
               "type": "textCase"
             }
           },
-          "headline-md": {
+          "md": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
@@ -844,7 +844,7 @@
               "type": "textCase"
             }
           },
-          "headline-lg": {
+          "lg": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
@@ -870,7 +870,7 @@
               "type": "textCase"
             }
           },
-          "headline-xl": {
+          "xl": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
@@ -898,7 +898,7 @@
           }
         },
         "display": {
-          "display-sm": {
+          "sm": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
@@ -924,7 +924,7 @@
               "type": "textCase"
             }
           },
-          "display-md": {
+          "md": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
@@ -950,7 +950,7 @@
               "type": "textCase"
             }
           },
-          "display-lg": {
+          "lg": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
@@ -976,7 +976,7 @@
               "type": "textCase"
             }
           },
-          "display-xl": {
+          "xl": {
             "fontFamily": {
               "value": "Switzer",
               "type": "fontFamilies"
