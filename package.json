@@ -8,6 +8,10 @@
   "files": [
     "dist/*"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manyone-cph/sampension-tokens.git"
+  },
   "scripts": {
     "clean:token-transformer": "npx rimraf ./tokens",
     "clean:style-dictionary": "npx rimraf ./dist && style-dictionary clean",
