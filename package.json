@@ -1,6 +1,6 @@
 {
   "name": "@manyone/sampension-tokens",
-  "version": "0.2.12",
+  "version": "0.2.13",
   "description": "A package to serve tokens from a design system",
   "private": false,
   "main": "index.js",
