@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Thu, 26 Jan 2023 07:27:24 GMT
+ * Generated on Thu, 26 Jan 2023 07:39:11 GMT
  */
 
 $semantic-border-radius-sm: 0.25rem !default;
@@ -11,8 +11,9 @@ $semantic-border-radius-xl: 1rem !default;
 $semantic-border-sm: 0.0625rem solid #f8f8f8 !default;
 $semantic-border-md: 0.125rem solid #f8f8f8 !default;
 $semantic-border-lg: 0.25rem solid #f8f8f8 !default;
-$semantic-dimension-xs: 0.25rem !default;
-$semantic-dimension-sm: 0.5rem !default;
+$semantic-dimension-xxs: 0.25rem !default;
+$semantic-dimension-xs: 0.5rem !default;
+$semantic-dimension-sm: 0.75rem !default;
 $semantic-dimension-md: 1rem !default;
 $semantic-dimension-lg: 2rem !default;
 $semantic-dimension-xl: 2.5rem !default;
@@ -300,7 +301,7 @@ $composition-molecules-dropdown-spacing-2-spacing: 1.25rem !default;
 $composition-btn-spacing-vertical-padding: 0.75rem !default;
 $composition-btn-spacing-horizontal-padding: 2rem !default;
 $composition-btn-spacing-border-radius: 0.5rem !default;
-$composition-btn-spacing-item-spacing: 0.5rem !default;
+$composition-btn-spacing-item-spacing: 0.75rem !default;
 $composition-logo-size-desktop-lg-width: 14.375rem !default;
 $composition-logo-size-desktop-lg-height: 1.4375rem !default;
 $composition-logo-size-desktop-md-width: 11.25rem !default;
@@ -338,18 +339,18 @@ $composition-switch-mobile-spacing-item-spacing: 0.5rem !default;
 $composition-switch-mobile-spacing-vertical-padding: 0.5rem !default;
 $composition-input-spacing-vertical-padding: 0.75rem !default;
 $composition-input-spacing-border-radius: 0.5rem !default;
-$composition-input-spacing-item-spacing: 0.5rem !default;
+$composition-input-spacing-item-spacing: 0.75rem !default;
 $composition-input-spacing-horizontal-padding: 1rem !default;
 $composition-tag-spacing-vertical-padding: 0.125rem !default;
 $composition-tag-spacing-horizontal-padding: 0.75rem !default;
-$composition-tag-spacing-item-spacing: 0.5rem !default;
+$composition-tag-spacing-item-spacing: 0.75rem !default;
 $composition-dropdown-item-spacing-default-vertical-padding: 0.75rem !default;
 $composition-dropdown-item-spacing-default-horizontal-padding: 1rem !default;
-$composition-dropdown-item-spacing-default-item-spacing: 0.5rem !default;
+$composition-dropdown-item-spacing-default-item-spacing: 0.75rem !default;
 $composition-dropdown-item-spacing-hover-vertical-padding: 0.75rem !default;
 $composition-dropdown-item-spacing-hover-horizontal-padding: 1rem !default;
-$composition-dropdown-item-spacing-hover-item-spacing: 0.5rem !default;
-$composition-dropdown-item-spacing-hover-padding-left: 1.5rem !default;
+$composition-dropdown-item-spacing-hover-item-spacing: 0.75rem !default;
+$composition-dropdown-item-spacing-hover-padding-left: 2.25rem !default;
 $composition-typography-desktop-label-letter-spacing: 30% !default;
 $composition-typography-desktop-label-text-case: uppercase !default;
 $core-dimension-0: 0rem !default;
@@ -461,6 +462,7 @@ $tokens: (
       'lg': $semantic-border-lg
     ),
     'dimension': (
+      'xxs': $semantic-dimension-xxs,
       'xs': $semantic-dimension-xs,
       'sm': $semantic-dimension-sm,
       'md': $semantic-dimension-md,

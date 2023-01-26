@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 26 Jan 2023 07:27:24 GMT
+ * Generated on Thu, 26 Jan 2023 07:39:11 GMT
  */
 
 export const SemanticBorderRadiusSm = "4px";
@@ -10,8 +10,9 @@ export const SemanticBorderRadiusXl = "16px";
 export const SemanticBorderSm = {"color":"#f8f8f8","width":"1px","style":"solid"};
 export const SemanticBorderMd = {"color":"#f8f8f8","width":"2px","style":"solid"};
 export const SemanticBorderLg = {"color":"#f8f8f8","width":"4px","style":"solid"};
-export const SemanticDimensionXs = "4px";
-export const SemanticDimensionSm = "8px";
+export const SemanticDimensionXxs = "4px";
+export const SemanticDimensionXs = "8px";
+export const SemanticDimensionSm = "12px";
 export const SemanticDimensionMd = "16px";
 export const SemanticDimensionLg = "32px";
 export const SemanticDimensionXl = "40px";
@@ -299,7 +300,7 @@ export const CompositionMoleculesDropdownSpacing2Spacing = 20;
 export const CompositionBtnSpacingVerticalPadding = "12px";
 export const CompositionBtnSpacingHorizontalPadding = "32px";
 export const CompositionBtnSpacingBorderRadius = "8px";
-export const CompositionBtnSpacingItemSpacing = "8px";
+export const CompositionBtnSpacingItemSpacing = "12px";
 export const CompositionLogoSizeDesktopLgWidth = 230;
 export const CompositionLogoSizeDesktopLgHeight = 23;
 export const CompositionLogoSizeDesktopMdWidth = 180;
@@ -337,18 +338,18 @@ export const CompositionSwitchMobileSpacingItemSpacing = 8;
 export const CompositionSwitchMobileSpacingVerticalPadding = 8;
 export const CompositionInputSpacingVerticalPadding = "12px";
 export const CompositionInputSpacingBorderRadius = "8px";
-export const CompositionInputSpacingItemSpacing = "8px";
+export const CompositionInputSpacingItemSpacing = "12px";
 export const CompositionInputSpacingHorizontalPadding = "16px";
 export const CompositionTagSpacingVerticalPadding = 2;
 export const CompositionTagSpacingHorizontalPadding = "12px";
-export const CompositionTagSpacingItemSpacing = "8px";
+export const CompositionTagSpacingItemSpacing = "12px";
 export const CompositionDropdownItemSpacingDefaultVerticalPadding = "12px";
 export const CompositionDropdownItemSpacingDefaultHorizontalPadding = "16px";
-export const CompositionDropdownItemSpacingDefaultItemSpacing = "8px";
+export const CompositionDropdownItemSpacingDefaultItemSpacing = "12px";
 export const CompositionDropdownItemSpacingHoverVerticalPadding = "12px";
 export const CompositionDropdownItemSpacingHoverHorizontalPadding = "16px";
-export const CompositionDropdownItemSpacingHoverItemSpacing = "8px";
-export const CompositionDropdownItemSpacingHoverPaddingLeft = "24px";
+export const CompositionDropdownItemSpacingHoverItemSpacing = "12px";
+export const CompositionDropdownItemSpacingHoverPaddingLeft = "36px";
 export const CompositionTypographyDesktopLabelLetterSpacing = "30%";
 export const CompositionTypographyDesktopLabelTextCase = "uppercase";
 export const CoreDimension0 = 0;

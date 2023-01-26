@@ -45,12 +45,16 @@
       }
     },
     "dimension": {
-      "xs": {
+      "xxs": {
         "value": "4px",
         "type": "dimension"
       },
-      "sm": {
+      "xs": {
         "value": "8px",
+        "type": "dimension"
+      },
+      "sm": {
+        "value": "12px",
         "type": "dimension"
       },
       "md": {
@@ -1440,7 +1444,7 @@
           "type": "borderRadius"
         },
         "itemSpacing": {
-          "value": "8px",
+          "value": "12px",
           "type": "spacing"
         }
       }
@@ -1658,7 +1662,7 @@
           "type": "borderRadius"
         },
         "itemSpacing": {
-          "value": "8px",
+          "value": "12px",
           "type": "spacing"
         },
         "horizontalPadding": {
@@ -1678,7 +1682,7 @@
           "type": "spacing"
         },
         "itemSpacing": {
-          "value": "8px",
+          "value": "12px",
           "type": "spacing"
         }
       }
@@ -1695,7 +1699,7 @@
             "type": "spacing"
           },
           "itemSpacing": {
-            "value": "8px",
+            "value": "12px",
             "type": "spacing"
           }
         },
@@ -1709,11 +1713,11 @@
             "type": "spacing"
           },
           "itemSpacing": {
-            "value": "8px",
+            "value": "12px",
             "type": "spacing"
           },
           "paddingLeft": {
-            "value": "24px",
+            "value": "36px",
             "type": "spacing"
           }
         }
