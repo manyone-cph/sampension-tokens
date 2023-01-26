@@ -1,11 +1,12 @@
 /**
  * Do not edit directly
- * Generated on Wed, 25 Jan 2023 22:10:57 GMT
+ * Generated on Thu, 26 Jan 2023 07:27:24 GMT
  */
 
-export const SemanticBorderRadiusDesktopSm = "4px";
-export const SemanticBorderRadiusDesktopMd = "8px";
-export const SemanticBorderRadiusDesktopLg = "12px";
+export const SemanticBorderRadiusSm = "4px";
+export const SemanticBorderRadiusMd = "8px";
+export const SemanticBorderRadiusLg = "12px";
+export const SemanticBorderRadiusXl = "16px";
 export const SemanticBorderSm = {"color":"#f8f8f8","width":"1px","style":"solid"};
 export const SemanticBorderMd = {"color":"#f8f8f8","width":"2px","style":"solid"};
 export const SemanticBorderLg = {"color":"#f8f8f8","width":"4px","style":"solid"};
@@ -14,14 +15,6 @@ export const SemanticDimensionSm = "8px";
 export const SemanticDimensionMd = "16px";
 export const SemanticDimensionLg = "32px";
 export const SemanticDimensionXl = "40px";
-export const SemanticColorActionPrimaryBgDefault = "#000000";
-export const SemanticColorActionPrimaryBgHover = "transparent";
-export const SemanticColorActionPrimaryBgActive = "#EBEBEB";
-export const SemanticColorActionPrimaryBgDisabled = "#EBEBEB";
-export const SemanticColorActionSecondaryBgDefault = "transparent";
-export const SemanticColorActionSecondaryBgHover = "#EBEBEB";
-export const SemanticColorActionSecondaryBgActive = "#cacaca";
-export const SemanticColorActionSecondaryBgDisabled = "#EBEBEB";
 export const SemanticColorTxtPrimary = "#000000";
 export const SemanticColorTxtSecondary = "#A7A7A7";
 export const SemanticColorTxtSubtle = "#EBEBEB";

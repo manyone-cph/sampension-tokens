@@ -1,12 +1,13 @@
 
 /**
  * Do not edit directly
- * Generated on Wed, 25 Jan 2023 22:10:57 GMT
+ * Generated on Thu, 26 Jan 2023 07:27:24 GMT
  */
 
-$semantic-border-radius-desktop-sm: 0.25rem !default;
-$semantic-border-radius-desktop-md: 0.5rem !default;
-$semantic-border-radius-desktop-lg: 0.75rem !default;
+$semantic-border-radius-sm: 0.25rem !default;
+$semantic-border-radius-md: 0.5rem !default;
+$semantic-border-radius-lg: 0.75rem !default;
+$semantic-border-radius-xl: 1rem !default;
 $semantic-border-sm: 0.0625rem solid #f8f8f8 !default;
 $semantic-border-md: 0.125rem solid #f8f8f8 !default;
 $semantic-border-lg: 0.25rem solid #f8f8f8 !default;
@@ -15,14 +16,6 @@ $semantic-dimension-sm: 0.5rem !default;
 $semantic-dimension-md: 1rem !default;
 $semantic-dimension-lg: 2rem !default;
 $semantic-dimension-xl: 2.5rem !default;
-$semantic-color-action-primary-bg-default: #000000 !default;
-$semantic-color-action-primary-bg-hover: transparent !default;
-$semantic-color-action-primary-bg-active: #EBEBEB !default;
-$semantic-color-action-primary-bg-disabled: #EBEBEB !default;
-$semantic-color-action-secondary-bg-default: transparent !default;
-$semantic-color-action-secondary-bg-hover: #EBEBEB !default;
-$semantic-color-action-secondary-bg-active: #cacaca !default;
-$semantic-color-action-secondary-bg-disabled: #EBEBEB !default;
 $semantic-color-txt-primary: #000000 !default;
 $semantic-color-txt-secondary: #A7A7A7 !default;
 $semantic-color-txt-subtle: #EBEBEB !default;
@@ -457,11 +450,10 @@ $core-text-case-capitalize: capitalize !default;
 $tokens: (
   'semantic': (
     'borderRadius': (
-      'desktop': (
-        'sm': $semantic-border-radius-desktop-sm,
-        'md': $semantic-border-radius-desktop-md,
-        'lg': $semantic-border-radius-desktop-lg
-      )
+      'sm': $semantic-border-radius-sm,
+      'md': $semantic-border-radius-md,
+      'lg': $semantic-border-radius-lg,
+      'xl': $semantic-border-radius-xl
     ),
     'border': (
       'sm': $semantic-border-sm,
@@ -476,24 +468,6 @@ $tokens: (
       'xl': $semantic-dimension-xl
     ),
     'color': (
-      'action': (
-        'primary': (
-          'bg': (
-            'default': $semantic-color-action-primary-bg-default,
-            'hover': $semantic-color-action-primary-bg-hover,
-            'active': $semantic-color-action-primary-bg-active,
-            'disabled': $semantic-color-action-primary-bg-disabled
-          )
-        ),
-        'secondary': (
-          'bg': (
-            'default': $semantic-color-action-secondary-bg-default,
-            'hover': $semantic-color-action-secondary-bg-hover,
-            'active': $semantic-color-action-secondary-bg-active,
-            'disabled': $semantic-color-action-secondary-bg-disabled
-          )
-        )
-      ),
       'txt': (
         'primary': $semantic-color-txt-primary,
         'secondary': $semantic-color-txt-secondary,
