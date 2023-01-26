@@ -1,5 +1,5 @@
 {
-  "name": "@manyone-cph/sampension-tokens",
+  "name": "@manyone/sampension-tokens",
   "version": "0.2.10",
   "description": "A package to serve tokens from a design system",
   "private": false,
