@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 26 Jan 2023 14:23:24 GMT
+ * Generated on Thu, 26 Jan 2023 14:53:15 GMT
  */
 
 export const SemanticBorderRadiusSm = "4px";
