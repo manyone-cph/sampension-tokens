@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Fri, 27 Jan 2023 07:54:28 GMT
+ * Generated on Fri, 27 Jan 2023 08:20:28 GMT
  */
 
 $semantic-border-radius-sm: 0.25rem !default;
@@ -329,8 +329,10 @@ $composition-icon-size-sm-height: 1rem !default;
 $composition-icon-size-sm-width: 1rem !default;
 $composition-toggle-box-width-width: 3rem !default;
 $composition-toggle-box-width-height: 1.75rem !default;
+$composition-toggle-box-width-border-radius: 1.25rem !default;
 $composition-toggle-dot-width-width: 1.375rem !default;
 $composition-toggle-dot-width-height: 1.375rem !default;
+$composition-toggle-dot-width-border-radius: 1.375rem !default;
 $composition-switch-desktop-spacing-horizontal-padding: 2rem !default;
 $composition-switch-desktop-spacing-item-spacing: 0.5rem !default;
 $composition-switch-desktop-spacing-vertical-padding: 1rem !default;
@@ -1045,13 +1047,15 @@ $tokens: (
       'box': (
         'width': (
           'width': $composition-toggle-box-width-width,
-          'height': $composition-toggle-box-width-height
+          'height': $composition-toggle-box-width-height,
+          'borderRadius': $composition-toggle-box-width-border-radius
         )
       ),
       'dot': (
         'width': (
           'width': $composition-toggle-dot-width-width,
-          'height': $composition-toggle-dot-width-height
+          'height': $composition-toggle-dot-width-height,
+          'borderRadius': $composition-toggle-dot-width-border-radius
         )
       )
     ),

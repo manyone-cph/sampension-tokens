@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 27 Jan 2023 07:54:28 GMT
+ * Generated on Fri, 27 Jan 2023 08:20:28 GMT
  */
 
 export const SemanticBorderRadiusSm = "4px";
@@ -328,8 +328,10 @@ export const CompositionIconSizeSmHeight = 16;
 export const CompositionIconSizeSmWidth = 16;
 export const CompositionToggleBoxWidthWidth = 48;
 export const CompositionToggleBoxWidthHeight = 28;
+export const CompositionToggleBoxWidthBorderRadius = 20;
 export const CompositionToggleDotWidthWidth = 22;
 export const CompositionToggleDotWidthHeight = 22;
+export const CompositionToggleDotWidthBorderRadius = 22;
 export const CompositionSwitchDesktopSpacingHorizontalPadding = 32;
 export const CompositionSwitchDesktopSpacingItemSpacing = 8;
 export const CompositionSwitchDesktopSpacingVerticalPadding = 16;

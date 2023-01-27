@@ -1601,6 +1601,10 @@
           "height": {
             "value": 28,
             "type": "sizing"
+          },
+          "borderRadius": {
+            "value": 20,
+            "type": "borderRadius"
           }
         }
       },
@@ -1613,6 +1617,10 @@
           "height": {
             "value": 22,
             "type": "sizing"
+          },
+          "borderRadius": {
+            "value": 22,
+            "type": "borderRadius"
           }
         }
       }
