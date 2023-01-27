@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Thu, 26 Jan 2023 21:03:17 GMT
+ * Generated on Fri, 27 Jan 2023 07:54:28 GMT
  */
 
 export const SemanticBorderRadiusSm = "4px";
@@ -23,7 +23,7 @@ export const SemanticColorTxtInverted = "#ffffff";
 export const SemanticColorTxtSuccess = "#28B932";
 export const SemanticColorTxtError = "#FF6827";
 export const SemanticColorTxtNeutral = "#77C0E4";
-export const SemanticColorTxtLightBlue = "#e4f2fa";
+export const SemanticColorTxtNeutralLight = "#e4f2fa";
 export const SemanticColorBgPrimary = "#000000";
 export const SemanticColorBgSecondary = "#A7A7A7";
 export const SemanticColorBgSubtle = "#EBEBEB";
@@ -31,7 +31,7 @@ export const SemanticColorBgInverted = "#ffffff";
 export const SemanticColorBgSuccess = "#28B932";
 export const SemanticColorBgError = "#FF6827";
 export const SemanticColorBgNeutral = "#77C0E4";
-export const SemanticColorBgLightBlue = "#e4f2fa";
+export const SemanticColorBgNeutralLight = "#e4f2fa";
 export const SemanticColorBgNeutralCopy = "transparent";
 export const SemanticColorBorderPrimary = "#000000";
 export const SemanticColorBorderSecondary = "#A7A7A7";
@@ -40,7 +40,7 @@ export const SemanticColorBorderInverted = "#ffffff";
 export const SemanticColorBorderSuccess = "#28B932";
 export const SemanticColorBorderError = "#FF6827";
 export const SemanticColorBorderNeutral = "#77C0E4";
-export const SemanticColorBorderLightBlue = "#e4f2fa";
+export const SemanticColorBorderNeutralLight = "#e4f2fa";
 export const SemanticFontFamiliesPrimary = "Switzer";
 export const SemanticFontFamiliesSecondary = "Suranna";
 export const SemanticTypographyDesktopBodyXxsFontFamily = "Switzer";

@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Thu, 26 Jan 2023 21:03:17 GMT
+ * Generated on Fri, 27 Jan 2023 07:54:28 GMT
  */
 
 $semantic-border-radius-sm: 0.25rem !default;
@@ -24,7 +24,7 @@ $semantic-color-txt-inverted: #ffffff !default;
 $semantic-color-txt-success: #28B932 !default;
 $semantic-color-txt-error: #FF6827 !default;
 $semantic-color-txt-neutral: #77C0E4 !default;
-$semantic-color-txt-light-blue: #e4f2fa !default;
+$semantic-color-txt-neutral-light: #e4f2fa !default;
 $semantic-color-bg-primary: #000000 !default;
 $semantic-color-bg-secondary: #A7A7A7 !default;
 $semantic-color-bg-subtle: #EBEBEB !default;
@@ -32,7 +32,7 @@ $semantic-color-bg-inverted: #ffffff !default;
 $semantic-color-bg-success: #28B932 !default;
 $semantic-color-bg-error: #FF6827 !default;
 $semantic-color-bg-neutral: #77C0E4 !default;
-$semantic-color-bg-light-blue: #e4f2fa !default;
+$semantic-color-bg-neutral-light: #e4f2fa !default;
 $semantic-color-bg-neutral-copy: transparent !default;
 $semantic-color-border-primary: #000000 !default;
 $semantic-color-border-secondary: #A7A7A7 !default;
@@ -41,7 +41,7 @@ $semantic-color-border-inverted: #ffffff !default;
 $semantic-color-border-success: #28B932 !default;
 $semantic-color-border-error: #FF6827 !default;
 $semantic-color-border-neutral: #77C0E4 !default;
-$semantic-color-border-light-blue: #e4f2fa !default;
+$semantic-color-border-neutral-light: #e4f2fa !default;
 $semantic-font-families-primary: var(--ff-switzer) !default;
 $semantic-font-families-secondary: var(--ff-suranna) !default;
 $semantic-typography-desktop-body-xxs-font-family: var(--ff-switzer) !default;
@@ -478,7 +478,7 @@ $tokens: (
         'success': $semantic-color-txt-success,
         'error': $semantic-color-txt-error,
         'neutral': $semantic-color-txt-neutral,
-        'light-blue': $semantic-color-txt-light-blue
+        'neutral-light': $semantic-color-txt-neutral-light
       ),
       'bg': (
         'primary': $semantic-color-bg-primary,
@@ -488,7 +488,7 @@ $tokens: (
         'success': $semantic-color-bg-success,
         'error': $semantic-color-bg-error,
         'neutral': $semantic-color-bg-neutral,
-        'light-blue': $semantic-color-bg-light-blue,
+        'neutral-light': $semantic-color-bg-neutral-light,
         'neutral-copy': $semantic-color-bg-neutral-copy
       ),
       'border': (
@@ -499,7 +499,7 @@ $tokens: (
         'success': $semantic-color-border-success,
         'error': $semantic-color-border-error,
         'neutral': $semantic-color-border-neutral,
-        'light-blue': $semantic-color-border-light-blue
+        'neutral-light': $semantic-color-border-neutral-light
       )
     ),
     'fontFamilies': (
