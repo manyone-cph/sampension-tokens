@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Fri, 27 Jan 2023 08:20:28 GMT
+ * Generated on Fri, 27 Jan 2023 08:22:50 GMT
  */
 
 $semantic-border-radius-sm: 0.25rem !default;
@@ -327,12 +327,12 @@ $composition-icon-size-md-height: 1.5rem !default;
 $composition-icon-size-md-width: 1.5rem !default;
 $composition-icon-size-sm-height: 1rem !default;
 $composition-icon-size-sm-width: 1rem !default;
-$composition-toggle-box-width-width: 3rem !default;
-$composition-toggle-box-width-height: 1.75rem !default;
-$composition-toggle-box-width-border-radius: 1.25rem !default;
-$composition-toggle-dot-width-width: 1.375rem !default;
-$composition-toggle-dot-width-height: 1.375rem !default;
-$composition-toggle-dot-width-border-radius: 1.375rem !default;
+$composition-toggle-box-width: 3rem !default;
+$composition-toggle-box-height: 1.75rem !default;
+$composition-toggle-box-border-radius: 1.25rem !default;
+$composition-toggle-dot-width: 1.375rem !default;
+$composition-toggle-dot-height: 1.375rem !default;
+$composition-toggle-dot-border-radius: 1.375rem !default;
 $composition-switch-desktop-spacing-horizontal-padding: 2rem !default;
 $composition-switch-desktop-spacing-item-spacing: 0.5rem !default;
 $composition-switch-desktop-spacing-vertical-padding: 1rem !default;
@@ -1045,18 +1045,14 @@ $tokens: (
     ),
     'toggle': (
       'box': (
-        'width': (
-          'width': $composition-toggle-box-width-width,
-          'height': $composition-toggle-box-width-height,
-          'borderRadius': $composition-toggle-box-width-border-radius
-        )
+        'width': $composition-toggle-box-width,
+        'height': $composition-toggle-box-height,
+        'borderRadius': $composition-toggle-box-border-radius
       ),
       'dot': (
-        'width': (
-          'width': $composition-toggle-dot-width-width,
-          'height': $composition-toggle-dot-width-height,
-          'borderRadius': $composition-toggle-dot-width-border-radius
-        )
+        'width': $composition-toggle-dot-width,
+        'height': $composition-toggle-dot-height,
+        'borderRadius': $composition-toggle-dot-border-radius
       )
     ),
     'switch': (

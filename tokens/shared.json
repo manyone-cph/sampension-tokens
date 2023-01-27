@@ -1594,34 +1594,30 @@
     "toggle": {
       "box": {
         "width": {
-          "width": {
-            "value": 48,
-            "type": "sizing"
-          },
-          "height": {
-            "value": 28,
-            "type": "sizing"
-          },
-          "borderRadius": {
-            "value": 20,
-            "type": "borderRadius"
-          }
+          "value": 48,
+          "type": "sizing"
+        },
+        "height": {
+          "value": 28,
+          "type": "sizing"
+        },
+        "borderRadius": {
+          "value": 20,
+          "type": "borderRadius"
         }
       },
       "dot": {
         "width": {
-          "width": {
-            "value": 22,
-            "type": "sizing"
-          },
-          "height": {
-            "value": 22,
-            "type": "sizing"
-          },
-          "borderRadius": {
-            "value": 22,
-            "type": "borderRadius"
-          }
+          "value": 22,
+          "type": "sizing"
+        },
+        "height": {
+          "value": 22,
+          "type": "sizing"
+        },
+        "borderRadius": {
+          "value": 22,
+          "type": "borderRadius"
         }
       }
     },
