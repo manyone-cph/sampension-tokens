@@ -10,6 +10,13 @@ Change your tokens in `tokens.json` (either directly or with the Figma Tokens pl
 2. `npm install` to install dependencies
 3. `npm run build` to generate tokens
 
+## 🚀 Release
+
+To release a new version, follow these steps:
+
+1. Commit your changes to `main` branch.
+2. A new version will automatically be released using `semantic-release` in a Github Action.
+
 ### All commands
 
 Here's a breakdown of the commands we have:
