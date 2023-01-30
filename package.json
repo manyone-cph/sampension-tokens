@@ -19,7 +19,6 @@
     "generate-tokens:shared": "npx token-transformer tokens.json ./tokens/shared.json shared/core/typography,shared/core/color,shared/core/dimension,shared/semantic/typography,shared/semantic/color,shared/semantic/dimension,shared/semantic/border,shared/composition/typography,shared/composition/atoms,shared/composition/molecules,shared/composition/layout --expandTypography=true --expandComposition=true",
     "generate-styles": "node build-shared.js",
     "build": "npm run clean && npm run generate-tokens:shared && npm run generate-styles",
-    "semantic-release": "semantic-release"
   },
   "publishConfig": {
     "@manyone:registry": "https://registry.npmjs.org/",
@@ -32,7 +31,8 @@
     "plugins": [
       "@semantic-release/commit-analyzer",
       "@semantic-release/release-notes-generator",
-      "@semantic-release/npm"
+      "@semantic-release/npm",
+      "@semantic-release/github"
     ]
   },
   "dependencies": {
