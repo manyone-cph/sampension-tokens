@@ -1,7 +1,7 @@
 
 /**
  * Do not edit directly
- * Generated on Fri, 27 Jan 2023 08:22:50 GMT
+ * Generated on Mon, 30 Jan 2023 17:39:50 GMT
  */
 
 $semantic-border-radius-sm: 0.25rem !default;
@@ -371,6 +371,7 @@ $core-dimension-24: 6rem !default;
 $core-dimension-32: 8rem !default;
 $core-dimension-core-unit: 0.25rem !default;
 $core-color-black-100: #000000 !default;
+$core-color-black-200: #000 !default;
 $core-color-white-100: #ffffff !default;
 $core-color-blue-100: #e4f2fa !default;
 $core-color-blue-200: #c9e6f4 !default;
@@ -1130,7 +1131,8 @@ $tokens: (
     ),
     'color': (
       'black': (
-        '100': $core-color-black-100
+        '100': $core-color-black-100,
+        '200': $core-color-black-200
       ),
       'white': (
         '100': $core-color-white-100

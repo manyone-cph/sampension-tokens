@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 27 Jan 2023 08:22:50 GMT
+ * Generated on Mon, 30 Jan 2023 17:39:50 GMT
  */
 
 export const SemanticBorderRadiusSm = "4px";
@@ -370,6 +370,7 @@ export const CoreDimension24 = "96px";
 export const CoreDimension32 = "128px";
 export const CoreDimensionCoreUnit = "4px";
 export const CoreColorBlack100 = "#000000";
+export const CoreColorBlack200 = "#000";
 export const CoreColorWhite100 = "#ffffff";
 export const CoreColorBlue100 = "#e4f2fa";
 export const CoreColorBlue200 = "#c9e6f4";
