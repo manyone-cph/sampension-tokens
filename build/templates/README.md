@@ -4,8 +4,6 @@ This is design tokens for the Sampension digital design system.
 
 ## Usage
 
-On npm, you can find the design tokens as `@manyone/sampensiontokens`.
-
 Add the design tokens and its peer dependencies to your project:
 
 ```bash
