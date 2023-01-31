@@ -19,12 +19,17 @@ To read the documentation, please visit [Sampension Digital Design System Docume
 
 ## Importing styles
 
-To get all shared variables and mixins import as scss or js:
+To get all shared tokens:
 
 ```css
-@import "@manyone/sampension-tokens/scss/_shared_map.scss";
+@import "@manyone/sampension-tokens/scss/shared-map.scss";
 ```
 
 ```js
-import * as sharedTokens from "@manyone/sampension-tokens/js/_shared.js";
+import * as sharedTokens from "@manyone/sampension-tokens/js/shared.js";
 ```
+
+We also serve a json file and a scss file without map, but we recommend using the map version:
+
+* `/scss/shared.scss`
+* `/json/shared.json`
