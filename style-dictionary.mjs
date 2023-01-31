@@ -1,5 +1,5 @@
 // build.js
-const StyleDictionary = require("style-dictionary");
+import StyleDictionary from "style-dictionary";
 
 // Convert to rem
 const cleanRemSize = (val) => {
@@ -15,15 +15,15 @@ const cleanRemSize = (val) => {
   }
 };
 
-// size/toREM -> Collection that needs converting to rem 
+// size/toREM -> Collection that needs converting to rem
 StyleDictionary.registerTransform({
   name: "size/toREM",
   type: "value",
   matcher: function (prop) {
-    console.log(prop.type);
     return (
       prop.type === "fontSizes" ||
-      prop.type === "lineHeights" || prop.type === "lineHeight" ||
+      prop.type === "lineHeights" ||
+      prop.type === "lineHeight" ||
       prop.type === "spacing" ||
       prop.type === "sizing" ||
       prop.type === "dimension" ||
@@ -91,18 +91,16 @@ StyleDictionary.registerTransform({
   },
 });
 
-
-
 const filePaths = {
-  shared: "tokens/shared.json"
+  shared: "dist/json/shared.json",
 };
 
-const myStyleDictionary = StyleDictionary.extend({
-  source: ["tokens/**/*.json"],
+const customStyleDictionary = StyleDictionary.extend({
+  source: ["dist/json/*.json"],
   platforms: {
     scss: {
       transformGroup: "scss",
-      buildPath: "./dist/scss/",
+      buildPath: "dist/scss/",
       transforms: [
         "name/cti/kebab",
         "size/toREM",
@@ -112,7 +110,7 @@ const myStyleDictionary = StyleDictionary.extend({
       ],
       files: [
         {
-          destination: "_shared.scss",
+          destination: "shared.scss",
           format: "scss/variables",
           filter: (token) => {
             // only include: shared
@@ -120,7 +118,7 @@ const myStyleDictionary = StyleDictionary.extend({
           },
         },
         {
-          destination: "_shared_map.scss",
+          destination: "shared-map.scss",
           format: "scss/map-deep",
           filter: (token) => {
             // only include: shared
@@ -131,10 +129,10 @@ const myStyleDictionary = StyleDictionary.extend({
     },
     js: {
       transformGroup: "js",
-      buildPath: "./dist/js/",
+      buildPath: "dist/js/",
       files: [
         {
-          destination: "_shared.js",
+          destination: "shared.js",
           format: "javascript/es6",
           filter: (token) => {
             // only include: shared
@@ -146,4 +144,4 @@ const myStyleDictionary = StyleDictionary.extend({
   },
 });
 
-myStyleDictionary.buildAllPlatforms();
+export default customStyleDictionary;
