@@ -92,7 +92,7 @@ StyleDictionary.registerTransform({
 });
 
 const filePaths = {
-  shared: "dist/json/shared.json",
+  dotcom: "dist/json/dotcom.json",
 };
 
 const customStyleDictionary = StyleDictionary.extend({
@@ -101,6 +101,9 @@ const customStyleDictionary = StyleDictionary.extend({
     css: {
       transformGroup: "css",
       buildPath: "dist/css/",
+      options: {
+        selector: ".dotcom",
+      },
       transforms: [
         "name/cti/kebab",
         "size/toREM",
@@ -110,11 +113,11 @@ const customStyleDictionary = StyleDictionary.extend({
       ],
       files: [
         {
-          destination: "shared.css",
+          destination: "dotcom.css",
           format: "css/variables",
           filter: (token) => {
-            // only include: shared
-            return token.filePath === filePaths.shared;
+            // only include: dotcom
+            return token.filePath === filePaths.dotcom;
           },
         },
       ],
@@ -131,19 +134,19 @@ const customStyleDictionary = StyleDictionary.extend({
       ],
       files: [
         {
-          destination: "shared.scss",
+          destination: "dotcom.scss",
           format: "scss/variables",
           filter: (token) => {
-            // only include: shared
-            return token.filePath === filePaths.shared;
+            // only include: dotcom
+            return token.filePath === filePaths.dotcom;
           },
         },
         {
-          destination: "shared-map.scss",
+          destination: "dotcom-map.scss",
           format: "scss/map-deep",
           filter: (token) => {
-            // only include: shared
-            return token.filePath === filePaths.shared;
+            // only include: dotcom
+            return token.filePath === filePaths.dotcom;
           },
         },
       ],
@@ -153,11 +156,11 @@ const customStyleDictionary = StyleDictionary.extend({
       buildPath: "dist/js/",
       files: [
         {
-          destination: "shared.js",
+          destination: "dotcom.js",
           format: "javascript/es6",
           filter: (token) => {
-            // only include: shared
-            return token.filePath === filePaths.shared;
+            // only include: dotcom
+            return token.filePath === filePaths.dotcom;
           },
         },
       ],

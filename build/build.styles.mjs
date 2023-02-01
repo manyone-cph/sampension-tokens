@@ -2,12 +2,14 @@ import path from "path";
 import fs from "fs-extra";
 import { fileURLToPath } from "url";
 import styleDictionary from "../style-dictionary.mjs";
+import styleDictionary2 from "../style-dictionary-dotcom.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 async function init() {
   // build styles
   await styleDictionary.buildAllPlatforms();
+  await styleDictionary2.buildAllPlatforms();
 
   // create package.json file for the package
   const packageJson = fs.readFileSync(path.resolve(__dirname, "../package.json"), "utf8");

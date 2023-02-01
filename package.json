@@ -13,9 +13,10 @@
   },
   "scripts": {
     "clean": "npx rimraf dist",
+    "build-json:dotcom": "npx token-transformer tokens.json dist/json/dotcom.json shared/core/typography,shared/core/color,shared/core/dimension,shared/semantic/typography,shared/semantic/color,shared/semantic/dimension,shared/semantic/border,shared/composition/typography,shared/composition/atoms,shared/composition/molecules,shared/composition/layout,dotcom/semantic/typography,dotcom/semantic/color shared/core/typography,shared/core/color,shared/core/dimension,shared/semantic/typography,shared/semantic/color,shared/semantic/dimension,shared/semantic/border,shared/composition/typography,shared/composition/atoms,shared/composition/molecules,shared/composition/layout --expandTypography=true --expandComposition=true",
     "build-json:shared": "npx token-transformer tokens.json dist/json/shared.json shared/core/typography,shared/core/color,shared/core/dimension,shared/semantic/typography,shared/semantic/color,shared/semantic/dimension,shared/semantic/border,shared/composition/typography,shared/composition/atoms,shared/composition/molecules,shared/composition/layout --expandTypography=true --expandComposition=true",
-    "build-js-scss:shared": "node build/build.styles.mjs",
-    "build": "npm run clean && npm run build-json:shared && npm run build-js-scss:shared"
+    "build-js-scss": "node build/build.styles.mjs",
+    "build": "npm run clean && npm run build-json:shared && npm run build-json:dotcom && npm run build-js-scss"
   },
   "publishConfig": {
     "@manyone:registry": "https://registry.npmjs.org/",
