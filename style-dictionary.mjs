@@ -150,7 +150,7 @@ export const generateStyles = async (jsonPath, setName) => {
         },
         files: [
           {
-            destination: `${setName}-extends.scss`,
+            destination: `${setName}-extend.scss`,
             format: "css/variables",
           },
         ],

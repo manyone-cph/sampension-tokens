@@ -24,7 +24,7 @@ To read the documentation, please visit [Sampension Digital Design System Docume
 @import "@manyone/sampension-tokens/scss/shared-map.scss";
 
 // import extend named %tokens-shared
-@import "@manyone/sampension-tokens/scss/shared-extends.scss";
+@import "@manyone/sampension-tokens/scss/shared-extend.scss";
 
 // import sass variables
 @import "@manyone/sampension-tokens/scss/shared.scss";
@@ -61,7 +61,7 @@ To use a theme import both the shared tokens and theme tokens:
 ```css
 // example
 @import "@manyone/sampension-tokens/scss/shared-extends.scss";
-@import "@manyone/sampension-tokens/scss/theme-dotcom-extends.scss";
+@import "@manyone/sampension-tokens/scss/theme-dotcom-extend.scss";
 
 
 :root {
