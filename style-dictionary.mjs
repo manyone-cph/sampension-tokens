@@ -91,78 +91,72 @@ StyleDictionary.registerTransform({
   },
 });
 
-const filePaths = {
-  shared: "dist/json/shared.json",
+const transforms = [
+  "name/cti/kebab",
+  "size/toREM",
+  "border/toShorthand",
+  "fontWeights/toNumber",
+  "fontFamily/toCSSVariable",
+];
+
+export const generateStyles = async (jsonPath, setName) => {
+  const styleDictionaryConfig = StyleDictionary.extend({
+    source: [jsonPath],
+    platforms: {
+      js: {
+        transformGroup: "js",
+        buildPath: "dist/js/",
+        files: [
+          {
+            destination: "shared.js",
+            destination: `${setName}.js`,
+            format: "javascript/es6",
+          },
+        ],
+      },
+      css: {
+        transformGroup: "css",
+        buildPath: "dist/css/",
+        transforms,
+        files: [
+          {
+            destination: `${setName}.css`,
+            format: "css/variables",
+          },
+        ],
+      },
+      scss: {
+        transformGroup: "scss",
+        buildPath: "dist/scss/",
+        transforms,
+        files: [
+          {
+            destination: `${setName}.scss`,
+            format: "scss/variables",
+          },
+          {
+            destination: `${setName}-map.scss`,
+            format: "scss/map-deep",
+            mapName: `tokens-${setName}`,
+          },
+        ],
+      },
+      "scss-extend": {
+        transformGroup: "css",
+        buildPath: "dist/scss/",
+        transforms,
+        options: {
+          selector: `%tokens-${setName}`,
+        },
+        files: [
+          {
+            destination: `${setName}-extends.scss`,
+            format: "css/variables",
+          },
+        ],
+      },
+    },
+  });
+
+  await styleDictionaryConfig.buildAllPlatforms();
 };
-
-const customStyleDictionary = StyleDictionary.extend({
-  source: ["dist/json/*.json"],
-  platforms: {
-    css: {
-      transformGroup: "css",
-      buildPath: "dist/css/",
-      transforms: [
-        "name/cti/kebab",
-        "size/toREM",
-        "border/toShorthand",
-        "fontWeights/toNumber",
-        "fontFamily/toCSSVariable",
-      ],
-      files: [
-        {
-          destination: "shared.css",
-          format: "css/variables",
-          filter: (token) => {
-            // only include: shared
-            return token.filePath === filePaths.shared;
-          },
-        },
-      ],
-    },
-    scss: {
-      transformGroup: "scss",
-      buildPath: "dist/scss/",
-      transforms: [
-        "name/cti/kebab",
-        "size/toREM",
-        "border/toShorthand",
-        "fontWeights/toNumber",
-        "fontFamily/toCSSVariable",
-      ],
-      files: [
-        {
-          destination: "shared.scss",
-          format: "scss/variables",
-          filter: (token) => {
-            // only include: shared
-            return token.filePath === filePaths.shared;
-          },
-        },
-        {
-          destination: "shared-map.scss",
-          format: "scss/map-deep",
-          filter: (token) => {
-            // only include: shared
-            return token.filePath === filePaths.shared;
-          },
-        },
-      ],
-    },
-    js: {
-      transformGroup: "js",
-      buildPath: "dist/js/",
-      files: [
-        {
-          destination: "shared.js",
-          format: "javascript/es6",
-          filter: (token) => {
-            // only include: shared
-            return token.filePath === filePaths.shared;
-          },
-        },
-      ],
-    },
-  },
-});
-
-export default customStyleDictionary;

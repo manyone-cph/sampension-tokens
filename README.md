@@ -10,6 +10,18 @@ Change your tokens in `tokens.json` (either directly or with the Figma Tokens pl
 2. `npm install` to install dependencies
 3. `npm run build` to generate tokens
 
+### Generate new theme tokens
+
+To add a new theme go to `config.mjs` and list which sets to include in the new theme under `tokenSets`.
+
+NB: The *shared* token set is mandatory.
+
+```js
+// example
+"theme-dotcom": ["dotcom/semantic/typography", "dotcom/semantic/color"],
+"theme-subbrand-a": ["subbrand-a/semantic/typography", "subbrand-a/semantic/color"],
+```
+
 ### 🏃‍♀️ npm scripts
 
 * `clean` - remove the `dist` directory

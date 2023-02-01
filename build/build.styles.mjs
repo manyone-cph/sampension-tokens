@@ -1,15 +1,18 @@
 import path from "path";
 import fs from "fs-extra";
 import { fileURLToPath } from "url";
-import styleDictionary from "../style-dictionary.mjs";
-import styleDictionary2 from "../style-dictionary-dotcom.mjs";
+import { generateStyles } from "../style-dictionary.mjs";
+import config from "../config.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 async function init() {
   // build styles
-  await styleDictionary.buildAllPlatforms();
-  await styleDictionary2.buildAllPlatforms();
+  Object.entries(config.tokenSets).forEach(async ([setName, set]) => {
+    console.log(`\n🟣 Generating set: ${setName}`);
+    generateStyles(`dist/json/${setName}.json`, setName);
+    console.log(); // new line
+  });
 
   // create package.json file for the package
   const packageJson = fs.readFileSync(path.resolve(__dirname, "../package.json"), "utf8");

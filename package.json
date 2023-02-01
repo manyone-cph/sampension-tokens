@@ -13,10 +13,9 @@
   },
   "scripts": {
     "clean": "npx rimraf dist",
-    "build-json:dotcom": "npx token-transformer tokens.json dist/json/dotcom.json shared/core/typography,shared/core/color,shared/core/dimension,shared/semantic/typography,shared/semantic/color,shared/semantic/dimension,shared/semantic/border,shared/composition/typography,shared/composition/atoms,shared/composition/molecules,shared/composition/layout,dotcom/semantic/typography,dotcom/semantic/color shared/core/typography,shared/core/color,shared/core/dimension,shared/semantic/typography,shared/semantic/color,shared/semantic/dimension,shared/semantic/border,shared/composition/typography,shared/composition/atoms,shared/composition/molecules,shared/composition/layout --expandTypography=true --expandComposition=true",
-    "build-json:shared": "npx token-transformer tokens.json dist/json/shared.json shared/core/typography,shared/core/color,shared/core/dimension,shared/semantic/typography,shared/semantic/color,shared/semantic/dimension,shared/semantic/border,shared/composition/typography,shared/composition/atoms,shared/composition/molecules,shared/composition/layout --expandTypography=true --expandComposition=true",
-    "build-js-scss": "node build/build.styles.mjs",
-    "build": "npm run clean && npm run build-json:shared && npm run build-json:dotcom && npm run build-js-scss"
+    "build-json": "node build/build.json.mjs",
+    "build-js-scss-css": "node build/build.styles.mjs",
+    "build": "npm run clean && npm run build-json && npm run build-js-scss-css"
   },
   "publishConfig": {
     "@manyone:registry": "https://registry.npmjs.org/",
@@ -33,12 +32,10 @@
       "@semantic-release/github"
     ]
   },
-  "dependencies": {
-    "node-fetch": "^3.2.0",
-    "token-transformer": "^0.0.29"
-  },
   "devDependencies": {
+    "fs-extra": "^11.1.0",
     "semantic-release": "^20.1.0",
-    "style-dictionary": "^3.7.2"
+    "style-dictionary": "^3.7.2",
+    "token-transformer": "^0.0.29"
   }
 }

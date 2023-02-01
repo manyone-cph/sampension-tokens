@@ -17,17 +17,64 @@ To read the documentation, please visit [Sampension Digital Design System Docume
 
 ## Importing styles
 
-To get all shared tokens:
+```css
+// SCSS
+
+// import sass variables and a sass map named $tokens-shared
+@import "@manyone/sampension-tokens/scss/shared-map.scss";
+
+// import extend named %tokens-shared
+@import "@manyone/sampension-tokens/scss/shared-extends.scss";
+
+// import sass variables
+@import "@manyone/sampension-tokens/scss/shared.scss";
+```
 
 ```css
-@import "@manyone/sampension-tokens/scss/shared-map.scss";
+// CSS
+
+// import css variables on :root
+@import "@manyone/sampension-tokens/css/shared.css";
 ```
 
 ```js
-import * as sharedTokens from "@manyone/sampension-tokens/js/shared.js";
+// JS
+
+// import all variables as tokensShared
+import * as tokensShared from "@manyone/sampension-tokens/js/shared.js";
+
+// import a single variable
+import { CoreColorBlue500 } from "@manyone/sampension-tokens/js/shared.js";
 ```
 
-We also serve a json file and a scss file without map, but we recommend using the map version:
+```js
+// JSON
 
-* `/scss/shared.scss`
-* `/json/shared.json`
+// import all variables as an object
+import sharedTokens from "@manyone/sampension-tokens/json/shared.json";
+```
+
+### Theme tokens
+
+To use a theme import both the shared tokens and theme tokens:
+  
+```css
+// example
+@import "@manyone/sampension-tokens/scss/shared-extends.scss";
+@import "@manyone/sampension-tokens/scss/theme-dotcom-extends.scss";
+
+
+:root {
+  @extend %tokens-shared;
+  @extend %tokens-theme-dotcom;
+}
+
+// or
+
+:root {
+  @extend %tokens-shared;
+}
+.theme-dotcom {
+  @extend %tokens-theme-dotcom;
+}
+```
