@@ -98,12 +98,33 @@ const filePaths = {
 const customStyleDictionary = StyleDictionary.extend({
   source: ["dist/json/*.json"],
   platforms: {
-    css: {
+    extend: {
       transformGroup: "css",
       buildPath: "dist/css/",
       options: {
-        selector: ".dotcom",
+        selector: "%theme-dotcom",
       },
+      transforms: [
+        "name/cti/kebab",
+        "size/toREM",
+        "border/toShorthand",
+        "fontWeights/toNumber",
+        "fontFamily/toCSSVariable",
+      ],
+      files: [
+        {
+          destination: "dotcom.scss",
+          format: "css/variables",
+          filter: (token) => {
+            // only include: dotcom
+            return token.filePath === filePaths.dotcom;
+          },
+        },
+      ],
+    },
+    variables: {
+      transformGroup: "css",
+      buildPath: "dist/css/",
       transforms: [
         "name/cti/kebab",
         "size/toREM",
