@@ -56,7 +56,7 @@ import sharedTokens from "@manyone/sampension-tokens/json/shared.json";
 
 ### Theme tokens
 
-To use a theme import both the shared and theme tokens..:
+To use a theme import both the shared and theme tokens:
   
 ```css
 // example
