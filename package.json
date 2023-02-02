@@ -34,6 +34,14 @@
             {
               "subject": "*",
               "release": "patch"
+            },
+            {
+              "message": "*",
+              "release": "patch"
+            },
+            {
+              "tag": "*",
+              "release": "patch"
             }
           ]
         }
