@@ -1,0 +1,16 @@
+{
+  "name": "@manyone/sampension-tokens",
+  "version": "1.0.2",
+  "description": "Design tokens for the Sampension Design System",
+  "private": false,
+  "type": "module",
+  "license": "ISC",
+  "module": "js/shared.js",
+  "files": [
+    "*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manyone-cph/sampension-tokens.git"
+  }
+}
