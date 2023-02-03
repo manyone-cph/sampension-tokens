@@ -18,22 +18,22 @@ To read the documentation, please visit [Sampension Digital Design System Docume
 ## Importing styles
 
 ```css
-// SCSS
+/* SCSS */
 
-// import sass variables and a sass map named $tokens-shared
+/* import sass variables and a sass map named $tokens-shared */
 @import "@manyone/sampension-tokens/scss/shared-map.scss";
 
-// import extend named %tokens-shared
+/* import extend named %tokens-shared */
 @import "@manyone/sampension-tokens/scss/shared-extend.scss";
 
-// import sass variables
+/* import sass variables */
 @import "@manyone/sampension-tokens/scss/shared.scss";
 ```
 
 ```css
-// CSS
+/* CSS */
 
-// import css variables on :root
+/* import css variables on :root */
 @import "@manyone/sampension-tokens/css/shared.css";
 ```
 
@@ -59,7 +59,7 @@ import sharedTokens from "@manyone/sampension-tokens/json/shared.json";
 To use a theme import both the shared and theme tokens:
   
 ```css
-// example
+/* example */
 @import "@manyone/sampension-tokens/scss/shared-extends.scss";
 @import "@manyone/sampension-tokens/scss/theme-dotcom-extend.scss";
 
