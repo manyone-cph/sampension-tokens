@@ -69,7 +69,7 @@ To use a theme import both the shared and theme tokens:
   @extend %tokens-theme-dotcom;
 }
 
-// or
+/* or */
 
 :root {
   @extend %tokens-shared;
