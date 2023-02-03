@@ -46,6 +46,7 @@
     ]
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.2",
     "fs-extra": "^11.1.0",
     "semantic-release": "^20.1.0",
     "style-dictionary": "^3.7.2",
