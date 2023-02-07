@@ -12,7 +12,7 @@ Change your tokens in `tokens.json` (either directly or with the Figma Tokens pl
 
 ### Generate new theme tokens
 
-To add a new theme go to `config.mjs` and list which sets to include in the new theme under `tokenSets`.
+To add a new theme go to `token.config.mjs` and list which sets to include in the new theme under `tokenSets`.
 
 NB: The *shared* token set is mandatory.
 
@@ -28,6 +28,13 @@ NB: The *shared* token set is mandatory.
 * `build-json:shared` - generate a json file for the *shared* tokens
 * `build-js-scss:shared` - generate js and scss files for all tokens
 * `build` - clean folders, then generate the tokens as json, js and scss
+
+## 👷‍♀️ Workflow
+
+* `tokens`-branch is used by the designers in the Figma Tokens plugin to pull and push tokens
+* `main`-branch is used by the developers to generate the tokens npm package
+
+When a designer is happy with their token changes they should make a pull request from `tokens` to `main` - if needed they should ask a developer for an introduction to pull requests.
 
 ## 🚀 Release
 

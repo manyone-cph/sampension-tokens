@@ -22,54 +22,6 @@
     "@manyone:registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "release": {
-    "branches": [
-      "main"
-    ],
-    "plugins": [
-      [
-        "@semantic-release/commit-analyzer",
-        {
-          "preset": "angular",
-          "releaseRules": [
-            {
-              "message": "*",
-              "release": "patch"
-            }
-          ]
-        }
-      ],
-      "@semantic-release/release-notes-generator",
-      [
-        "@semantic-release/changelog",
-        {
-          "changelogFile": "CHANGELOG.md"
-        }
-      ],
-      [
-        "@semantic-release/npm",
-        {
-          "npmPublish": false
-        }
-      ],
-      [
-        "@semantic-release/exec",
-        {
-          "publishCmd": "cd ./dist && npm publish --access public"
-        }
-      ],
-      [
-        "@semantic-release/git",
-        {
-          "assets": [
-            "package.json",
-            "CHANGELOG.md"
-          ]
-        }
-      ],
-      "@semantic-release/github"
-    ]
-  },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.2",
     "@semantic-release/exec": "^6.0.3",

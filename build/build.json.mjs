@@ -1,7 +1,7 @@
 import { transformTokens } from "token-transformer";
 import { prepareDist, writeJson } from "./helpers/helpers-fs.mjs";
 import rawTokens from "../tokens.json" assert { type: "json" };
-import config from "../config.mjs";
+import config from "../token.config.mjs";
 
 await prepareDist();
 

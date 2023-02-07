@@ -2,7 +2,7 @@ import path from "path";
 import fs from "fs-extra";
 import { fileURLToPath } from "url";
 import { generateStyles } from "../style-dictionary.mjs";
-import config from "../config.mjs";
+import config from "../token.config.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -17,9 +17,8 @@ async function init() {
   // create package.json file for the package
   const packageJson = fs.readFileSync(path.resolve(__dirname, "../package.json"), "utf8");
   const packageJsonParsed = JSON.parse(packageJson);
-  const packageJsonTemplate = fs.readFileSync(path.resolve(__dirname, "./templates/package.json"), "utf8");
-  const newPackageJson = packageJsonTemplate.replace(/__VERSION__/g, packageJsonParsed.version);
-  const newPackageJsonParsed = JSON.parse(newPackageJson);
+  const newPackageJsonTemplate = fs.readFileSync(path.resolve(__dirname, "./templates/package.json"), "utf8");
+  const newPackageJsonParsed = JSON.parse(newPackageJsonTemplate);
 
   // update dependency versions to match the main package.json
   if (newPackageJsonParsed.dependencies) {
