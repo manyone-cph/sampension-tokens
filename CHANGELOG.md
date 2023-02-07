@@ -1,3 +1,10 @@
+## [1.2.25](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.24...v1.2.25) (2023-02-07)
+
+
+### Bug Fixes
+
+* **gitignore:** ignore dist ([6864831](https://github.com/manyone-cph/sampension-tokens/commit/686483102cf2e303402e3a29a08e3b7bef2818d1))
+
 ## [1.2.24](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.23...v1.2.24) (2023-02-07)
 
 
