@@ -1,4 +1,4 @@
-module.export = {
+module.exports = {
   branches: ["main"],
   plugins: [
     // 1. check if the commit should trigger a release
