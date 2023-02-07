@@ -1,3 +1,12 @@
+## [1.2.26](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.25...v1.2.26) (2023-02-07)
+
+
+### Bug Fixes
+
+* **release:** module.exports in stead of module.export ([ecfd48d](https://github.com/manyone-cph/sampension-tokens/commit/ecfd48d27cfb404cc270d02cfb5b55ec53d1fe29))
+* **release:** restructure files + make release config file ([9ab1db7](https://github.com/manyone-cph/sampension-tokens/commit/9ab1db750b735b3bc2e3ecdde8a0bbf0d48f85a5))
+* **release:** try to make config file work ([32e262c](https://github.com/manyone-cph/sampension-tokens/commit/32e262cbd93b2eb07b84af0c97013ef824c16d15))
+
 ## [1.2.25](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.24...v1.2.25) (2023-02-07)
 
 
