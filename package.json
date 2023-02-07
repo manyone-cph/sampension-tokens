@@ -47,13 +47,13 @@
         }
       ],
       [
-        "@semantic-release/npm",
-        [
-          "@semantic-release/exec",
-          {
-            "publishCmd": "cd ./dist && publish-package"
-          }
-        ]
+        "@semantic-release/npm"
+      ],
+      [
+        "@semantic-release/exec",
+        {
+          "publishCmd": "cd ./dist && publish-package"
+        }
       ],
       [
         "@semantic-release/git",
