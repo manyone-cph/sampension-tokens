@@ -23,9 +23,11 @@ jobs:
       - name: Build
         run: npm run build
       - name: Release (version bump and npm publish)
+        with:
+          # You can select another working directory like a subdirectory for example.
+          working_directory: dist
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          cd dist
           npx semantic-release
