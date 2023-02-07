@@ -1,6 +1,6 @@
 {
   "name": "@manyone/sampension-tokens",
-  "version": "1.2.20",
+  "version": "1.2.19",
   "description": "Design tokens for the Sampension Design System",
   "private": false,
   "license": "ISC",
@@ -43,14 +43,26 @@
       [
         "@semantic-release/changelog",
         {
-          "changelogFile": "../CHANGELOG.md"
+          "changelogFile": "CHANGELOG.md"
         }
       ],
       [
-        "@semantic-release/npm"
+        "@semantic-release/npm",
+        [
+          "@semantic-release/exec",
+          {
+            "publishCmd": "cd ./dist && publish-package"
+          }
+        ]
       ],
       [
-        "@semantic-release/git"
+        "@semantic-release/git",
+        {
+          "assets": [
+            "package.json",
+            "CHANGELOG.md"
+          ]
+        }
       ],
       "@semantic-release/github"
     ]
