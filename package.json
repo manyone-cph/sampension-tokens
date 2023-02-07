@@ -16,7 +16,7 @@
     "build-json": "node build/build.json.mjs",
     "build-js-scss-css": "node build/build.styles.mjs",
     "build": "npm run clean && npm run build-json && npm run build-js-scss-css",
-    "postversion": "cp -r package.json .. && cp -r npm-shrinkwrap.json .."
+    "postversion": "cp -r package.json .."
   },
   "publishConfig": {
     "@manyone:registry": "https://registry.npmjs.org/",
@@ -57,8 +57,7 @@
         {
           "assets": [
             "package.json",
-            "CHANGELOG.md",
-            "npm-shrinkwrap.json"
+            "CHANGELOG.md"
           ]
         }
       ],
