@@ -1,3 +1,12 @@
+## [1.2.28](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.27...v1.2.28) (2023-02-07)
+
+
+### Bug Fixes
+
+* **release:** try even simpler ([2038c1f](https://github.com/manyone-cph/sampension-tokens/commit/2038c1f38c060fffbff8764fb3655876b076b93e))
+* **release:** try to simplify stuff ([a5b3bdd](https://github.com/manyone-cph/sampension-tokens/commit/a5b3bddbc8a7253f5ffeb920c25121b47d12bcda))
+* **release:** version number stuff ([51c8b0e](https://github.com/manyone-cph/sampension-tokens/commit/51c8b0e4750606973a1eb4c20619c7efa5bbb253))
+
 ## [1.2.27](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.26...v1.2.27) (2023-02-07)
 
 ## [1.2.26](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.25...v1.2.26) (2023-02-07)
