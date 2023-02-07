@@ -15,7 +15,8 @@
     "clean": "npx rimraf dist",
     "build-json": "node build/build.json.mjs",
     "build-js-scss-css": "node build/build.styles.mjs",
-    "build": "npm run clean && npm run build-json && npm run build-js-scss-css"
+    "build": "npm run clean && npm run build-json && npm run build-js-scss-css",
+    "postversion": "cp -r package.json .. && cp -r npm-shrinkwrap.json .."
   },
   "publishConfig": {
     "@manyone:registry": "https://registry.npmjs.org/",
@@ -45,11 +46,20 @@
           "changelogFile": "CHANGELOG.md"
         }
       ],
-      "@semantic-release/git",
       [
         "@semantic-release/npm",
         {
-          "tarballDir": "dist"
+          "npmPublish": false
+        }
+      ],
+      [
+        "@semantic-release/git",
+        {
+          "assets": [
+            "package.json",
+            "CHANGELOG.md",
+            "npm-shrinkwrap.json"
+          ]
         }
       ],
       "@semantic-release/github"
