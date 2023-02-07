@@ -1,3 +1,12 @@
+## [1.2.22](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.21...v1.2.22) (2023-02-07)
+
+
+### Bug Fixes
+
+* **release:** install missing dep ([0404963](https://github.com/manyone-cph/sampension-tokens/commit/04049638d2c3172049eb90ad6834ae8af004e30b))
+* **release:** try again ([16bfefe](https://github.com/manyone-cph/sampension-tokens/commit/16bfefe7ad155ee115cd3a380f43845978d48709))
+* **release:** try to hook in to publish command ([76ec4e8](https://github.com/manyone-cph/sampension-tokens/commit/76ec4e8db954e46a9d4e3f4ad882d9542527e697))
+
 ## [1.2.20](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.19...v1.2.20) (2023-02-07)
 
 
