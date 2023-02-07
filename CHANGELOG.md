@@ -1,3 +1,5 @@
+## [1.2.27](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.26...v1.2.27) (2023-02-07)
+
 ## [1.2.26](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.25...v1.2.26) (2023-02-07)
 
 
