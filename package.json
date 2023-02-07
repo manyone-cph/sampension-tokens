@@ -47,12 +47,15 @@
         }
       ],
       [
-        "@semantic-release/npm"
+        "@semantic-release/npm",
+        {
+          "npmPublish": false
+        }
       ],
       [
         "@semantic-release/exec",
         {
-          "publishCmd": "cd ./dist && publish-package"
+          "publishCmd": "cd ./dist && npm publish --access public"
         }
       ],
       [
