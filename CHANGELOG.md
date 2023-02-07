@@ -1,3 +1,11 @@
+## [1.2.24](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.23...v1.2.24) (2023-02-07)
+
+
+### Bug Fixes
+
+* **release:** copy package version to dist ([c249648](https://github.com/manyone-cph/sampension-tokens/commit/c249648a2e8e47d444241cf4b5a48b29c04dd861))
+* **release:** dirname undefined ([165ffec](https://github.com/manyone-cph/sampension-tokens/commit/165ffece804e78c87e3458978bec50400a11ae95))
+
 ## [1.2.23](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.22...v1.2.23) (2023-02-07)
 
 
