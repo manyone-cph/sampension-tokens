@@ -1,3 +1,12 @@
+## [1.2.20](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.19...v1.2.20) (2023-02-07)
+
+
+### Bug Fixes
+
+* **release:** again ([a17024e](https://github.com/manyone-cph/sampension-tokens/commit/a17024e10049b15bdc936451b80a4cf4226e12a0))
+* **release:** try again ([a4522be](https://github.com/manyone-cph/sampension-tokens/commit/a4522beb40394cb752367b86dc5704395109a329))
+* **release:** try to bump package version and build nice package ([70268bd](https://github.com/manyone-cph/sampension-tokens/commit/70268bd7fbd3cf070009e765c29a6fb08e55a195))
+
 ## [1.2.19](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.18...v1.2.19) (2023-02-07)
 
 
