@@ -1,3 +1,10 @@
+## [1.2.19](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.18...v1.2.19) (2023-02-07)
+
+
+### Bug Fixes
+
+* **release:** build npm ([34bd3df](https://github.com/manyone-cph/sampension-tokens/commit/34bd3dffb0b78bd30289d918c191df20b1ed2ea1))
+
 ## [1.2.18](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.17...v1.2.18) (2023-02-07)
 
 
