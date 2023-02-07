@@ -1,3 +1,10 @@
+## [1.2.23](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.22...v1.2.23) (2023-02-07)
+
+
+### Bug Fixes
+
+* **release:** try to manually publish ([edaae2c](https://github.com/manyone-cph/sampension-tokens/commit/edaae2c0b7e0715bcf2fd0fa363daf88b8de60dc))
+
 ## [1.2.22](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.21...v1.2.22) (2023-02-07)
 
 
