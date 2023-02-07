@@ -16,7 +16,7 @@
     "build-json": "node build/build.json.mjs",
     "build-js-scss-css": "node build/build.styles.mjs",
     "build": "npm run clean && npm run build-json && npm run build-js-scss-css",
-    "postversion": "cp -r package.json -- && node build/release.packageVersion.mjs"
+    "postversion": "node build/release.packageVersion.mjs"
   },
   "publishConfig": {
     "@manyone:registry": "https://registry.npmjs.org/",
