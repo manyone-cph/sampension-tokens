@@ -27,7 +27,7 @@ module.exports = {
         npmPublish: false,
       },
     ],
-    // 5. publish the package to npm
+    // 5. publish the package to npm from the dist folder
     [
       "@semantic-release/exec",
       {
