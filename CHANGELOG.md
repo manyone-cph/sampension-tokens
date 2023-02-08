@@ -1,3 +1,10 @@
+## [1.2.32](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.31...v1.2.32) (2023-02-08)
+
+
+### Bug Fixes
+
+* **section:** adjust section-sm size ([2796c42](https://github.com/manyone-cph/sampension-tokens/commit/2796c42fff0c3fc2c4c5b2945703205094150e94))
+
 ## [1.2.31](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.30...v1.2.31) (2023-02-08)
 
 
