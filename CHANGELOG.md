@@ -1,3 +1,10 @@
+## [1.2.31](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.30...v1.2.31) (2023-02-08)
+
+
+### Bug Fixes
+
+* **section:** rename section to section-md + add section-sm ([6fd533f](https://github.com/manyone-cph/sampension-tokens/commit/6fd533f23cd6118094e97b464820969d69db5dd2))
+
 ## [1.2.30](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.29...v1.2.30) (2023-02-08)
 
 
