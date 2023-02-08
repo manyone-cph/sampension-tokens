@@ -40,7 +40,7 @@ When a designer is happy with their token changes they should make a pull reques
 
 To release a new version, follow these steps:
 
-1. Commit your changes to `main` branch.
+1. Commit your changes to `main` branch - use [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/).
 2. A new version will automatically be released using `semantic-release` in a Github Action and published to npm.
 
 ## 👋 Contact
