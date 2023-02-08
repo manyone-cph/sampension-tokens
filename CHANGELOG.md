@@ -1,3 +1,10 @@
+## [1.2.30](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.29...v1.2.30) (2023-02-08)
+
+
+### Bug Fixes
+
+* **section:** reference dimension value ([ce0f9e5](https://github.com/manyone-cph/sampension-tokens/commit/ce0f9e5e4b98c0b71c359b656b8a89de586d06a5))
+
 ## [1.2.29](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.28...v1.2.29) (2023-02-08)
 
 ## [1.2.28](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.27...v1.2.28) (2023-02-07)
