@@ -1,3 +1,10 @@
+## [1.2.33](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.32...v1.2.33) (2023-02-08)
+
+
+### Bug Fixes
+
+* **font:** reference right default font ([b64d9ba](https://github.com/manyone-cph/sampension-tokens/commit/b64d9ba64414859ac318321cc00eaefcbd0c5b6f))
+
 ## [1.2.32](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.31...v1.2.32) (2023-02-08)
 
 
