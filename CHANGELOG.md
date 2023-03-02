@@ -1,3 +1,10 @@
+## [1.2.34](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.33...v1.2.34) (2023-03-02)
+
+
+### Bug Fixes
+
+* **fonts:** make css font variables right ([2851e6d](https://github.com/manyone-cph/sampension-tokens/commit/2851e6dc2ab434a610a68ec838e8b3e60ff26737))
+
 ## [1.2.33](https://github.com/manyone-cph/sampension-tokens/compare/v1.2.32...v1.2.33) (2023-02-08)
 
 
