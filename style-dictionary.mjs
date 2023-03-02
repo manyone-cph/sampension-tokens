@@ -87,7 +87,7 @@ StyleDictionary.registerTransform({
     return prop.type === "fontFamilies";
   },
   transformer: function (prop) {
-    return `var(--ff-${prop.value.toLowerCase()})`;
+    return `var(--ff-${prop.value.toLowerCase().replace(/ /g, "-")})`;
   },
 });
 
